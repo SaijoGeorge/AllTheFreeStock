@@ -4,7 +4,7 @@
  *
 */
 
-body {	
+body {
 }
 
 a {
@@ -16,7 +16,7 @@ color: #fff;
 
 h1 {
 font-size: 15px;
-color: #979898;
+color: #a7bfd6;
 padding: 0px 10px 10px 10px;
 }
 
@@ -53,9 +53,9 @@ padding: 0px 10px 10px 10px;
   opacity: 1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xzoom 
+xzoom
 
 -------------------------------- */
 .cd-headline.zoom .cd-words-wrapper {
