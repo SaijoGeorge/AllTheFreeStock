@@ -1130,7 +1130,7 @@ function setup_sidebar_menu()
 
 		$items_with_subs.filter('.active').addClass('expanded');
 
-		// On larger screens collapse sidebar when the window is tablet screen
+		/*  On larger screens collapse sidebar when the window is tablet screen
 		if(is('largescreen') && public_vars.$sidebarMenu.hasClass('collapsed') == false)
 		{
 			$(window).on('resize', function()
@@ -1147,7 +1147,7 @@ function setup_sidebar_menu()
 					ps_init();
 				}
 			});
-		}
+		} */
 
 		$items_with_subs.each(function(i, el)
 		{
