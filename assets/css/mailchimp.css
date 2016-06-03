@@ -1,22 +1,24 @@
-/* MailChimp Form Embed Code - Slim - 08/17/2011 */
-#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
-#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
-#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
-#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
-#mc_embed_signup input:focus {border-color:#333;}
-#mc_embed_signup .button {clear:both; background-color: #80b636; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
-#mc_embed_signup .button:hover {background-color:#72a230;}
-#mc_embed_signup .small-meta {font-size: 11px;}
-#mc_embed_signup .nowrap {white-space:nowrap;}     
-#mc_embed_signup .clear {clear:none; display:inline;}
+#mc_embed_signup { border: none; text-align: center; width: 100%; } /* Signup form container */
 
-#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
-#mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:90%; min-width:130px; color : #999999;}
-#mc_embed_signup input.button {display:block; width:35%; margin:0 0 10px 0; min-width:90px;}
+.mc-field-group { display: inline-block;} /* positions input field horizontally */
 
-#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
-#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
-#mc_embed_signup #mce-error-response {display:none;}
-#mc_embed_signup #mce-success-response {color:#529214; display:none;}
-#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+#mce-EMAIL, #mce-FNAME { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; border: 2px solid #ABB0B2 ; color: #343434; background-color: #fff; padding: .7em 9em .7em 1em; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Input Styles */
+
+.clear { display: inline-block; } /* positions button horizontally in line with input */
+
+.button { font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; font-size: 1em; letter-spacing: .03em; color: #fff; background-color: #1BBC9B ; padding: .7em 2em; border: 2px solid #1BBC9B ; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Button Styles */
+
+:-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */ 
+:-moz-placeholder { color:Â #ABB0B2 ; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { color: #ABB0B2 ; } /* Internet Explorer 10+ */
+
+@media (max-width: 768px) { /* positions input field and button underneath each other with 100% width for tablet and mobile */
+  
+.mc-field-group { display: block; max-width: 100%; }
+#mce-EMAIL, #mce-FNAME { padding: .7em 0 .7em 1em; width: 96%; margin: 0; }
+.clear { display: block; width: 100% }
+.button { width: 100%; margin: .5em 0 0 0; }
+  
+}
+.email-octopus-form-wrapper h2{font-size:20px;margin:0 0 25px 0;}.email-octopus-form-row{margin-bottom:15px;}.email-octopus-form-row label{display:block;}.email-octopus-form-row input{width:400px;padding:8px;height:32px;border:1px solid #ccc;}.email-octopus-form-row-subscribe{margin-top:20px;}.email-octopus-form-row-subscribe button{background-color:#e0e0e0;padding:6px 12px;border:0;font-weight:bold;}.email-octopus-form-row-hp{position:absolute;left:-5000px;}.email-octopus-error-message{color:#e74c3c;}.email-octopus-referral{margin-top:20px;}
