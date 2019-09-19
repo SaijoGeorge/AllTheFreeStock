@@ -1906,6 +1906,20 @@ try {
 	</div>
 
 	<!-- Bottom Scripts -->
+	<script type="text/javascript">
+		jQuery(function($) {
+		  
+		  $(".nlink").on('click', function(event){
+			event.stopPropagation();
+			event.stopImmediatePropagation();
+			// If the ad hasn't loaded yet, don't refresh it while it's still loading, or it will return two (or more) ads
+			if (!$("#carbonads")[0]) return;
+			// If the script hasn't loaded, don't try calling it
+			if (typeof _carbonads !== 'undefined') _carbonads.refresh();
+		});
+		
+		});
+		</script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/TweenMax.min.js"></script>
 	<script src="assets/js/resizeable.js"></script>
