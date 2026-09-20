@@ -1,161 +1,57 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { sections } from '../../data/resources';
 
-// Replace with a real Stripe Payment Link (Stripe Dashboard -> Payment
-// Links -> new $50 USD one-time product) once one exists.
+// Replace with a real Stripe Payment Link once one exists:
+// Stripe Dashboard -> Payment Links -> new $50 USD one-time product.
+// Configure it with these custom fields so submissions are captured
+// directly at checkout (Stripe Dashboard -> that Payment Link -> Custom
+// fields): Brand name (text), Link (text), Section (dropdown - use the
+// category names below), Licence (dropdown - use LICENCE_TAGS in
+// src/data/resources.ts, currently 10 values), Description (text, set
+// "maximum characters" to ~40 to keep it roughly 6 words).
 const STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/REPLACE_ME';
-const SUBMISSIONS_EMAIL = 'hello@allthefreestock.com';
 
-const licenceOptions = [
-  { value: 'cc0', label: 'Free - CC0 / public domain', paid: false },
-  { value: 'site-licence', label: 'Free - site licence (e.g. Unsplash-style)', paid: false },
-  { value: 'cc-by', label: 'Free - CC BY (attribution required)', paid: false },
-  { value: 'freemium', label: 'Freemium - free tier + paid tier', paid: true },
-  { value: 'paid', label: 'Paid - no free tier', paid: true },
-];
+const sectionNames = sections.map((s) => s.title);
 ---
 
 <Layout title="Submit a Resource - AllTheFreeStock" description="Submit a free (or freemium) resource to the AllTheFreeStock directory.">
-  <main class="max-w-[720px] mx-auto px-5 pt-20 pb-24">
+  <main class="max-w-[640px] mx-auto px-5 pt-20 pb-24">
     <h1 class="font-serif font-normal text-[clamp(38px,5.4vw,56px)] tracking-tight m-0">Submit a resource</h1>
     <p class="mt-4 text-lg leading-relaxed text-[#4a5c56]">
-      Know a good site we're missing? Send it over. Every submission is reviewed by hand before it goes live.
+      Know a good site we're missing? Submissions are handled through checkout below - pay the fee, fill in the
+      details, and it goes into the review queue.
     </p>
 
     <div class="mt-3 inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass font-mono text-xs text-[#436059]">
       $50 USD - one-time submission fee
     </div>
 
-    <form id="submit-form" class="mt-8 flex flex-col gap-5" novalidate>
-      <label class="flex flex-col gap-1.5">
-        <span class="text-sm font-semibold text-ink">Brand name</span>
-        <input
-          id="f-brand"
-          name="brand"
-          required
-          class="px-4 py-3 rounded-2xl glass-card outline-none text-base bg-white/70"
-          placeholder="e.g. Unsplash"
-        />
-      </label>
-
-      <label class="flex flex-col gap-1.5">
-        <span class="text-sm font-semibold text-ink">Link</span>
-        <input
-          id="f-link"
-          name="link"
-          type="url"
-          required
-          class="px-4 py-3 rounded-2xl glass-card outline-none text-base bg-white/70"
-          placeholder="https://"
-        />
-      </label>
-
-      <label class="flex flex-col gap-1.5">
-        <span class="text-sm font-semibold text-ink">Licence</span>
-        <select
-          id="f-licence"
-          name="licence"
-          required
-          class="px-4 py-3 rounded-2xl glass-card outline-none text-base bg-white/70"
-        >
-          <option value="" disabled selected>Choose one...</option>
-          {licenceOptions.map((o) => (
-            <option value={o.value} data-paid={o.paid ? '1' : '0'}>{o.label}</option>
-          ))}
-        </select>
-        <span id="paid-note" hidden class="mt-1 inline-flex w-fit items-center gap-1.5 text-[12.5px] px-2.5 py-1 rounded-full bg-[#fdf3c8] text-[#8a6d1f]">
-          This isn't fully free, so the entry will be listed with a "paid" pill.
-        </span>
-      </label>
-
-      <label class="flex flex-col gap-1.5">
-        <span class="text-sm font-semibold text-ink">Description <span class="font-normal text-[#7a8a84]">(6 words max)</span></span>
-        <input
-          id="f-desc"
-          name="description"
-          required
-          class="px-4 py-3 rounded-2xl glass-card outline-none text-base bg-white/70"
-          placeholder="A short, plain description"
-        />
-        <span id="word-count" class="text-[12px] font-mono text-[#7a8a84]">0 / 6 words</span>
-      </label>
-
-      <div class="mt-3 flex flex-col sm:flex-row gap-3">
-        <a
-          id="email-btn"
-          href="#"
-          class="flex-1 text-center px-5 py-3.5 rounded-full border border-teal-700/25 bg-white/85 text-[14px] font-semibold text-teal-800 no-underline pointer-events-none opacity-50 transition"
-        >
-          Email us the details
-        </a>
-        <a
-          id="pay-btn"
-          href="#"
-          target="_blank"
-          rel="noopener"
-          class="flex-1 text-center btn-primary px-5 py-3.5 rounded-full text-[14px] font-semibold pointer-events-none opacity-50 transition"
-        >
-          Pay $50 USD & submit
-        </a>
-      </div>
-      <p class="text-[12.5px] text-[#7a8a84]">
-        Fill in the fields above to enable submission. "Email us the details" opens your email client with the
-        submission pre-filled; "Pay & submit" takes you to secure Stripe checkout for the $50 USD fee.
+    <div class="mt-8 p-6 rounded-[22px] glass-card">
+      <div class="text-sm font-semibold text-ink mb-3">You'll be asked for:</div>
+      <ul class="flex flex-col gap-2 text-[15px] text-[#4a5c56] m-0 pl-5">
+        <li>Brand name</li>
+        <li>Link</li>
+        <li>Section - which part of the directory it belongs in ({sectionNames.join(', ')})</li>
+        <li>Licence - CC0, site licence, CC BY, freemium, paid, etc.</li>
+        <li>A short description (6 words max)</li>
+      </ul>
+      <p class="mt-4 text-[13px] text-[#7a8a84]">
+        If the licence isn't fully free, the listing is marked with a <span class="px-2 py-0.5 rounded-full bg-[#fdf3c8] text-[#8a6d1f] font-mono text-[11px]">paid</span> pill once it's live.
       </p>
-    </form>
+    </div>
+
+    <a
+      href={STRIPE_PAYMENT_LINK}
+      target="_blank"
+      rel="noopener"
+      class="mt-6 block text-center btn-primary px-5 py-4 rounded-full text-[15px] font-semibold no-underline"
+    >
+      Continue to checkout - $50 USD
+    </a>
+    <p class="mt-3 text-[12.5px] text-[#7a8a84]">
+      Secure payment via Stripe. Submissions are reviewed by hand before publishing; we'll follow up if we need
+      anything else.
+    </p>
   </main>
 </Layout>
-
-<script define:vars={{ STRIPE_PAYMENT_LINK, SUBMISSIONS_EMAIL }}>
-  const brandEl = document.getElementById('f-brand');
-  const linkEl = document.getElementById('f-link');
-  const licenceEl = document.getElementById('f-licence');
-  const descEl = document.getElementById('f-desc');
-  const wordCountEl = document.getElementById('word-count');
-  const paidNoteEl = document.getElementById('paid-note');
-  const emailBtn = document.getElementById('email-btn');
-  const payBtn = document.getElementById('pay-btn');
-
-  const MAX_WORDS = 6;
-
-  function truncateWords(text) {
-    const words = text.trim().split(/\s+/).filter(Boolean);
-    if (words.length <= MAX_WORDS) return text;
-    return words.slice(0, MAX_WORDS).join(' ');
-  }
-
-  descEl.addEventListener('input', () => {
-    const truncated = truncateWords(descEl.value);
-    if (truncated !== descEl.value) descEl.value = truncated;
-    const count = descEl.value.trim() ? descEl.value.trim().split(/\s+/).length : 0;
-    wordCountEl.textContent = `${count} / ${MAX_WORDS} words`;
-  });
-
-  licenceEl.addEventListener('change', () => {
-    const selected = licenceEl.selectedOptions[0];
-    paidNoteEl.hidden = !(selected && selected.dataset.paid === '1');
-    refresh();
-  });
-
-  function refresh() {
-    const ready = brandEl.value.trim() && linkEl.value.trim() && licenceEl.value && descEl.value.trim();
-
-    const licenceLabel = licenceEl.selectedOptions[0]?.textContent ?? '';
-    const body = [
-      `Brand name: ${brandEl.value}`,
-      `Link: ${linkEl.value}`,
-      `Licence: ${licenceLabel}`,
-      `Description: ${descEl.value}`,
-    ].join('\n');
-
-    emailBtn.href = `mailto:${SUBMISSIONS_EMAIL}?subject=${encodeURIComponent('Resource submission: ' + brandEl.value)}&body=${encodeURIComponent(body)}`;
-    payBtn.href = STRIPE_PAYMENT_LINK;
-
-    [emailBtn, payBtn].forEach((btn) => {
-      btn.classList.toggle('pointer-events-none', !ready);
-      btn.classList.toggle('opacity-50', !ready);
-    });
-  }
-
-  [brandEl, linkEl, descEl].forEach((el) => el.addEventListener('input', refresh));
-</script>
