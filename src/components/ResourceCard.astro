@@ -22,9 +22,18 @@ const haystack = [item.name, item.note, item.tag, item.subcategory].filter(Boole
     <span class="text-[11px] font-mono text-teal-600">↗</span>
   </div>
   {item.note && <span class="text-[13px] leading-relaxed text-[#596963]">{item.note}</span>}
-  {item.tag && (
-    <span class="mt-0.5 self-start text-[10.5px] font-mono tracking-wide px-2 py-0.5 rounded-full bg-teal-100 text-teal-800">
-      {item.tag}
-    </span>
+  {(item.tag || item.paid) && (
+    <div class="flex items-center gap-1.5 flex-wrap">
+      {item.tag && (
+        <span class="mt-0.5 self-start text-[10.5px] font-mono tracking-wide px-2 py-0.5 rounded-full bg-teal-100 text-teal-800">
+          {item.tag}
+        </span>
+      )}
+      {item.paid && (
+        <span class="mt-0.5 self-start text-[10.5px] font-mono tracking-wide px-2 py-0.5 rounded-full bg-[#fdf3c8] text-[#8a6d1f]">
+          paid
+        </span>
+      )}
+    </div>
   )}
 </a>

@@ -13,6 +13,8 @@ export interface ResourceItem {
   note?: string;
   tag?: string;
   subcategory?: string;
+  /** Set when a submitted resource isn't fully free — shows a "Paid" pill. */
+  paid?: boolean;
 }
 
 export interface ResourceSection {

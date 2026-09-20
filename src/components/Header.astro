@@ -1,4 +1,6 @@
 ---
+import { totalCount } from '../data/resources';
+
 const nav = [
   { label: 'Photos', href: '/#photos' },
   { label: 'Video', href: '/#video' },
@@ -26,7 +28,7 @@ const nav = [
       <input
         name="q"
         class="js-search border-0 outline-none bg-transparent font-sans text-sm w-full text-ink"
-        placeholder="Search 400+ resources"
+        placeholder={`Search ${totalCount} resources`}
         autocomplete="off"
       />
     </form>
