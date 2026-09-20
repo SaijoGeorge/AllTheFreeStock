@@ -5,17 +5,17 @@ import CategorySection from '../components/CategorySection.astro';
 import { sections, totalCount } from '../data/resources';
 ---
 
-<Layout title="AllTheFreeStock — Every free stock resource, in one calm place">
+<Layout title="AllTheFreeStock - Every free stock resource, in one place">
   <main>
     <section class="max-w-7xl mx-auto px-5 pt-[92px] pb-14 text-center">
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass font-mono text-xs text-[#436059] tracking-wide">
-        curated since 2015 · updated weekly
+        curated since 2015
       </div>
       <h1 class="font-serif font-normal text-[clamp(42px,6.4vw,78px)] leading-[1.02] tracking-tight mx-auto mt-6 max-w-[15ch]" style="text-wrap:balance;">
-        Every free stock resource, in one calm place.
+        Every free stock resource, in one place.
       </h1>
       <p class="max-w-[56ch] mx-auto mt-5 text-lg leading-relaxed text-[#4a5c56]">
-        Photos, video, audio, icons, fonts and mockups — hand-checked for licence clarity, so you can grab an asset and get back to work.
+        Photos, video, audio, icons, fonts and mockups - hand-checked for licence clarity, so you can grab an asset and get back to work.
       </p>
       <div class="flex justify-center gap-3 mt-7 flex-wrap">
         <div class="flex items-center gap-2.5 px-5 py-3.5 rounded-[18px] glass backdrop-blur-md min-w-[320px] flex-1 max-w-[520px]" style="box-shadow:0 18px 44px -28px rgba(29,62,58,.55);">
@@ -41,7 +41,7 @@ import { sections, totalCount } from '../data/resources';
         {sections.map((section) => <CategorySection section={section} />)}
         <div data-empty-state hidden class="p-14 text-center rounded-[22px] bg-white/50 border border-dashed border-[#3c6460]/30">
           <div class="font-serif text-2xl">Nothing matches that yet.</div>
-          <p class="text-[#5b6c66] text-[15px]">Try a broader word — "photo", "video", "icon".</p>
+          <p class="text-[#5b6c66] text-[15px]">Try a broader word - "photo", "video", "icon".</p>
         </div>
       </div>
     </section>

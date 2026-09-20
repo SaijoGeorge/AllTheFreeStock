@@ -10,7 +10,7 @@ const [featured, ...rest] = allPosts;
 const topics = ['All', ...new Set(allPosts.map((p) => p.data.topic))];
 ---
 
-<Layout title="The Journal — AllTheFreeStock" description="Notes on licensing, sourcing and using free assets.">
+<Layout title="The Journal - AllTheFreeStock" description="Notes on licensing, sourcing and using free assets.">
   <main class="max-w-[1180px] mx-auto px-5 pt-20 pb-20">
     <div class="flex items-baseline gap-4 flex-wrap">
       <h1 class="font-serif font-normal text-[clamp(40px,5.6vw,64px)] m-0 tracking-tight">The Journal</h1>
@@ -33,7 +33,7 @@ const topics = ['All', ...new Set(allPosts.map((p) => p.data.topic))];
           class="min-h-[300px] flex items-end p-5"
           style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.22) 0 12px,rgba(255,255,255,.35) 12px 24px);"
         >
-          <span class="font-mono text-[11px] text-[#3f5a55] bg-white/75 px-2.5 py-1.5 rounded-lg">featured image — 1600×900</span>
+          <span class="font-mono text-[11px] text-[#3f5a55] bg-white/75 px-2.5 py-1.5 rounded-lg">featured image - 1600×900</span>
         </div>
         <div class="p-9">
           <span class="font-mono text-[11px] tracking-wide uppercase text-teal-600">Featured · {featured.data.topic}</span>

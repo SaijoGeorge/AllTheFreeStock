@@ -1,7 +1,7 @@
 // Full catalogue migrated from the live allthefreestock.com nav menu on
 // 2026-09-20. Dead links were checked with an
 // automated pass (DNS resolution + HTTP status) and removed only where the
-// domain no longer resolves or the exact page returned 404 — sites that
+// domain no longer resolves or the exact page returned 404 - sites that
 // merely block scripted requests (403/429/401/5xx, common for Unsplash,
 // Pixabay, Flaticon, etc.) were kept since they are demonstrably still live.
 // note/tag are only present for the hand-curated subset (from the design

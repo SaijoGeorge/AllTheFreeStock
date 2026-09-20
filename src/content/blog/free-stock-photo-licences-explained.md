@@ -6,10 +6,10 @@ pubDate: 2026-03-12
 updatedDate: 2026-09-18
 readingTime: "12 min read"
 tldr:
-  - "\"Free stock\" spans several licence types — public domain, site licences, attribution-required and editorial-only — and only the first two are genuinely no-strings."
+  - "\"Free stock\" spans several licence types - public domain, site licences, attribution-required and editorial-only - and only the first two are genuinely no-strings."
   - "Site licences (Unsplash, Pexels) allow commercial use but forbid redistributing the image as stock itself."
   - "Model and property releases, not the licence, are what usually create risk in ads and packaging."
-  - "Keep a dated record of the licence terms before you ship client work — terms can change without notice."
+  - "Keep a dated record of the licence terms before you ship client work - terms can change without notice."
   - "AI-generated stock sidesteps model releases but raises its own ownership and trademark questions."
 faqs:
   - q: "Do I need to credit Unsplash or Pexels photos?"
@@ -36,11 +36,11 @@ The photographer has given up their rights, or copyright has expired. Museum arc
 
 ### Custom site licences
 
-Unsplash, Pexels, and Pixabay each publish their own licence. They're generous — commercial use is fine, no credit required — but they share one restriction that catches people out: you can't compile the images and offer them as a competing stock service, and you can't resell an unaltered copy as a print or template asset.
+Unsplash, Pexels, and Pixabay each publish their own licence. They're generous - commercial use is fine, no credit required - but they share one restriction that catches people out: you can't compile the images and offer them as a competing stock service, and you can't resell an unaltered copy as a print or template asset.
 
 ### Attribution required (CC BY)
 
-Free, including for commercial use, provided you credit the creator in the form they specify. The credit has to be visible to the viewer of the work — a line buried in a sitemap doesn't count.
+Free, including for commercial use, provided you credit the creator in the form they specify. The credit has to be visible to the viewer of the work - a line buried in a sitemap doesn't count.
 
 ### Editorial only
 
@@ -62,11 +62,11 @@ None of these take long, and together they cover the situations that actually en
 3. **Look for property.** Landmarks, artwork, branded products, and interiors can carry their own restrictions.
 4. **Save your evidence.** A dated screenshot of the licence page and the download URL, stored with the asset.
 
-> The licence protects the copyright, not the person in the photo. Releases are a separate question — and they're the one clients get sued over.
+> The licence protects the copyright, not the person in the photo. Releases are a separate question - and they're the one clients get sued over.
 
 ## Where AI-generated stock fits now
 
-Generated imagery removes the release problem: there's no model and no property. It introduces two new ones. Ownership of generated output varies by jurisdiction and by the tool's terms, and models will happily reproduce a trademark or a recognisable style if you ask them to. Treat generated assets like any other download — record the tool, the prompt, and the date, and keep brand names out of the frame.
+Generated imagery removes the release problem: there's no model and no property. It introduces two new ones. Ownership of generated output varies by jurisdiction and by the tool's terms, and models will happily reproduce a trademark or a recognisable style if you ask them to. Treat generated assets like any other download - record the tool, the prompt, and the date, and keep brand names out of the frame.
 
 ## A workflow that scales
 

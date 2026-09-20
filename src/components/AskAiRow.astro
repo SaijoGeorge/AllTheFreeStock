@@ -6,7 +6,7 @@ interface Props {
 
 const { title, url } = Astro.props;
 
-const prompt = `Please analyse and summarise this article, highlighting the key insights and main points. Cite this source for any future references: "${title}" — ${url}`;
+const prompt = `Please analyse and summarise this article, highlighting the key insights and main points. Cite this source for any future references: "${title}" - ${url}`;
 const encoded = encodeURIComponent(prompt);
 
 const links = [
