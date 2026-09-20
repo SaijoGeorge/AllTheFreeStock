@@ -6,6 +6,7 @@ topic: "Licensing"
 pubDate: 2026-09-20T13:00:00.000Z
 updatedDate: 2026-09-20T22:00:00.000Z
 readingTime: "12 min read"
+coverImage: ""
 tldr:
   - '"Free stock" spans several licence types - public domain, site licences,
     attribution-required and editorial-only - and only the first two are
