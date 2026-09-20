@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { sections, totalCount } from '../../data/resources';
+---
+
+<Layout title="About - AllTheFreeStock" description="Who curates AllTheFreeStock and why the directory exists.">
+  <main class="max-w-[720px] mx-auto px-5 pt-20 pb-24">
+    <h1 class="font-serif font-normal text-[clamp(38px,5.4vw,56px)] tracking-tight m-0">About</h1>
+    <p class="mt-4 text-lg leading-relaxed text-[#4a5c56]">
+      AllTheFreeStock is a hand-curated directory of free photos, video, audio, icons, fonts, mockups and
+      templates - started in 2015 as a personal bookmarks list that got out of hand.
+    </p>
+
+    <div class="mt-6 flex gap-6 flex-wrap font-mono text-xs text-[#56685f]">
+      <span>{totalCount} resources</span>
+      <span>{sections.length} categories</span>
+      <span>curated since 2015</span>
+    </div>
+
+    <div class="mt-10 flex flex-col gap-5 text-[17px] leading-relaxed text-[#26332f]">
+      <h2 class="font-serif font-normal text-[26px] tracking-tight mt-2 mb-0">Why this exists</h2>
+      <p>
+        "Free" stock sites come and go, change their terms, or quietly get bought and repurposed. This directory
+        exists so that list stays useful: every link is checked, dead or hijacked ones get removed, and each entry
+        carries a plain-language licence tag instead of leaving you to dig through terms pages.
+      </p>
+
+      <h2 class="font-serif font-normal text-[26px] tracking-tight mt-4 mb-0">How entries get added</h2>
+      <p>
+        Most of the directory comes from things I've used in client and personal work over the years. Anyone can
+        also <a href="/submit/">submit a resource</a> - submissions are reviewed by hand before they go live, and
+        anything without a genuinely free tier is marked with a paid pill rather than left ambiguous.
+      </p>
+
+      <h2 class="font-serif font-normal text-[26px] tracking-tight mt-4 mb-0">The Journal</h2>
+      <p>
+        The <a href="/blog/">blog</a> covers the parts of "free" that trip people up in practice - licensing,
+        sourcing, and the workflow habits that keep a project out of trouble.
+      </p>
+    </div>
+
+    <div class="mt-10 flex gap-5 p-6 rounded-[22px] glass-card flex-wrap">
+      <div
+        class="w-24 h-24 flex-none rounded-[20px] border border-white/90 flex items-end justify-center p-1.5"
+        style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.28) 0 8px,rgba(255,255,255,.5) 8px 16px);"
+      >
+        <span class="font-mono text-[9px] text-[#43605a]">author photo</span>
+      </div>
+      <div class="flex-1 min-w-[230px]">
+        <div class="font-serif text-2xl leading-tight">Saijo George</div>
+        <div class="font-mono text-[11.5px] tracking-wide uppercase text-teal-600 mt-0.5">SEO Consultant · Melbourne</div>
+        <p class="my-2.5 text-[15px] leading-relaxed text-[#48594f]">
+          Curator of AllTheFreeStock and a handful of other tools for marketers. Spends most of the week on
+          technical SEO and the rest arguing about licence terms.
+        </p>
+        <div class="flex gap-2.25 flex-wrap">
+          <a href="https://twitter.com/saijogeorge" target="_blank" rel="noopener" class="px-3.5 py-1.75 rounded-full bg-teal-100 text-[13px] font-semibold text-teal-800 no-underline">Twitter</a>
+          <a href="https://www.linkedin.com/in/saijogeorge" target="_blank" rel="noopener" class="px-3.5 py-1.75 rounded-full bg-teal-100 text-[13px] font-semibold text-teal-800 no-underline">LinkedIn</a>
+          <a href="https://saijogeorge.com/" target="_blank" rel="noopener" class="px-3.5 py-1.75 rounded-full bg-teal-100 text-[13px] font-semibold text-teal-800 no-underline">Website</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>
