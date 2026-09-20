@@ -21,6 +21,15 @@ const nav = [
       ))}
     </nav>
     <div class="flex-1"></div>
+    <form action="/" class="hidden sm:flex items-center gap-2 px-3.5 py-2 rounded-full bg-white/70 border border-white/90 min-w-[220px]">
+      <span class="text-[13px] text-[#7b8a85]">⌕</span>
+      <input
+        name="q"
+        class="js-search border-0 outline-none bg-transparent font-sans text-sm w-full text-ink"
+        placeholder="Search 400+ resources"
+        autocomplete="off"
+      />
+    </form>
     <a
       href="/blog/"
       class="btn-primary flex items-center gap-2 px-4.5 py-2.5 rounded-full text-sm font-semibold no-underline"

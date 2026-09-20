@@ -17,16 +17,17 @@ import { sections, totalCount } from '../data/resources';
       <p class="max-w-[56ch] mx-auto mt-5 text-lg leading-relaxed text-[#4a5c56]">
         Photos, video, audio, icons, fonts and mockups — hand-checked for licence clarity, so you can grab an asset and get back to work.
       </p>
-      <form action="/search/" class="flex justify-center gap-3 mt-7 flex-wrap">
+      <div class="flex justify-center gap-3 mt-7 flex-wrap">
         <div class="flex items-center gap-2.5 px-5 py-3.5 rounded-[18px] glass backdrop-blur-md min-w-[320px] flex-1 max-w-[520px]" style="box-shadow:0 18px 44px -28px rgba(29,62,58,.55);">
           <span class="text-[#7b8a85]">⌕</span>
           <input
-            name="q"
+            id="hero-search"
+            class="js-search border-0 outline-none bg-transparent font-sans text-base w-full text-ink"
             placeholder='Try "illustrations", "drone footage", "icons"…'
-            class="border-0 outline-none bg-transparent font-sans text-base w-full text-ink"
+            autocomplete="off"
           />
         </div>
-      </form>
+      </div>
       <div class="flex justify-center gap-6.5 mt-6.5 flex-wrap font-mono text-xs text-[#56685f]">
         <span>{totalCount} resources</span>
         <span>{sections.length} categories</span>
@@ -38,7 +39,52 @@ import { sections, totalCount } from '../data/resources';
       <CategoryRail sections={sections} />
       <div class="flex-1 min-w-0">
         {sections.map((section) => <CategorySection section={section} />)}
+        <div data-empty-state hidden class="p-14 text-center rounded-[22px] bg-white/50 border border-dashed border-[#3c6460]/30">
+          <div class="font-serif text-2xl">Nothing matches that yet.</div>
+          <p class="text-[#5b6c66] text-[15px]">Try a broader word — "photo", "video", "icon".</p>
+        </div>
       </div>
     </section>
   </main>
 </Layout>
+
+<script>
+  const inputs = document.querySelectorAll<HTMLInputElement>('.js-search');
+  const sections = document.querySelectorAll<HTMLElement>('[data-section]');
+  const emptyState = document.querySelector<HTMLElement>('[data-empty-state]');
+
+  function applyFilter(query: string) {
+    const q = query.trim().toLowerCase();
+    let anyVisible = false;
+    sections.forEach((section) => {
+      let sectionHasVisible = false;
+      section.querySelectorAll<HTMLElement>('[data-card]').forEach((card) => {
+        const match = !q || (card.dataset.haystack ?? '').includes(q);
+        card.hidden = !match;
+        if (match) sectionHasVisible = true;
+      });
+      section.querySelectorAll<HTMLElement>('[data-group]').forEach((group) => {
+        group.hidden = !group.querySelector('[data-card]:not([hidden])');
+      });
+      section.hidden = !sectionHasVisible;
+      if (sectionHasVisible) anyVisible = true;
+    });
+    if (emptyState) emptyState.hidden = anyVisible || !q;
+  }
+
+  inputs.forEach((input) => {
+    input.addEventListener('input', () => {
+      inputs.forEach((other) => {
+        if (other !== input) other.value = input.value;
+      });
+      applyFilter(input.value);
+    });
+  });
+
+  const params = new URLSearchParams(location.search);
+  const initialQuery = params.get('q');
+  if (initialQuery) {
+    inputs.forEach((input) => (input.value = initialQuery));
+    applyFilter(initialQuery);
+  }
+</script>
