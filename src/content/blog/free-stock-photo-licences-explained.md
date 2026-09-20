@@ -1,27 +1,40 @@
 ---
 title: "How to Pick Free Stock Photos Without Legal Risk"
-excerpt: "\"Free\" covers several different licences. Here's how to tell them apart quickly, and the checks worth doing before an image ships to a client."
+excerpt: "\"Free\" covers several different licences. Here's how to tell them
+  apart quickly, and the checks worth doing before an image ships to a client."
 topic: "Licensing"
-pubDate: 2026-03-12
-updatedDate: 2026-09-18
+pubDate: 2026-09-20T13:00:00.000Z
+updatedDate: 2026-09-20T22:00:00.000Z
 readingTime: "12 min read"
 tldr:
-  - "\"Free stock\" spans several licence types - public domain, site licences, attribution-required and editorial-only - and only the first two are genuinely no-strings."
-  - "Site licences (Unsplash, Pexels) allow commercial use but forbid redistributing the image as stock itself."
-  - "Model and property releases, not the licence, are what usually create risk in ads and packaging."
-  - "Keep a dated record of the licence terms before you ship client work - terms can change without notice."
-  - "AI-generated stock sidesteps model releases but raises its own ownership and trademark questions."
+  - '"Free stock" spans several licence types - public domain, site licences,
+    attribution-required and editorial-only - and only the first two are
+    genuinely no-strings.'
+  - Site licences (Unsplash, Pexels) allow commercial use but forbid
+    redistributing the image as stock itself.
+  - Model and property releases, not the licence, are what usually create risk
+    in ads and packaging.
+  - Keep a dated record of the licence terms before you ship client work - terms
+    can change without notice.
+  - AI-generated stock sidesteps model releases but raises its own ownership and
+    trademark questions.
 faqs:
-  - q: "Do I need to credit Unsplash or Pexels photos?"
-    a: "No. Both licences make credit optional, though photographers appreciate it. Credit becomes mandatory only under CC BY and most editorial licences."
-  - q: "Can I use a free stock photo in a paid product?"
-    a: "Usually yes, as long as the image isn't the product itself. Selling the photo as a print, a template asset, or inside a competing stock library is what most site licences prohibit."
-  - q: "What is a model release and when do I need one?"
-    a: "A signed permission from an identifiable person allowing commercial use of their likeness. You need one for advertising, packaging, and endorsement-style use. Free stock sites rarely supply them."
-  - q: "Is AI-generated imagery safer than stock photography?"
-    a: "Safer on releases, riskier on ownership. Copyright in generated output is unsettled in several jurisdictions, and the tool's own terms govern what you may do with it commercially."
+  - q: Do I need to credit Unsplash or Pexels photos?
+    a: No. Both licences make credit optional, though photographers appreciate it.
+      Credit becomes mandatory only under CC BY and most editorial licences.
+  - q: Can I use a free stock photo in a paid product?
+    a: Usually yes, as long as the image isn't the product itself. Selling the photo
+      as a print, a template asset, or inside a competing stock library is what
+      most site licences prohibit.
+  - q: What is a model release and when do I need one?
+    a: A signed permission from an identifiable person allowing commercial use of
+      their likeness. You need one for advertising, packaging, and
+      endorsement-style use. Free stock sites rarely supply them.
+  - q: Is AI-generated imagery safer than stock photography?
+    a: Safer on releases, riskier on ownership. Copyright in generated output is
+      unsettled in several jurisdictions, and the tool's own terms govern what
+      you may do with it commercially.
 ---
-
 ## Why "free" isn't one thing
 
 Every site in this directory is free to use, but they don't all mean the same thing by it. One site has waived copyright entirely. Another keeps copyright and grants you a broad, revocable licence. A third asks for a credit line and treats a missing one as a breach. From a download button, all three look identical.
@@ -47,7 +60,7 @@ Free, including for commercial use, provided you credit the creator in the form 
 Common with event, sports, and news photography. The image may illustrate a story but never promote a product. If the asset is going anywhere near a campaign, this bucket is off the table.
 
 | Licence | Commercial use | Credit | Watch out for |
-| --- | --- | --- | --- |
+| - | - | - | - |
 | CC0 / public domain | Yes | Not required | Trademarks still apply to logos in frame |
 | Unsplash / Pexels licence | Yes | Appreciated | No redistributing as stock or templates |
 | CC BY | Yes | Mandatory | Credit must be visible in the work |
