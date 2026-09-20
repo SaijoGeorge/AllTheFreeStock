@@ -9,10 +9,11 @@ interface Props {
 const { section } = Astro.props;
 
 // Group items by subcategory while preserving first-seen order; items with
-// no subcategory land in a single unlabeled group.
-const groups: { label: string | null; items: typeof section.items }[] = [];
+// no subcategory land in a single "General" group so every group is
+// consistently labeled.
+const groups: { label: string; items: typeof section.items }[] = [];
 for (const item of section.items) {
-  const label = item.subcategory ?? null;
+  const label = item.subcategory ?? 'General';
   let group = groups.find((g) => g.label === label);
   if (!group) {
     group = { label, items: [] };
@@ -29,9 +30,7 @@ for (const item of section.items) {
   </div>
   {groups.map((group) => (
     <div data-group class="mb-7 last:mb-0">
-      {group.label && (
-        <div class="mb-2.5 font-mono text-[11px] tracking-[0.08em] uppercase text-[#6c7d77]">{group.label}</div>
-      )}
+      <div class="mb-2.5 font-mono text-[11px] tracking-[0.08em] uppercase text-[#6c7d77]">{group.label}</div>
       <div class="grid gap-3.5" style="grid-template-columns:repeat(auto-fill,minmax(230px,1fr));">
         {group.items.map((item) => <ResourceCard item={item} />)}
       </div>

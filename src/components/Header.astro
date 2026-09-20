@@ -1,5 +1,5 @@
 ---
-import { totalCount } from '../data/resources';
+import { totalCount, sections } from '../data/resources';
 
 const nav = [
   { label: 'Photos', href: '/#photos' },
@@ -32,6 +32,14 @@ const nav = [
         autocomplete="off"
       />
     </form>
+    <button
+      id="mobile-menu-btn"
+      aria-label="Open menu"
+      aria-expanded="false"
+      class="md:hidden flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/50"
+    >
+      <span class="text-lg leading-none">☰</span>
+    </button>
     <a
       href="/blog/"
       class="btn-primary flex items-center gap-2 px-4.5 py-2.5 rounded-full text-sm font-semibold no-underline"
@@ -40,4 +48,42 @@ const nav = [
       <span class="text-[10px] font-mono px-1.5 py-0.5 rounded-md bg-white/20">NEW</span>
     </a>
   </div>
+
+  <div id="mobile-menu" hidden class="md:hidden border-t border-white/70 bg-white/85 backdrop-blur-md px-5 py-4">
+    <div class="font-mono text-[11px] tracking-[0.08em] uppercase text-[#6c7d77] mb-2">Categories</div>
+    <div class="flex flex-col mb-3">
+      {sections.map((sec) => (
+        <a href={`/#${sec.id}`} class="py-2 text-[15px] font-medium text-[#2c3c38] no-underline border-b border-white/60 last:border-0">
+          {sec.title}
+        </a>
+      ))}
+    </div>
+    <div class="flex flex-col gap-1">
+      <a href="/submit/" class="py-2 text-[15px] font-semibold text-teal-800 no-underline">Submit a resource</a>
+      <a href="/about/" class="py-2 text-[15px] font-semibold text-teal-800 no-underline">About</a>
+    </div>
+  </div>
 </header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+
+  btn?.addEventListener('click', () => {
+    const isOpen = !menu?.hidden;
+    if (menu) menu.hidden = isOpen;
+    btn.setAttribute('aria-expanded', String(!isOpen));
+    btn.textContent = '';
+    const icon = document.createElement('span');
+    icon.className = 'text-lg leading-none';
+    icon.textContent = isOpen ? '☰' : '✕';
+    btn.appendChild(icon);
+  });
+
+  menu?.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      menu.hidden = true;
+      btn?.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>

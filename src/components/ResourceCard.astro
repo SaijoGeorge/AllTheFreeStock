@@ -15,6 +15,7 @@ const haystack = [item.name, item.note, item.tag, item.subcategory].filter(Boole
   rel="noopener"
   data-card
   data-haystack={haystack}
+  data-tag={item.tag ?? ''}
   class="glass-card flex flex-col gap-1.5 px-4 py-4 rounded-[18px] no-underline text-inherit hover:-translate-y-0.5 hover:bg-white/80 transition"
 >
   <div class="flex items-center justify-between gap-2">
