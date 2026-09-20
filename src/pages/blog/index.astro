@@ -40,10 +40,7 @@ const topics = ['All', ...new Set(allPosts.map((p) => p.data.topic))];
           <h2 class="font-serif font-normal text-[38px] leading-tight my-3 tracking-tight">{featured.data.title}</h2>
           <p class="text-base leading-relaxed text-[#4c5d58] mb-4.5">{featured.data.excerpt}</p>
           <div class="flex items-center gap-3 text-[13px] text-[#5f706a]">
-            <div
-              class="w-8.5 h-8.5 rounded-full"
-              style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.3) 0 6px,rgba(255,255,255,.5) 6px 12px);"
-            ></div>
+            <img src="/images/saijo-george.webp" alt="" class="w-8.5 h-8.5 rounded-full object-cover" />
             <span>{featured.data.author}</span><span>·</span><span>{featured.data.readingTime ?? '5 min read'}</span>
           </div>
         </div>

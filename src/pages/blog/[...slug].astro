@@ -32,10 +32,7 @@ const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
       </h1>
       <div class="flex items-center gap-3.5 flex-wrap text-[13.5px] text-[#55665f]">
         <div class="flex items-center gap-2.25">
-          <div
-            class="w-8 h-8 rounded-full"
-            style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.3) 0 6px,rgba(255,255,255,.55) 6px 12px);"
-          ></div>
+          <img src="/images/saijo-george.webp" alt="" class="w-8 h-8 rounded-full object-cover" />
           <span class="font-semibold text-[#26372f]">{post.data.author}</span>
         </div>
         <span class="inline-flex items-center gap-1.5 px-2.75 py-1.25 rounded-full glass text-[12.5px]">
