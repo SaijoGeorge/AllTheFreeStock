@@ -13,12 +13,16 @@ const dateStr = post.data.pubDate.toLocaleDateString('en-AU', { day: '2-digit', 
   href={`/blog/${post.id}/`}
   class="flex flex-col rounded-[22px] overflow-hidden glass-card no-underline text-inherit hover:-translate-y-1 transition"
 >
-  <div
-    class="h-[150px] flex items-end p-3"
-    style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.2) 0 10px,rgba(255,255,255,.4) 10px 20px);"
-  >
-    <span class="font-mono text-[10px] text-[#42605a] bg-white/75 px-1.5 py-1 rounded-md">cover image</span>
-  </div>
+  {post.data.coverImage ? (
+    <img src={post.data.coverImage} alt="" class="h-[150px] w-full object-cover" />
+  ) : (
+    <div
+      class="h-[150px] flex items-end p-3"
+      style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.2) 0 10px,rgba(255,255,255,.4) 10px 20px);"
+    >
+      <span class="font-mono text-[10px] text-[#42605a] bg-white/75 px-1.5 py-1 rounded-md">cover image</span>
+    </div>
+  )}
   <div class="p-5 flex flex-col gap-2 flex-1">
     <span class="font-mono text-[10.5px] tracking-wide uppercase text-teal-600">{post.data.topic}</span>
     <h3 class="font-serif font-normal text-[23px] leading-tight m-0">{post.data.title}</h3>

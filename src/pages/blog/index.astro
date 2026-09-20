@@ -29,12 +29,16 @@ const topics = ['All', ...new Set(allPosts.map((p) => p.data.topic))];
         class="grid md:grid-cols-2 rounded-[26px] overflow-hidden glass-card no-underline text-inherit"
         style="box-shadow:0 30px 70px -46px rgba(24,56,52,.8);"
       >
-        <div
-          class="min-h-[300px] flex items-end p-5"
-          style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.22) 0 12px,rgba(255,255,255,.35) 12px 24px);"
-        >
-          <span class="font-mono text-[11px] text-[#3f5a55] bg-white/75 px-2.5 py-1.5 rounded-lg">featured image - 1600×900</span>
-        </div>
+        {featured.data.coverImage ? (
+          <img src={featured.data.coverImage} alt="" class="min-h-[300px] w-full object-cover" />
+        ) : (
+          <div
+            class="min-h-[300px] flex items-end p-5"
+            style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.22) 0 12px,rgba(255,255,255,.35) 12px 24px);"
+          >
+            <span class="font-mono text-[11px] text-[#3f5a55] bg-white/75 px-2.5 py-1.5 rounded-lg">featured image - 1600×900</span>
+          </div>
+        )}
         <div class="p-9">
           <span class="font-mono text-[11px] tracking-wide uppercase text-teal-600">Featured · {featured.data.topic}</span>
           <h2 class="font-serif font-normal text-[38px] leading-tight my-3 tracking-tight">{featured.data.title}</h2>
