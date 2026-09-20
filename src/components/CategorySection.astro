@@ -1,0 +1,20 @@
+---
+import type { ResourceSection } from '../data/resources';
+import ResourceCard from './ResourceCard.astro';
+
+interface Props {
+  section: ResourceSection;
+}
+
+const { section } = Astro.props;
+---
+
+<section id={section.id} class="mb-14 scroll-mt-24">
+  <div class="flex items-baseline gap-3.5 mb-4.5 flex-wrap">
+    <h2 class="font-serif font-normal text-[34px] tracking-tight m-0">{section.title}</h2>
+    <span class="text-sm text-[#5e6f69]">{section.blurb}</span>
+  </div>
+  <div class="grid gap-3.5" style="grid-template-columns:repeat(auto-fill,minmax(230px,1fr));">
+    {section.items.map((item) => <ResourceCard item={item} />)}
+  </div>
+</section>

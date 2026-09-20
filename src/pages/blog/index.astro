@@ -1,0 +1,57 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const [featured, ...rest] = allPosts;
+const topics = ['All', ...new Set(allPosts.map((p) => p.data.topic))];
+---
+
+<Layout title="The Journal — AllTheFreeStock" description="Notes on licensing, sourcing and using free assets.">
+  <main class="max-w-[1180px] mx-auto px-5 pt-20 pb-20">
+    <div class="flex items-baseline gap-4 flex-wrap">
+      <h1 class="font-serif font-normal text-[clamp(40px,5.6vw,64px)] m-0 tracking-tight">The Journal</h1>
+      <span class="font-mono text-xs text-[#5c6d67]">notes on licensing, sourcing and using free assets</span>
+    </div>
+
+    <div class="flex gap-2 flex-wrap my-7">
+      {topics.map((t) => (
+        <span class="px-3.5 py-1.5 rounded-full text-[13px] font-medium glass text-[#2c3c38]">{t}</span>
+      ))}
+    </div>
+
+    {featured && (
+      <a
+        href={`/blog/${featured.id}/`}
+        class="grid md:grid-cols-2 rounded-[26px] overflow-hidden glass-card no-underline text-inherit"
+        style="box-shadow:0 30px 70px -46px rgba(24,56,52,.8);"
+      >
+        <div
+          class="min-h-[300px] flex items-end p-5"
+          style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.22) 0 12px,rgba(255,255,255,.35) 12px 24px);"
+        >
+          <span class="font-mono text-[11px] text-[#3f5a55] bg-white/75 px-2.5 py-1.5 rounded-lg">featured image — 1600×900</span>
+        </div>
+        <div class="p-9">
+          <span class="font-mono text-[11px] tracking-wide uppercase text-teal-600">Featured · {featured.data.topic}</span>
+          <h2 class="font-serif font-normal text-[38px] leading-tight my-3 tracking-tight">{featured.data.title}</h2>
+          <p class="text-base leading-relaxed text-[#4c5d58] mb-4.5">{featured.data.excerpt}</p>
+          <div class="flex items-center gap-3 text-[13px] text-[#5f706a]">
+            <div
+              class="w-8.5 h-8.5 rounded-full"
+              style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.3) 0 6px,rgba(255,255,255,.5) 6px 12px);"
+            ></div>
+            <span>{featured.data.author}</span><span>·</span><span>{featured.data.readingTime ?? '5 min read'}</span>
+          </div>
+        </div>
+      </a>
+    )}
+
+    <div class="grid gap-5 mt-6.5" style="grid-template-columns:repeat(auto-fill,minmax(285px,1fr));">
+      {rest.map((post) => <PostCard post={post} />)}
+    </div>
+  </main>
+</Layout>

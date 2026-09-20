@@ -1,0 +1,164 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Toc from '../../components/Toc.astro';
+import AskAiRow from '../../components/AskAiRow.astro';
+import Faq from '../../components/Faq.astro';
+import AuthorBio from '../../components/AuthorBio.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content, headings } = await render(post);
+
+const pubDateStr = post.data.pubDate.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+const updatedDateStr = post.data.updatedDate?.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
+---
+
+<Layout title={`${post.data.title} — AllTheFreeStock`} description={post.data.excerpt}>
+  <main>
+    <div class="max-w-[1180px] mx-auto px-5 pt-16 pb-2.5">
+      <a href="/blog/" class="inline-block font-mono text-xs text-teal-600 no-underline pb-4.5">← all articles</a>
+      <span class="block font-mono text-[11px] tracking-wide uppercase text-teal-600">{post.data.topic}</span>
+      <h1
+        class="font-serif font-normal text-[clamp(38px,5.4vw,62px)] leading-[1.06] tracking-tight my-3.5 max-w-[20ch]"
+        style="text-wrap:balance;"
+      >
+        {post.data.title}
+      </h1>
+      <div class="flex items-center gap-3.5 flex-wrap text-[13.5px] text-[#55665f]">
+        <div class="flex items-center gap-2.25">
+          <div
+            class="w-8 h-8 rounded-full"
+            style="background-image:repeating-linear-gradient(135deg,rgba(120,164,158,.3) 0 6px,rgba(255,255,255,.55) 6px 12px);"
+          ></div>
+          <span class="font-semibold text-[#26372f]">{post.data.author}</span>
+        </div>
+        <span class="inline-flex items-center gap-1.5 px-2.75 py-1.25 rounded-full glass text-[12.5px]">
+          <strong class="font-semibold text-[#3d554f]">Published:</strong> {pubDateStr}
+        </span>
+        {updatedDateStr && (
+          <span class="inline-flex items-center gap-1.5 px-2.75 py-1.25 rounded-full bg-teal-100 border border-teal-200 text-[12.5px] text-teal-800">
+            <strong class="font-semibold">Last updated:</strong> {updatedDateStr}
+          </span>
+        )}
+        {post.data.readingTime && <span class="font-mono text-[11.5px] text-[#7a8a84]">{post.data.readingTime}</span>}
+      </div>
+    </div>
+
+    <div class="max-w-[1180px] mx-auto px-5 pt-7 pb-24 flex items-start gap-13">
+      <aside class="hidden lg:block sticky top-24 w-[252px] flex-none">
+        <Toc headings={headings} />
+      </aside>
+
+      <article class="flex-1 min-w-0 max-w-[760px] text-[17.5px] leading-[1.78] text-[#26332f] prose-content">
+        {post.data.tldr.length > 0 && (
+          <div
+            class="relative p-6 rounded-[22px] border border-white/95"
+            style="background:linear-gradient(150deg,rgba(255,255,255,0.82),rgba(219,236,233,0.65));box-shadow:0 24px 60px -48px rgba(24,56,52,.9);"
+          >
+            <div class="flex items-center gap-2.5 mb-3 flex-wrap">
+              <span class="font-mono text-[11px] font-medium tracking-wide px-2.5 py-1.25 rounded-lg bg-teal-700 text-white">TL;DR</span>
+              <span class="text-[12.5px] text-[#5d6e68]">30-second read</span>
+            </div>
+            <ul class="m-0 pl-5 flex flex-col gap-2 text-base leading-relaxed text-[#2b3a35]">
+              {post.data.tldr.map((point: string) => <li>{point}</li>)}
+            </ul>
+          </div>
+        )}
+
+        <AskAiRow title={post.data.title} url={canonicalUrl} />
+
+        <Content />
+
+        {post.data.faqs.length > 0 && (
+          <>
+            <h2 class="font-serif font-normal text-[33px] leading-tight tracking-tight mt-12 mb-4">Frequently asked questions</h2>
+            <Faq faqs={post.data.faqs} />
+          </>
+        )}
+
+        <AskAiRow title={post.data.title} url={canonicalUrl} />
+
+        <AuthorBio />
+      </article>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .prose-content :global(h2) {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    margin: 44px 0 12px;
+    scroll-margin-top: 100px;
+  }
+  .prose-content :global(h3) {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 19px;
+    margin: 28px 0 8px;
+    scroll-margin-top: 100px;
+  }
+  .prose-content :global(p) {
+    margin: 0 0 18px;
+  }
+  .prose-content :global(ul),
+  .prose-content :global(ol) {
+    padding-left: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 0 18px;
+  }
+  .prose-content :global(blockquote) {
+    margin: 30px 0;
+    padding: 24px 28px;
+    border-radius: 20px;
+    border-left: 5px solid #3f8f88;
+    background: linear-gradient(120deg, rgba(84, 141, 135, 0.14), rgba(255, 255, 255, 0.55));
+    font-size: 19.5px;
+    line-height: 1.6;
+    color: #1f322d;
+  }
+  .prose-content :global(blockquote p) {
+    margin: 0;
+  }
+  .prose-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.62);
+    font-size: 14.5px;
+    margin: 28px 0;
+  }
+  .prose-content :global(thead) {
+    background: rgba(84, 141, 135, 0.16);
+  }
+  .prose-content :global(th),
+  .prose-content :global(td) {
+    text-align: left;
+    padding: 13px 16px;
+    border-top: 1px solid rgba(60, 100, 96, 0.12);
+  }
+  .prose-content :global(th) {
+    font-weight: 700;
+    font-size: 13px;
+    color: #24403b;
+    border-top: none;
+  }
+  .prose-content :global(figure) {
+    margin: 30px 0;
+  }
+  .prose-content :global(figcaption) {
+    font-size: 13px;
+    color: #68786f;
+    margin-top: 9px;
+  }
+</style>

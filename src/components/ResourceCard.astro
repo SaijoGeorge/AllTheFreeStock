@@ -1,0 +1,25 @@
+---
+import type { ResourceItem } from '../data/resources';
+
+interface Props {
+  item: ResourceItem;
+}
+
+const { item } = Astro.props;
+---
+
+<a
+  href={item.url}
+  target="_blank"
+  rel="noopener"
+  class="glass-card flex flex-col gap-1.5 px-4 py-4 rounded-[18px] no-underline text-inherit hover:-translate-y-0.5 hover:bg-white/80 transition"
+>
+  <div class="flex items-center justify-between gap-2">
+    <span class="text-[15px] font-semibold text-ink">{item.name}</span>
+    <span class="text-[11px] font-mono text-teal-600">↗</span>
+  </div>
+  <span class="text-[13px] leading-relaxed text-[#596963]">{item.note}</span>
+  <span class="mt-0.5 self-start text-[10.5px] font-mono tracking-wide px-2 py-0.5 rounded-full bg-teal-100 text-teal-800">
+    {item.tag}
+  </span>
+</a>

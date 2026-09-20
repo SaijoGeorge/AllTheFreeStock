@@ -1,0 +1,32 @@
+---
+import type { ResourceSection } from '../data/resources';
+
+interface Props {
+  sections: ResourceSection[];
+}
+
+const { sections } = Astro.props;
+---
+
+<aside class="hidden lg:block sticky top-24 w-[212px] flex-none p-4.5 rounded-[22px] glass h-fit">
+  <div class="font-mono text-[11px] tracking-[0.08em] text-[#6c7d77] uppercase px-2.5 pb-2.5">Categories</div>
+  {sections.map((sec) => (
+    <a
+      href={`#${sec.id}`}
+      class="flex items-center justify-between gap-2 px-2.5 py-2.25 rounded-xl text-sm font-medium text-[#2c3c38] no-underline hover:bg-white/80"
+    >
+      <span>{sec.title}</span>
+      <span class="font-mono text-[11px] text-[#89988f]">{sec.items.length}</span>
+    </a>
+  ))}
+  <div class="mt-4 p-3.5 rounded-2xl border border-white/80" style="background:linear-gradient(150deg,rgba(90,155,148,0.18),rgba(126,174,203,0.16));">
+    <div class="font-serif text-[19px] leading-tight">Know a good one?</div>
+    <p class="my-1.5 text-[12.5px] leading-snug text-[#4d5f59]">Suggest a site and we'll licence-check it.</p>
+    <a
+      href="/submit/"
+      class="block w-full text-center py-2 rounded-[10px] border border-teal-700/25 bg-white/70 text-[12.5px] font-semibold text-teal-800 no-underline hover:bg-white"
+    >
+      Submit a resource
+    </a>
+  </div>
+</aside>

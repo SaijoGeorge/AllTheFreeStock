@@ -1,0 +1,26 @@
+---
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+const items = headings.filter((h) => h.depth <= 3);
+---
+
+<nav class="p-4.5 rounded-[20px] glass" style="box-shadow:0 20px 50px -42px rgba(24,56,52,.9);">
+  <div class="font-mono text-[10.5px] tracking-[0.09em] uppercase text-[#6c7d77] px-2 pb-2.5">On this page</div>
+  {items.map((h) => (
+    <a
+      href={`#${h.slug}`}
+      class={`block px-2 py-1.5 rounded-lg text-sm no-underline text-[#2c3c38] hover:bg-white/60 ${h.depth === 3 ? 'pl-4 text-[13px] text-[#4d5f59]' : ''}`}
+    >
+      {h.text}
+    </a>
+  ))}
+</nav>
