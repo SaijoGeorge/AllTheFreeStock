@@ -6,9 +6,14 @@ import Footer from '../components/Footer.astro';
 interface Props {
   title: string;
   description?: string;
+  noindex?: boolean;
 }
 
-const { title, description = 'Every free stock resource, in one place - photos, video, audio, icons, fonts and mockups.' } = Astro.props;
+const {
+  title,
+  description = 'Every free stock resource, in one place - photos, video, audio, icons, fonts and mockups.',
+  noindex = false,
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -17,7 +22,7 @@ const { title, description = 'Every free stock resource, in one place - photos, 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    {noindex ? <meta name="robots" content="noindex, follow" /> : <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />}
     <meta name="description" content={description} />
     <title>{title}</title>
 
