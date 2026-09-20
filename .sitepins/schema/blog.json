@@ -1,0 +1,100 @@
+{
+  "file": "src/content/blog/free-stock-photo-licences-explained.md",
+  "name": "blog",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "excerpt",
+      "label": "Excerpt",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "topic",
+      "label": "Topic",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "pubDate",
+      "label": "PubDate",
+      "type": "Date",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": "",
+      "alwaysUseCurrentDate": false
+    },
+    {
+      "name": "updatedDate",
+      "label": "UpdatedDate",
+      "type": "Date",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": "",
+      "alwaysUseCurrentDate": false
+    },
+    {
+      "name": "readingTime",
+      "label": "ReadingTime",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "coverImage",
+      "label": "CoverImage",
+      "type": "media",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "tldr",
+      "label": "Tldr",
+      "type": "Array",
+      "value": [],
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "faqs",
+      "label": "Faqs",
+      "type": "Array",
+      "value": [],
+      "isIgnored": false,
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "q",
+          "label": "Q",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "a",
+          "label": "A",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        }
+      ]
+    }
+  ]
+}
