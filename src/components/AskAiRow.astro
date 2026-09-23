@@ -10,11 +10,9 @@ const prompt = `Please analyse and summarise this article, highlighting the key 
 const encoded = encodeURIComponent(prompt);
 
 const links = [
-  { label: 'ChatGPT', href: `https://chatgpt.com/?q=${encoded}` },
-  { label: 'Google AI', href: `https://www.google.com/search?q=${encoded}&udm=50` },
-  { label: 'Claude', href: `https://claude.ai/new?q=${encoded}` },
-  { label: 'Copilot', href: `https://copilot.microsoft.com/?q=${encoded}` },
-  { label: 'Gemini', href: `https://gemini.google.com/app?q=${encoded}` },
+  { label: 'ChatGPT', href: `https://chatgpt.com/?q=${encoded}`, color: '#10A37F' },
+  { label: 'Google AI', href: `https://www.google.com/search?q=${encoded}&udm=50`, color: '#4285F4' },
+  { label: 'Claude', href: `https://claude.ai/new?q=${encoded}`, color: '#D97757' },
 ];
 ---
 
@@ -22,14 +20,23 @@ const links = [
   <div class="text-[13.5px] font-semibold text-[#33453f] mb-2.5">Ask AI about this article</div>
   <div class="flex flex-wrap gap-2.25">
     {links.map((l) => (
-      <a
-        href={l.href}
-        target="_blank"
-        rel="noopener"
-        class="px-3.5 py-2 rounded-[11px] border border-teal-700/20 bg-white/85 text-[13px] font-semibold text-[#25443f] no-underline hover:bg-white hover:-translate-y-0.5 transition"
+      <button
+        type="button"
+        data-ai-href={l.href}
+        class="js-ai-btn px-3.5 py-2 rounded-[11px] border-0 text-[13px] font-semibold text-white cursor-pointer hover:-translate-y-0.5 hover:brightness-110 transition"
+        style={`background-color:${l.color}`}
       >
         {l.label}
-      </a>
+      </button>
     ))}
   </div>
 </div>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('.js-ai-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const href = btn.dataset.aiHref;
+      if (href) window.open(href, '_blank', 'noopener');
+    });
+  });
+</script>

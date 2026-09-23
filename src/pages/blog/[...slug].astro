@@ -22,36 +22,42 @@ const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
 <Layout title={`${post.data.title} - AllTheFreeStock`} description={post.data.excerpt}>
   <main>
     <div class="max-w-[1180px] mx-auto px-5 pt-16 pb-2.5">
-      <a href="/blog/" class="inline-block font-mono text-xs text-teal-600 no-underline pb-4.5">← all articles</a>
-      <span class="block font-mono text-[11px] tracking-wide uppercase text-teal-600">{post.data.topic}</span>
-      <h1
-        class="font-serif font-normal text-[clamp(38px,5.4vw,62px)] leading-[1.06] tracking-tight my-3.5 max-w-[20ch]"
-        style="text-wrap:balance;"
-      >
-        {post.data.title}
-      </h1>
-      <div class="flex items-center gap-3.5 flex-wrap text-[13.5px] text-[#55665f]">
-        <div class="flex items-center gap-2.25">
-          <img src="/images/saijo-george.webp" alt="" class="w-8 h-8 rounded-full object-cover" />
-          <span class="font-semibold text-[#26372f]">{post.data.author}</span>
+      <div class="flex flex-col lg:flex-row lg:items-start gap-8">
+        <div class="flex-1 min-w-0">
+          <a href="/blog/" class="inline-block font-mono text-xs text-teal-600 no-underline pb-4.5">← all articles</a>
+          <span class="block font-mono text-[11px] tracking-wide uppercase text-teal-600">{post.data.topic}</span>
+          <h1
+            class="font-serif font-normal text-[clamp(38px,5.4vw,62px)] leading-[1.06] tracking-tight my-3.5 max-w-[20ch]"
+            style="text-wrap:balance;"
+          >
+            {post.data.title}
+          </h1>
+          <div class="flex items-center gap-3.5 flex-wrap text-[13.5px] text-[#55665f]">
+            <div class="flex items-center gap-2.25">
+              <img src="/images/saijo-george.webp" alt="" class="w-8 h-8 rounded-full object-cover" />
+              <span class="font-semibold text-[#26372f]">{post.data.author}</span>
+            </div>
+            <span class="inline-flex items-center gap-1.5 px-2.75 py-1.25 rounded-full glass text-[12.5px]">
+              <strong class="font-semibold text-[#3d554f]">Published:</strong> {pubDateStr}
+            </span>
+            {updatedDateStr && (
+              <span class="inline-flex items-center gap-1.5 px-2.75 py-1.25 rounded-full bg-teal-100 border border-teal-200 text-[12.5px] text-teal-800">
+                <strong class="font-semibold">Last updated:</strong> {updatedDateStr}
+              </span>
+            )}
+            {post.data.readingTime && <span class="font-mono text-[11.5px] text-[#7a8a84]">{post.data.readingTime}</span>}
+          </div>
         </div>
-        <span class="inline-flex items-center gap-1.5 px-2.75 py-1.25 rounded-full glass text-[12.5px]">
-          <strong class="font-semibold text-[#3d554f]">Published:</strong> {pubDateStr}
-        </span>
-        {updatedDateStr && (
-          <span class="inline-flex items-center gap-1.5 px-2.75 py-1.25 rounded-full bg-teal-100 border border-teal-200 text-[12.5px] text-teal-800">
-            <strong class="font-semibold">Last updated:</strong> {updatedDateStr}
-          </span>
+
+        {post.data.coverImage && (
+          <img
+            src={post.data.coverImage}
+            alt=""
+            class="w-full lg:w-[360px] lg:flex-none h-[220px] lg:h-[240px] object-cover rounded-[26px]"
+          />
         )}
-        {post.data.readingTime && <span class="font-mono text-[11.5px] text-[#7a8a84]">{post.data.readingTime}</span>}
       </div>
     </div>
-
-    {post.data.coverImage && (
-      <div class="max-w-[1180px] mx-auto px-5 mt-8">
-        <img src={post.data.coverImage} alt="" class="w-full max-h-[420px] object-cover rounded-[26px]" />
-      </div>
-    )}
 
     <div class="max-w-[1180px] mx-auto px-5 pt-7 pb-24 flex items-start gap-13">
       <aside class="hidden lg:block sticky top-24 w-[252px] flex-none">
