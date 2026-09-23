@@ -53,7 +53,7 @@ const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
           <img
             src={post.data.coverImage}
             alt=""
-            class="w-full lg:w-[360px] lg:flex-none h-[220px] lg:h-[240px] object-cover rounded-[26px]"
+            class="w-full lg:w-[360px] lg:flex-none h-auto max-h-[280px] object-contain rounded-[26px]"
           />
         )}
       </div>
