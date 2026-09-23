@@ -86,7 +86,7 @@ const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
 
         {post.data.faqs.length > 0 && (
           <>
-            <h2 class="font-serif font-normal text-[33px] leading-tight tracking-tight mt-12 mb-4">Frequently asked questions</h2>
+            <h2 class="font-serif font-normal text-[33px] leading-tight tracking-tight mt-12 mb-4">Questions you may have</h2>
             <Faq faqs={post.data.faqs} />
           </>
         )}

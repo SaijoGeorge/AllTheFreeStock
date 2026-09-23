@@ -13,13 +13,10 @@ const { faqs } = Astro.props;
 
 <div class="flex flex-col gap-2.75">
   {faqs.map((f) => (
-    <details class="group rounded-2xl bg-white/58 border border-white/90 overflow-hidden [&_summary::-webkit-details-marker]:hidden">
-      <summary class="flex items-center justify-between gap-3.5 px-4.5 py-3.5 cursor-pointer font-sans font-semibold text-[16.5px] text-[#1f302b] list-none hover:bg-white/50">
-        <span>{f.q}</span>
-        <span class="text-sm group-open:rotate-180 transition-transform">⌄</span>
-      </summary>
-      <div class="px-4.5 pb-4.25 text-[15.5px] leading-relaxed text-[#41524c]">{f.a}</div>
-    </details>
+    <div class="rounded-2xl bg-white/58 border border-white/90 px-4.5 py-3.75">
+      <h3 class="m-0 font-sans font-semibold text-[16.5px] text-[#1f302b]">{f.q}</h3>
+      <p class="mt-2 mb-0 text-[15.5px] leading-relaxed text-[#41524c]">{f.a}</p>
+    </div>
   ))}
 </div>
 
