@@ -30,6 +30,7 @@ const {
     <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
     {noindex ? <meta name="robots" content="noindex, follow" /> : <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />}
     <meta name="description" content={description} />
+    <link rel="alternate" type="application/rss+xml" title="The Journal - AllTheFreeStock" href="/rss.xml" />
     <title>{title}</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
