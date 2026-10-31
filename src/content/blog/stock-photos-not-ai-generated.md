@@ -31,7 +31,7 @@ faqs:
   - q: "How do I ask a photographer to prove a photo isn't AI?"
     a: "Ask for the raw file, or a set of frames from the same shoot. Generated images don't come with a run of near-identical camera files sharing the same EXIF camera body and sequential file numbers. Photo contests use this test: Close-Up Photographer of the Year asks for raw files in later judging rounds ([TechRadar, 2024](https://www.techradar.com/cameras/photography/ai-will-be-a-watershed-moment-and-the-great-mega-trend-of-our-generation-photo-contest-experts-tell-us-how-theyre-dealing-with-a-tidal-wave-of-ai-generated-images)). A working photographer can usually send these within a day."
   - q: "Does Content Credentials tell me if a photo was edited with Generative Fill?"
-    a: "It can, if the credential survived. Adobe apps record generative edits as actions in the C2PA manifest, and the [Verify tool](https://opensource.contentauthenticity.org/docs/verify) lists them in its process panel. In IPTC terms, an inpainted or outpainted photo should carry compositeWithTrainedAlgorithmicMedia rather than digitalCapture. If the manifest was stripped by a re-save or an upload, Verify shows \"No Content Credential\" and you're back to the other checks."
+    a: "It can, if the credential survived. Adobe apps record generative edits as actions in the C2PA manifest, and the [Verify tool](https://opensource.contentauthenticity.org/docs/verify) lists them in its process panel. In IPTC terms, an inpainted or outpainted photo should carry `compositeWithTrainedAlgorithmicMedia` rather than `digitalCapture`. If the manifest was stripped by a re-save or an upload, Verify shows \"No Content Credential\" and you're back to the other checks."
   - q: "Can I use a photo marked do not train in my marketing?"
     a: "Yes. A do-not-train flag only tells AI developers not to scrape the image for model training. It has no effect on you placing it in a brochure or blog post, which is governed by the normal licence. Read the licence for that, and see our guide to [free stock photo licence types](https://allthefreestock.com/blog/free-stock-photo-licences-explained/) for what each one allows."
 sources:
@@ -187,7 +187,7 @@ The values worth knowing, from the [IPTC controlled vocabulary](https://cv.iptc.
 | - | - | - |
 | `digitalCapture` | Captured from real life with a camera | Good sign |
 | `algorithmicallyEnhanced` | Sharpening, noise reduction, no new content | Fine |
-| compositeWithTrainedAlgorithmicMedia | Real photo edited with generative AI (inpainting, outpainting) | Partly AI |
+| `compositeWithTrainedAlgorithmicMedia` | Real photo edited with generative AI (inpainting, outpainting) | Partly AI |
 | `compositeSynthetic` | Composite with at least one AI-generated element | Partly AI |
 | `trainedAlgorithmicMedia` | Created with generative AI | AI image |
 
