@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import Toc from '../../components/Toc.astro';
 import AskAiRow from '../../components/AskAiRow.astro';
 import Faq from '../../components/Faq.astro';
+import { inlineMarkdown } from '../../lib/inline-markdown';
 import AuthorBio from '../../components/AuthorBio.astro';
 import { getCollection, render } from 'astro:content';
 
@@ -75,7 +76,7 @@ const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
               <span class="text-[12.5px] text-[#5d6e68]">30-second read</span>
             </div>
             <ul class="m-0 pl-5 flex flex-col gap-2 text-base leading-relaxed text-[#2b3a35]">
-              {post.data.tldr.map((point: string) => <li>{point}</li>)}
+              {post.data.tldr.map((point: string) => <li set:html={inlineMarkdown(point)} />)}
             </ul>
           </div>
         )}
@@ -169,5 +170,37 @@ const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
     font-size: 13px;
     color: #68786f;
     margin-top: 9px;
+  }
+  .prose-content :global(a:not([class])) {
+    color: #2f6a65;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: rgba(63, 143, 136, 0.45);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    border-radius: 4px;
+    transition: color 0.15s ease, background-color 0.15s ease, text-decoration-color 0.15s ease;
+  }
+  .prose-content :global(a:not([class]):hover) {
+    color: #0f4d49;
+    background-color: rgba(84, 141, 135, 0.14);
+    text-decoration-color: #3f8f88;
+  }
+  .prose-content :global(a:not([class]):focus-visible) {
+    outline: 2px solid #3f8f88;
+    outline-offset: 2px;
+  }
+  /* Small arrow on links that leave the site */
+  .prose-content :global(a:not([class])[href^="http"]:not([href*="allthefreestock.com"]))::after {
+    content: "\2197";
+    display: inline-block;
+    margin-left: 2px;
+    font-size: 0.78em;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 0.7;
+  }
+  .prose-content :global(strong) {
+    color: #1c2b28;
   }
 </style>
