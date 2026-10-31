@@ -1,7 +1,7 @@
 ---
 title: "Free Stock Images and Videos for Commercial Use With No Watermark"
 excerpt: "Which free stock sites hand over clean, full files you can use in ads and client work without credit, which ones attach a credit rule or a paywall, and what no licence will let you do."
-metaDescription: "We read 13 stock licences to find free images and videos for commercial use with no watermark or credit, plus the catches on Freepik, Vecteezy and Adobe."
+metaDescription: "We read 12 stock licences to find free images and videos for commercial use with no watermark or credit, plus the catch on Magnific and Vecteezy in 2026."
 topic: "Licensing"
 pubDate: 2026-11-01T22:00:00.000Z
 updatedDate: 2026-11-01T22:00:00.000Z
@@ -23,7 +23,7 @@ faqs:
   - q: "Is the Adobe Stock free collection really free for commercial use?"
     a: "Yes. Adobe's [Stock FAQ](https://helpx.adobe.com/stock/faq.html) says downloading a free asset gives you a royalty-free commercial-use licence: Standard for photos, vectors and illustrations, Enhanced for videos and templates. There's a cap on how many free assets you can take in a given period. Make sure you click the free licence button, because the watermarked preview of a paid asset is a different file with no rights to publish."
   - q: "Can I use free stock footage in monetised YouTube videos?"
-    a: "Yes, on sites whose licence allows commercial use. Pexels, Pixabay, Coverr and Mixkit's Free licence all cover monetised video. Watch for clips on Mixkit under its Restricted licence, which is personal and non-commercial only, and Videvo clips marked Editorial Use Only. A Content ID claim on a stock clip usually means someone else registered it, so keep your download page to dispute it. Our guide to [free clips for Reels and TikTok](https://allthefreestock.com/blog/free-clips-for-reels-tiktok-edits/) covers disputes in more detail."
+    a: "Yes, on sites whose licence allows commercial use. Pexels, Pixabay, Coverr and Mixkit's Free licence all cover monetised video. Watch for clips on Mixkit under its Restricted licence, which is personal and non-commercial only, and Magnific's free videos, which need a credit. A Content ID claim on a stock clip usually means someone else registered it, so keep your download page to dispute it. Our guide to [free clips for Reels and TikTok](https://allthefreestock.com/blog/free-clips-for-reels-tiktok-edits/) covers disputes in more detail."
   - q: "What happens if I accidentally publish a watermarked comp image?"
     a: "Take it down and license it, quickly. The agency can claim infringement for the unlicensed use, and the watermark makes it easy for its image-matching tools to find. Buying the licence after the fact doesn't erase the earlier use, so keep a record of when it went live and when you fixed it. iStock's licence says watermarked files are for layout tests only and must not appear in public materials ([iStock licence](https://www.istockphoto.com/legal/license-agreement))."
   - q: "Can I use free stock images for client work and hand them over?"
@@ -47,10 +47,8 @@ sources:
     url: "https://coverr.co/license"
   - title: "Mixkit: Licences"
     url: "https://mixkit.co/license/"
-  - title: "Videvo Help: Licence types and usage"
-    url: "https://help.videvo.net/article/27-license-types-and-usage"
-  - title: "Laffaz (2026): Freepik rebrands as Magnific"
-    url: "https://laffaz.com/freepik-rebrands-magnific-ai-creative-platform/"
+  - title: "Tech.eu (2026): Freepik rebrands as Magnific"
+    url: "https://tech.eu/2026/04/28/freepik-rebrands-as-magnific-unifying-its-ai-creative-stack-as-enterprise-and-no-collar-growth-accelerates/"
   - title: "Magnific: Licences and attribution"
     url: "https://www.magnific.com/ai/docs/licenses-attribution"
   - title: "Magnific: Terms of use"
@@ -104,13 +102,13 @@ Most other sites calling themselves free fall into one of three groups:
 
 - **Free with a credit.** Magnific (the platform formerly called Freepik) and Vecteezy give away files without a watermark, but their free licences require attribution and cap what you can do commercially.
 - **Free previews of paid files.** Adobe Stock, iStock and Shutterstock let you download watermarked comps for mock-ups. Those files carry no right to publish.
-- **Mixed libraries.** Videvo and Mixkit host free and paid or restricted items side by side, so the licence changes from one clip to the next.
+- **Mixed libraries.** Mixkit hosts free and restricted clips side by side, so the licence changes from one clip to the next.
 
 The rest of this guide shows which licence sits behind each download, what "commercial use" covers, and the handful of things no free licence allows. If you're new to licence types, our guide to [free stock photo licences](https://allthefreestock.com/blog/free-stock-photo-licences-explained/) explains CC0, custom licences and editorial-only terms first.
 
 ## Which sites give clean files with no credit?
 
-Nine sites offer free, full files with no watermark and no attribution requirement. We checked these against each site's own licence page in October 2026. Two of the biggest, Pexels and Unsplash, are often described as CC0. Neither is. Both now use their own licences, which are just as generous for normal commercial work but add a few rules of their own.
+Eight sites offer free, full files with no watermark and no attribution requirement. We checked these against each site's own licence page in October 2026. Two of the biggest, Pexels and Unsplash, are often described as CC0. Neither is. Both now use their own licences, which are just as generous for normal commercial work but add a few rules of their own.
 
 | Site | Media | Watermark on free download | Credit needed | Commercial use | Notable restriction |
 | - | - | - | - | - | - |
@@ -121,7 +119,6 @@ Nine sites offer free, full files with no watermark and no attribution requireme
 | [Burst](https://www.shopify.com/stock-photos/licenses/shopify-some-rights-reserved) | Photos | No | No | Yes | No selling photos in any form |
 | [Coverr](https://coverr.co/license) | Video, music | No | No | Yes | No redistribution; no AI training |
 | [Mixkit](https://mixkit.co/license/) (Free licence) | Video, music, SFX | No | No | Yes | Restricted-licence items are personal only |
-| [Videvo](https://help.videvo.net/article/27-license-types-and-usage) (Royalty-Free clips) | Video, music, SFX | No | No | Yes, unless editorial | Licence varies per clip |
 | [Adobe Stock free collection](https://stock.adobe.com/free) | Photos, video, vectors | No | No | Yes | Download cap; Standard licence limits apply |
 
 Sources: each site's licence page, linked in the table.
@@ -152,7 +149,7 @@ On freemium sites, the catch sits in the licence terms or in the paywall, even w
 
 ### Magnific (formerly Freepik)
 
-Freepik rebranded as Magnific on 28 April 2026, and the merged platform still carries a library of more than 250 million stock assets ([Laffaz, April 2026](https://laffaz.com/freepik-rebrands-magnific-ai-creative-platform/)). Its [licences and attribution page](https://www.magnific.com/ai/docs/licenses-attribution) is blunt: free-licence assets need attribution "always", and you need a Premium, Premium+ or Pro subscription to drop the credit.
+Freepik rebranded as Magnific on 28 April 2026 ([Tech.eu, April 2026](https://tech.eu/2026/04/28/freepik-rebrands-as-magnific-unifying-its-ai-creative-stack-as-enterprise-and-no-collar-growth-accelerates/)). The old Videvo free video site now redirects to Magnific's video section too, so clips you used to grab from Videvo fall under Magnific's licence. Its [licences and attribution page](https://www.magnific.com/ai/docs/licenses-attribution) is blunt: free-licence assets, videos included, need attribution "always", and you need a Premium, Premium+ or Pro subscription to drop the credit.
 
 The [terms of use](https://www.magnific.com/legal/terms-of-use) add more. Section 4 sets daily download limits for free users. Section 8.1 bars using content as the main element of items "aimed to be resold", bars reselling or sublicensing the files, and bars using them in a trademark unless you've changed them into a new work. Physical products for commercial sale only open up on Pro, capped at 100,000 units per asset (section 9.3.4).
 
@@ -183,7 +180,7 @@ Unsplash runs a paid tier, Unsplash+, alongside its free library. At launch in O
 
 ## What does "commercial use" actually cover?
 
-Commercial use means any use that promotes a business or makes money: ads, websites, social posts, sales decks, client projects and monetised video. All nine free sites in the first table allow it. The limits start when the stock image itself becomes the thing you're selling.
+Commercial use means any use that promotes a business or makes money: ads, websites, social posts, sales decks, client projects and monetised video. All eight free sites in the first table allow it. The limits start when the stock image itself becomes the thing you're selling.
 
 | Use | Pexels, Unsplash, Pixabay | Watch out for |
 | - | - | - |
@@ -219,7 +216,7 @@ Pixabay's licence says content showing recognisable trademarks, logos or brands 
 
 ### Reselling or redistributing the file
 
-Every licence we read bans passing the original file on as a stock asset. Pexels names "other stock photo or wallpaper platforms", Coverr names website builders, theme providers and app builders, and Videvo's royalty-free licence says "You may NOT redistribute the clip(s) in their original form."
+Every licence we read bans passing the original file on as a stock asset. Pexels names "other stock photo or wallpaper platforms", Coverr names website builders, theme providers and app builders, and Magnific's terms bar including its files in databases or stock libraries for distribution.
 
 ### Using the image as your trademark
 
@@ -247,7 +244,7 @@ Image owners do pursue these claims. Pictorial, graphic and sculptural works mad
 
 ## Free video without watermarks
 
-For commercial video with no watermark and no credit, Pexels, Pixabay, Coverr and Mixkit's Free licence are the safest starting points. Videvo works too if you filter each clip by licence. The watermark problem in video usually comes from editing apps that stamp their logo on exports, and you avoid that by downloading the source clip from the stock site.
+For commercial video with no watermark and no credit, Pexels, Pixabay, Coverr and Mixkit's Free licence are the safest starting points. Videvo, long a staple of these lists, now redirects to Magnific, where free clips need a credit. The watermark problem in video usually comes from editing apps that stamp their logo on exports, and you avoid that by downloading the source clip from the stock site.
 
 | Site | Licence on free clips | Credit | Watch for |
 | - | - | - | - |
@@ -255,9 +252,9 @@ For commercial video with no watermark and no credit, Pexels, Pixabay, Coverr an
 | Pixabay | Pixabay Content Licence | No | Sponsored third-party results |
 | Coverr | Coverr Licence | No | No AI training; no resale |
 | Mixkit | Stock Video Free Licence | No | Restricted-licence clips are non-commercial |
-| Videvo | Royalty-Free, Attribution, `CC BY 3.0` or Editorial | Depends on clip | Editorial clips can't promote anything |
+| Magnific (formerly Videvo) | Magnific Free licence | Yes | Daily download limits; no resale |
 
-Mixkit's Free licence covers commercial projects such as YouTube videos, social media marketing, online ads and music videos, while its Restricted licence is limited to personal, non-commercial projects. The two sit in the same library, so read the licence label on each clip. Videvo's help centre lists five licence types, and its `CC BY 3.0` clips that show identifiable people, brands or private property need a release before commercial use.
+Mixkit's Free licence covers commercial projects such as YouTube videos, social media marketing, online ads and music videos, while its Restricted licence is limited to personal, non-commercial projects. The two sit in the same library, so read the licence label on each clip.
 
 For more video sources, see our roundup of the [best free stock footage sites](https://allthefreestock.com/blog/best-free-stock-footage-sites/). If you're cutting short-form, the [free clips for Reels and TikTok](https://allthefreestock.com/blog/free-clips-for-reels-tiktok-edits/) guide covers music, Content ID and platform-specific claims.
 
@@ -274,7 +271,7 @@ Before you download a file for a commercial project, open the licence page, conf
 | Image has no third-party risk | The image itself | No readable logos; people used neutrally |
 | You've saved proof | Your asset log | Source URL, licence, date, screenshot |
 
-For agency and in-house teams, the asset log is the step that pays off. Free licences change: Pexels and Unsplash both started on CC0 and now use their own licences. A dated screenshot of the licence page shows which terms applied on the day you downloaded.
+For agency and in-house teams, the asset log is the step that pays off. Free licences change: Pexels and Unsplash both started on CC0 and now use their own licences, and Pixabay last updated its terms on 20 October 2026. A dated screenshot of the licence page shows which terms applied on the day you downloaded.
 
 > **Worth knowing:** AI answer engines tend to cite pages that state licence terms precisely and link to the source. As a [Melbourne AI SEO consultant](https://saijogeorge.com), Saijo George sees the same habits that keep you legally safe, such as named sources, dated checks and accurate claims, make a page more likely to be quoted.
 
