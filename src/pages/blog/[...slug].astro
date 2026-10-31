@@ -6,9 +6,10 @@ import Faq from '../../components/Faq.astro';
 import { inlineMarkdown } from '../../lib/inline-markdown';
 import AuthorBio from '../../components/AuthorBio.astro';
 import { getCollection, render } from 'astro:content';
+import { isPublished } from '../../lib/posts';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const posts = await getCollection('blog', ({ data }) => isPublished(data));
   return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
 }
 

@@ -2,8 +2,9 @@
 import Layout from '../../layouts/Layout.astro';
 import PostCard from '../../components/PostCard.astro';
 import { getCollection } from 'astro:content';
+import { isPublished } from '../../lib/posts';
 
-const allPosts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+const allPosts = (await getCollection('blog', ({ data }) => isPublished(data))).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 const [featured, ...rest] = allPosts;
