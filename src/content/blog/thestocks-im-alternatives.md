@@ -6,6 +6,7 @@ topic: "Directories"
 pubDate: 2026-11-05T22:00:00.000Z
 updatedDate: 2026-11-05T22:00:00.000Z
 readingTime: "14 min read"
+coverImage: "/images/thestocks-im-alternatives.png"
 draft: false
 tldr:
   - "TheStocks.im hasn't shut down. At the time of writing (October 2026) the domain loads \"The Stocks 3\", a Panda Network directory of 2,100+ design tools, and no longer works as a one-stop free stock photo browser."

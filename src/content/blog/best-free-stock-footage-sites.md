@@ -6,6 +6,7 @@ topic: "Video"
 pubDate: 2026-10-31T22:00:00.000Z
 updatedDate: 2026-10-31T22:00:00.000Z
 readingTime: "16 min read"
+coverImage: "/images/best-free-stock-footage-sites.png"
 draft: false
 tldr:
   - "For commercial work with no credit line, start with [Pexels](https://www.pexels.com/license/), [Pixabay](https://pixabay.com/service/license-summary/), [Mixkit](https://mixkit.co/license/) and [Coverr](https://coverr.co/license). All four had no-attribution licences when we checked in October 2026."

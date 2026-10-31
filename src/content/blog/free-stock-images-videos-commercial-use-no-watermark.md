@@ -6,6 +6,7 @@ topic: "Licensing"
 pubDate: 2026-11-01T22:00:00.000Z
 updatedDate: 2026-11-01T22:00:00.000Z
 readingTime: "14 min read"
+coverImage: "/images/free-stock-images-videos-commercial-use-no-watermark.png"
 draft: false
 tldr:
   - "For clean files with no watermark and no credit line, use Pexels, Unsplash, Pixabay, StockSnap and Burst for photos, and Pexels, Pixabay, Coverr and Mixkit's Free licence for video. We checked each licence page in October 2026."
