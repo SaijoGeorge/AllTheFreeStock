@@ -7,7 +7,7 @@ pubDate: 2026-11-02T22:00:00.000Z
 updatedDate: 2026-11-02T22:00:00.000Z
 readingTime: "16 min read"
 coverImage: "/images/are-ai-images-copyrighted.png"
-draft: false
+draft: true
 tldr:
   - "In the US, an image generated from a prompt alone has no copyright. The Supreme Court declined to hear *Thaler v. Perlmutter* on 2 March 2026, leaving the human authorship rule in place."
   - "The UK is the outlier: section 9(3) of the CDPA still protects computer-generated works, but the government's March 2026 report proposes removing that protection. China has protected AI images where the user shows real creative input. Australia and the EU require a human author."

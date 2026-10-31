@@ -84,16 +84,16 @@ export const sections: ResourceSection[] = [
       },
       {
         "name": "Stock Up",
-        "url": "https://www.sitebuilderreport.com/stock-photo-search",
+        "url": "https://stockup.sitebuilderreport.com/",
         "subcategory": "Multisite Search",
         "note": "Search 25,000+ free stock photos.",
         "tag": "site licence"
       },
       {
-        "name": "Creative Commons",
-        "url": "https://ccsearch.creativecommons.org/",
+        "name": "Openverse",
+        "url": "https://openverse.org/",
         "subcategory": "Multisite Search",
-        "note": "Search Creative Commons licensed images.",
+        "note": "Search 800M+ openly licensed images and audio (formerly CC Search).",
         "tag": "mixed"
       },
       {

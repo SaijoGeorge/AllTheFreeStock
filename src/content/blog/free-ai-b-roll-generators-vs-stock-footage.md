@@ -7,7 +7,7 @@ pubDate: 2026-11-04T22:00:00.000Z
 updatedDate: 2026-11-04T22:00:00.000Z
 readingTime: "17 min read"
 coverImage: "/images/free-ai-b-roll-generators-vs-stock-footage.png"
-draft: false
+draft: true
 tldr:
   - "Free AI video tiers are small. Google Flow gives non-subscribers 50 credits a day, enough for five 8-second Veo 3.1 Lite clips, and Runway's free plan is a one-time 125 credits, which works out to five 5-second clips in total."
   - "Most free AI output is watermarked or barred from commercial use. Runway, Kling and Google's Veo add a visible watermark, and Pika's free plan has no watermark but excludes a commercial licence."

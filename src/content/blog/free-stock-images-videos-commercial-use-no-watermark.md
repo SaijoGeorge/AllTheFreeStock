@@ -7,7 +7,7 @@ pubDate: 2026-11-01T22:00:00.000Z
 updatedDate: 2026-11-01T22:00:00.000Z
 readingTime: "14 min read"
 coverImage: "/images/free-stock-images-videos-commercial-use-no-watermark.png"
-draft: false
+draft: true
 tldr:
   - "For clean files with no watermark and no credit line, use Pexels, Unsplash, Pixabay, StockSnap and Burst for photos, and Pexels, Pixabay, Coverr and Mixkit's Free licence for video. We checked each licence page in October 2026."
   - "Freemium sites put the catch in the licence. Free downloads on Magnific (formerly Freepik) and Vecteezy require a credit, and Vecteezy's Free licence caps print runs at 50 copies and video budgets at US$1,000."

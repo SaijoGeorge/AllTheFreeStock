@@ -7,7 +7,7 @@ pubDate: 2026-11-06T22:00:00.000Z
 updatedDate: 2026-11-06T22:00:00.000Z
 readingTime: "15 min read"
 coverImage: "/images/free-stock-photo-sites-that-shut-down.png"
-draft: false
+draft: true
 tldr:
   - "Free stock sites rarely announce their closure. Most go quiet, get bought or start redirecting. When we checked in October 2026, [FreeImages](https://en.wikipedia.org/wiki/FreeImages) (the old stock.xchng, which once held 400,000+ photos) redirected straight to iStock."
   - "Outright closures in 2025 and 2026 include EyeEm (January 2026) and Nappy, which said in October 2026 it would go offline within months because demand for authentic images \"fell off a cliff\" ([Nappy](https://nappy.co/future))."

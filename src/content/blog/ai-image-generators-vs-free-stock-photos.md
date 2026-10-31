@@ -7,7 +7,7 @@ pubDate: 2026-11-03T22:00:00.000Z
 updatedDate: 2026-11-03T22:00:00.000Z
 readingTime: "14 min read"
 coverImage: "/images/ai-image-generators-vs-free-stock-photos.png"
-draft: false
+draft: true
 tldr:
   - "Use free stock when the image has to be real (people, places, products, events) or when you need a licence you can point to. Use an AI generator when you need something specific that doesn't exist yet, such as a concept, an abstract background or a stylised illustration."
   - "Ownership is the biggest difference. Purely prompted AI images generally can't be copyrighted in the US, because the [US Copyright Office](https://www.copyright.gov/newsnet/2025/1060.html) says prompts alone aren't enough, so anyone can reuse them. A stock licence gives you defined rights from a named contributor."
