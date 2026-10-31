@@ -1,6 +1,7 @@
 ---
 title: "How to Find Stock Photos That Aren't AI-Generated"
 excerpt: "Plenty of stock libraries now mix generated images in with real photography. Here's where to look, which sites ban AI, and a seven-step check that works on any single file."
+metaDescription: "Stock libraries are filling with AI images. Use our 7-step check (metadata, Content Credentials, reverse search) and see which photo sites ban AI outright."
 topic: "Authenticity"
 pubDate: 2026-10-31T09:00:00.000Z
 updatedDate: 2026-10-31T09:00:00.000Z

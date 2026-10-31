@@ -1,6 +1,7 @@
 ---
 title: "Free Clips for Reels, TikTok and Edits: Where to Find Them and Use Them Safely"
 excerpt: "Most \"free clips\" doing the rounds are someone else's footage with no licence attached. Here's where genuinely free video lives, how platform copyright systems treat your edits, and the checks to run before you post."
+metaDescription: "Most free clips online aren't licensed. Find safe sources for Reels and TikTok, learn what triggers copyright claims, and run our quick pre-post checklist."
 topic: "Video"
 pubDate: 2026-10-31T09:00:00.000Z
 updatedDate: 2026-10-31T09:00:00.000Z
