@@ -92,6 +92,20 @@ const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
           </>
         )}
 
+        {post.data.sources.length > 0 && (
+          <section class="sources mt-12" aria-labelledby="sources-heading">
+            <h2 id="sources-heading" class="font-serif font-normal text-[33px] leading-tight tracking-tight mb-4">Sources</h2>
+            <ol>
+              {post.data.sources.map((s: { title: string; url: string }) => (
+                <li>
+                  <a href={s.url} rel="noopener">{s.title}</a>
+                  <span class="source-host">{new URL(s.url).hostname.replace(/^www\./, '')}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
+
         <AskAiRow title={post.data.title} url={canonicalUrl} />
 
         <AuthorBio />
@@ -202,5 +216,53 @@ const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
   }
   .prose-content :global(strong) {
     color: #1c2b28;
+  }
+  .prose-content :global(code) {
+    font-family: var(--font-mono);
+    font-size: 0.86em;
+    padding: 0.12em 0.42em;
+    border-radius: 6px;
+    background: rgba(84, 141, 135, 0.13);
+    border: 1px solid rgba(63, 122, 116, 0.18);
+    color: #0f4d49;
+    word-break: break-word;
+  }
+  .prose-content :global(pre) {
+    margin: 22px 0;
+    padding: 16px 18px;
+    border-radius: 14px;
+    background: #1c2b28 !important;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .prose-content :global(pre code) {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #e6f1ef;
+    font-size: inherit;
+  }
+  .sources ol {
+    margin: 0;
+    padding: 18px 22px 18px 40px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    font-size: 14.5px;
+    line-height: 1.55;
+    gap: 8px;
+  }
+  .sources li::marker {
+    color: #6c7d77;
+    font-family: var(--font-mono);
+    font-size: 12px;
+  }
+  .sources .source-host {
+    display: inline-block;
+    margin-left: 8px;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    color: #6c7d77;
   }
 </style>

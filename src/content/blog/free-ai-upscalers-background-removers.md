@@ -34,6 +34,67 @@ faqs:
     a: "No. The Unsplash and Pexels licences let you edit images for your own projects, but both forbid selling unaltered copies or putting them into a competing stock service, and an upscale or cutout doesn't change who owns the photo. You'd also be submitting work you didn't create, which breaks every agency's contributor terms. Upscaling free stock is fine for your own designs and client work, though. Check the image's licence first."
   - q: "Why did my upscaled image get rejected for quality?"
     a: "Usually because the upscaler invented texture or smoothed detail, and the reviewer saw it at 100%. Common triggers are waxy skin, mushy foliage, repeated patterns in fabric or brick, and garbled text on signs or labels. Adobe's PNG and photo requirements also call out compression artefacts. Clean the source first, upscale only as far as you need (2x is safer than 4x), and compare against the original at full size before you submit."
+sources:
+  - title: "Upscayl on GitHub"
+    url: "https://github.com/upscayl/upscayl"
+  - title: "Adobe Stock Contributor: Generative AI content guidelines"
+    url: "https://helpx.adobe.com/stock/contributor/help/generative-ai-content.html"
+  - title: "Shutterstock Contributor Help: Content policy updates, AI-generated content"
+    url: "https://submit.shutterstock.com/help/en/articles/10594622-content-policy-updates-ai-generated-content"
+  - title: "Adobe Stock Contributor: Technical requirements for PNG submissions"
+    url: "https://helpx.adobe.com/stock/contributor/submit-your-content/submit-pngs/technical-requirements-png-submission.html"
+  - title: "Adobe Stock Contributor: Technical and legal requirements for photos"
+    url: "https://helpx.adobe.com/stock/contributor/submit-your-content/submit-photos/technical-legal-requirements-photo-submission.html"
+  - title: "Shutterstock Contributor Help: Technical requirements for images"
+    url: "https://submit.shutterstock.com/help/en/articles/10617390-what-are-the-technical-requirements-for-images"
+  - title: "Getty Images: AI-free imagery policy"
+    url: "https://www.gettyimages.com/company/ai-free-imagery-policy"
+  - title: "Adobe Community: Labelling real photos that were upscaled with AI"
+    url: "https://community.adobe.com/t5/stock-contributors-discussions/how-to-properly-label-material-if-it-s-real-photos-but-upscaled-using-ai/m-p/15112449/highlight/true"
+  - title: "LetsEnhance: Pricing"
+    url: "https://letsenhance.io/pricing"
+  - title: "LetsEnhance Help: Getting started"
+    url: "https://help.letsenhance.io/en/article/how-to-get-started-with-lets-enhance-20-1tam3pm/"
+  - title: "Claid.ai: Pricing"
+    url: "https://claid.ai/pricing"
+  - title: "Claid.ai: Prime upscaler"
+    url: "https://claid.ai/blog/article/prime"
+  - title: "remove.bg Help: Maximum image resolution and file size"
+    url: "https://www.remove.bg/help/a/what-is-the-maximum-image-resolution-file-size"
+  - title: "remove.bg: API"
+    url: "https://www.remove.bg/api"
+  - title: "remove.bg: Desktop app for Windows, Mac and Linux"
+    url: "https://www.remove.bg/a/background-remover-windows-mac-linux"
+  - title: "Photoroom Help: Image resolution limits for exports"
+    url: "https://help.photoroom.com/en/articles/4566301-image-resolution-limits-for-exports"
+  - title: "Photoroom Help: Export limit"
+    url: "https://help.photoroom.com/en/articles/15284788-export-limit"
+  - title: "Photoroom Help: Photoroom plans"
+    url: "https://help.photoroom.com/en/articles/6976012-what-are-photoroom-s-plans"
+  - title: "Photoroom: API pricing"
+    url: "https://www.photoroom.com/api/pricing"
+  - title: "Adobe Camera Raw: Super Resolution (2021 release notes)"
+    url: "https://helpx.adobe.com/camera-raw/using/whats-new/2021-2.html"
+  - title: "Photoshop Essentials (2026): How to use Generative Upscale in Photoshop"
+    url: "https://www.photoshopessentials.com/photo-editing/how-to-use-generative-upscale-in-photoshop-2026/"
+  - title: "Topaz Gigapixel"
+    url: "https://www.topazlabs.com/gigapixel"
+  - title: "Canva Help: Background Remover"
+    url: "https://www.canva.com/help/background-remover/"
+  - title: "Clipdrop: Pricing"
+    url: "https://clipdrop.co/pricing"
+  - title: "Clipdrop API docs: Image upscaling"
+    url: "https://clipdrop.co/apis/docs/image-upscaling"
+  - title: "Pixelcut: Pricing"
+    url: "https://www.pixelcut.ai/pricing"
+  - title: "Cutout.pro: Image pricing"
+    url: "https://www.cutout.pro/image-pricing"
+  - title: "rembg on GitHub"
+    url: "https://github.com/danielgatis/rembg"
+  - title: "Real-ESRGAN on GitHub"
+    url: "https://github.com/xinntao/Real-ESRGAN"
+  - title: "ExifTool FAQ"
+    url: "https://exiftool.org/faq.html"
 ---
 ## What these tools do, and what "free" really means
 
@@ -84,7 +145,7 @@ Built for e-commerce product and fashion photos. The [free plan](https://claid.a
 
 ### remove.bg
 
-The tool that made one-click background removal mainstream. Free cutouts are previews capped at [0.25 megapixels, about 625 x 400 pixels](https://www.remove.bg/fr/help/a/what-is-the-maximum-image-resolution-file-size). Full resolution goes up to 50MP but costs credits, and a free account gets one bonus credit to test it. The [API](https://www.remove.bg/api) gives 50 free calls a month, at preview size. There's a [desktop app](https://www.remove.bg/a/background-remover-windows-mac-linux) that processes whole folders, if you have credits.
+The tool that made one-click background removal mainstream. Free cutouts are previews capped at [0.25 megapixels, about 625 x 400 pixels](https://www.remove.bg/help/a/what-is-the-maximum-image-resolution-file-size). Full resolution goes up to 50MP but costs credits, and a free account gets one bonus credit to test it. The [API](https://www.remove.bg/api) gives 50 free calls a month, at preview size. There's a [desktop app](https://www.remove.bg/a/background-remover-windows-mac-linux) that processes whole folders, if you have credits.
 
 The bigger news: the remove.bg site now carries a banner saying the standalone website "will no longer be available from 1 December 2026" and that background removal is moving to Canva. The pages we checked don't say what happens to the API or unused credits.
 
@@ -102,7 +163,7 @@ No free tier, but most serious contributors already pay for it, so it's the base
 
 - **Remove Background** (a Quick Action) and Select Subject for cutouts, with Select and Mask for refining hair.
 - **Super Resolution** in Camera Raw, which [doubles the width and height, giving 4x the pixel count](https://helpx.adobe.com/camera-raw/using/whats-new/2021-2.html), and saves a new DNG next to the original.
-- **Generative Upscale**, which Adobe lists among Photoshop's generative AI features. According to a [walkthrough of the 2026 release](https://www.photoshopessentials.com/photo-editing/how-to-use-generative-upscale-in-photoshop-2026/), it offers a Firefly model (up to 6144 x 6144 px) and Topaz Gigapixel (about 56MP) and Bloom (about 9MP) models. The Topaz models use generative credits.
+- **Generative Upscale**, which Adobe lists among Photoshop's generative AI features. According to a [walkthrough of the 2026 release](https://www.photoshopessentials.com/photo-editing/how-to-use-generative-upscale-in-photoshop-2026/), it offers a Firefly model (up to 6144 x 6144 px) and [Topaz Gigapixel](https://www.topazlabs.com/gigapixel) (about 56MP) and Bloom (about 9MP) models. The Topaz models use generative credits.
 
 **Stock suitability:** the best overall control and metadata handling, because everything happens inside one file. Be careful with Generative Upscale on Getty and Shutterstock uploads: both bar AI-generated content, and a generative model can add detail that wasn't in the frame.
 
@@ -140,7 +201,7 @@ One licence trap: the README says model weights carry their own licences, and th
 
 ### Upscayl and Real-ESRGAN (open source)
 
-[Upscayl](https://github.com/upscayl/upscayl) is a free desktop app for Windows, macOS and Linux, licensed AGPLv3, that uses Real-ESRGAN models in a simple interface. It handles batch folders and offers several models. It needs a Vulkan-compatible graphics card, and the project warns that many integrated graphics chips won't work. There's also a paid Upscayl Cloud for people without the hardware.
+[Upscayl](https://github.com/upscayl/upscayl) is a free desktop app for Windows, macOS and Linux, licensed AGPLv3, that uses [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) models (BSD-3-Clause) in a simple interface. It handles batch folders and offers several models. It needs a Vulkan-compatible graphics card, and the project warns that many integrated graphics chips won't work. There's also a paid Upscayl Cloud for people without the hardware.
 
 **Stock suitability:** the best free route to full-resolution upscales with no watermark. Real-ESRGAN models can over-sharpen and paint in texture, so QA matters more here, not less.
 

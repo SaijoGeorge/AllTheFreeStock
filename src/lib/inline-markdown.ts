@@ -8,6 +8,7 @@ const LINK = /\[([^\]]+)\]\(([^)\s]+)\)/g;
 
 export function inlineMarkdown(src: string): string {
   return escapeHtml(src)
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
     .replace(LINK, (_m, text: string, url: string) => {
       if (!/^(https?:\/\/|\/|#|mailto:)/i.test(url)) return text;
       const external = /^https?:\/\//i.test(url) && !/^https?:\/\/(www\.)?allthefreestock\.com/i.test(url);
@@ -20,5 +21,5 @@ export function inlineMarkdown(src: string): string {
 
 // Plain text for structured data: keeps link text, drops markdown syntax.
 export function stripInlineMarkdown(src: string): string {
-  return src.replace(LINK, '$1').replace(/\*\*([^*]+)\*\*/g, '$1').replace(/\*([^*]+)\*/g, '$1');
+  return src.replace(/`([^`]+)`/g, '$1').replace(LINK, '$1').replace(/\*\*([^*]+)\*\*/g, '$1').replace(/\*([^*]+)\*/g, '$1');
 }

@@ -23,6 +23,14 @@ const blog = defineCollection({
         })
       )
       .default([]),
+    sources: z
+      .array(
+        z.object({
+          title: z.string(),
+          url: z.string().url(),
+        })
+      )
+      .default([]),
   }),
 });
 

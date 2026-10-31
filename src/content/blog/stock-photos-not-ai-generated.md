@@ -11,7 +11,7 @@ draft: false
 tldr:
   - "Start at libraries that ban AI uploads: Unsplash, Pexels, Shutterstock, Stocksy and Getty Images all refuse generated submissions at the time of writing (October 2026). Pixabay and Adobe Stock accept AI content but label it."
   - "Your eyes aren't enough. In Microsoft's 2025 study of 12,500+ people, participants picked real from AI images only 62% of the time."
-  - "Check metadata first: an IPTC Digital Source Type of trainedAlgorithmicMedia means the file says it was generated, and contentcredentials.org/verify reads C2PA Content Credentials."
+  - "Check metadata first: an [IPTC Digital Source Type](https://cv.iptc.org/newscodes/digitalsourcetype/) of `trainedAlgorithmicMedia` means the file says it was generated, and the [Content Credentials Verify tool](https://verify.contentauthenticity.org/) reads C2PA data."
   - "Detection tools help but break easily. A 2025 benchmark found several detectors' accuracy on fake images fell close to zero after JPEG compression."
   - "\"Not AI-generated\" and \"not licensed for AI training\" are separate questions. Opt-outs such as Spawning's Do Not Train registry and EU text and data mining reservations cover the second."
   - "For guaranteed provenance, use museum and government archives or commission a local photographer and keep the raw files."
@@ -34,6 +34,95 @@ faqs:
     a: "It can, if the credential survived. Adobe apps record generative edits as actions in the C2PA manifest, and the [Verify tool](https://opensource.contentauthenticity.org/docs/verify) lists them in its process panel. In IPTC terms, an inpainted or outpainted photo should carry compositeWithTrainedAlgorithmicMedia rather than digitalCapture. If the manifest was stripped by a re-save or an upload, Verify shows \"No Content Credential\" and you're back to the other checks."
   - q: "Can I use a photo marked do not train in my marketing?"
     a: "Yes. A do-not-train flag only tells AI developers not to scrape the image for model training. It has no effect on you placing it in a brochure or blog post, which is governed by the normal licence. Read the licence for that, and see our guide to [free stock photo licence types](https://allthefreestock.com/blog/free-stock-photo-licences-explained/) for what each one allows."
+sources:
+  - title: "IPTC: Digital Source Type NewsCodes vocabulary"
+    url: "https://cv.iptc.org/newscodes/digitalsourcetype/"
+  - title: "Content Authenticity Initiative: Verify tool"
+    url: "https://verify.contentauthenticity.org/"
+  - title: "Baker Botts (2026): EU AI Act Article 50 transparency obligations go live"
+    url: "https://www.bakerbotts.com/thought-leadership/publications/2026/september/eu-ai-act-article-50-transparency-obligations-go-live"
+  - title: "Unsplash Help: Submission guidelines"
+    url: "https://help.unsplash.com/en/articles/2534415-unsplash-submission-guidelines"
+  - title: "Adobe Community (2023): Generative AI filter now available in Adobe Stock search"
+    url: "https://community.adobe.com/announcements-30/generative-ai-filter-now-available-for-adobe-stock-search-1495373"
+  - title: "ProVideo Coalition (2013): IPTC study on social networks removing photo metadata"
+    url: "https://www.provideocoalition.com/iptc-study-shows-some-social-media-networks-remove-rights-information-from-photos/"
+  - title: "Li et al. (2025): AIGIBench, benchmarking AI-generated image detectors (arXiv)"
+    url: "https://arxiv.org/html/2505.12335v1"
+  - title: "Wikimedia Commons: AI-generated media guideline"
+    url: "https://commons.wikimedia.org/wiki/Commons:AI-generated_media"
+  - title: "TechRadar (2024): How photo contests are dealing with AI-generated entries"
+    url: "https://www.techradar.com/cameras/photography/ai-will-be-a-watershed-moment-and-the-great-mega-trend-of-our-generation-photo-contest-experts-tell-us-how-theyre-dealing-with-a-tidal-wave-of-ai-generated-images"
+  - title: "Content Authenticity Initiative docs: How the Verify tool works"
+    url: "https://opensource.contentauthenticity.org/docs/verify"
+  - title: "Digital Camera World (2026): Storyblocks survey of image buyers on human-made vs AI"
+    url: "https://www.digitalcameraworld.com/tech/artificial-intelligence/two-thirds-of-image-buyers-believe-human-made-is-better-than-ai-generated-but-87-percent-surveyed-still-admit-to-using-ai"
+  - title: "Microsoft AI for Good Lab (2025): How good are humans at detecting AI-generated images? (arXiv)"
+    url: "https://arxiv.org/html/2507.18640v1"
+  - title: "Conjointly (2025): Can people tell real images from AI?"
+    url: "https://conjointly.com/blog/real-vs-ai-images-2025/"
+  - title: "Kamali et al., Northwestern (CHI 2025): Characterizing photorealism and artifacts in AI images (arXiv)"
+    url: "https://ar5iv.labs.arxiv.org/html/2502.11989"
+  - title: "Kellogg Insight (2025): Are we any good at spotting AI fakes?"
+    url: "https://insight.kellogg.northwestern.edu/article/are-we-any-good-at-spotting-ai-fakes"
+  - title: "ExifTool by Phil Harvey"
+    url: "https://exiftool.org/"
+  - title: "IPTC (2023): Google announces use of IPTC metadata for generative AI images"
+    url: "https://iptc.org/news/google-announces-use-of-iptc-metadata-for-generative-ai-images/"
+  - title: "Google (2024): Content transparency and C2PA in Google products"
+    url: "https://blog.google/technology/ai/google-gen-ai-content-transparency-c2pa/"
+  - title: "Google Lens"
+    url: "https://lens.google/"
+  - title: "TinEye reverse image search"
+    url: "https://tineye.com/"
+  - title: "Hive: AI-generated content detection"
+    url: "https://hivemoderation.com/ai-generated-content-detection"
+  - title: "Sightengine: AI-generated image detection"
+    url: "https://sightengine.com/detect-ai-generated-images"
+  - title: "Illuminarty"
+    url: "https://illuminarty.ai/"
+  - title: "Bellingcat (2023): Testing AI or Not, how well does an AI image detector do its job?"
+    url: "https://www.bellingcat.com/resources/2023/09/11/testing-ai-or-not-how-well-does-an-ai-image-detector-do-its-job"
+  - title: "Pexels Help: Requirements for uploading photos"
+    url: "https://help.pexels.com/hc/en-us/articles/360042795073-What-are-the-requirements-for-uploading-photos"
+  - title: "Pixabay: FAQ"
+    url: "https://pixabay.com/service/faq/"
+  - title: "Shutterstock Contributor Help: Content policy updates, AI-generated content"
+    url: "https://submit.shutterstock.com/help/en/articles/10594622-content-policy-updates-ai-generated-content"
+  - title: "Getty Images: AI-free imagery policy"
+    url: "https://www.gettyimages.com/company/ai-free-imagery-policy"
+  - title: "Stocksy Support: Policy on AI-generated content"
+    url: "https://support.stocksy.com/hc/en-us/articles/8631710866708"
+  - title: "Adobe Stock Contributor: Generative AI content guidelines"
+    url: "https://helpx.adobe.com/stock/contributor/help/generative-ai-content.html"
+  - title: "Hyperallergic (2022): Getty Images bans AI-generated content"
+    url: "https://hyperallergic.com/763563/citing-copyright-concerns-getty-images-bans-ai-generated-content/"
+  - title: "Silicon Republic (2023): Boris Eldagsen refuses Sony World Photography Award for AI image"
+    url: "https://siliconrepublic.com/machines/boris-eldagsen-ai-photo-sony-photography-awards-refused"
+  - title: "Amateur Photographer (2023): SWPA winner reveals photo was AI-generated"
+    url: "https://amateurphotographer.com/latest/photo-news/swpa-2023-winner-refuses-award-revealing-photo-to-be-ai-generated/"
+  - title: "The Decoder (2023): Artists remove 80 million images from Stable Diffusion 3 training data"
+    url: "https://the-decoder.com/artists-remove-80-million-images-from-stable-diffusion-3-training-data/"
+  - title: "Reed Smith: Text and data mining in the EU"
+    url: "https://www.reedsmith.com/articles/entertainment-media-guide-to-ai-three-years-on/text-data-mining-in-the-eu/"
+  - title: "W3C Community Group: TDM Reservation Protocol (TDMRep)"
+    url: "https://www.w3.org/community/reports/tdmrep/CG-FINAL-tdmrep-20220216/"
+  - title: "Library of Congress: Free to Use and Reuse sets"
+    url: "https://www.loc.gov/free-to-use/"
+  - title: "Trove, National Library of Australia"
+    url: "https://trove.nla.gov.au/"
+  - title: "Smithsonian (2020): Smithsonian releases 2.8 million images into the public domain"
+    url: "https://www.si.edu/newsdesk/releases/smithsonian-releases-28-million-free-images-broader-public-use"
+  - title: "NASA: Images and media usage guidelines"
+    url: "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+  - title: "State Library Victoria: Copies and permission for pictures"
+    url: "https://guides.slv.vic.gov.au/pictures/copiesandpermission"
+  - title: "Wellcome Collection: Images and copyright"
+    url: "https://docs.wellcomecollection.org/collections-information/lQ0fMyP8xr8hWWJiQkfl/enquiries/images-and-copyright/copyright-images"
+  - title: "Stocksy Support: Contributor royalty rates"
+    url: "https://support.stocksy.com/hc/en-us/articles/360052102752"
+  - title: "Security Affairs (2025): Google Pixel 10 adds C2PA to Camera and Photos"
+    url: "https://securityaffairs.com/182068/security/google-pixel-10-adds-c2pa-to-camera-and-photos-to-spot-ai-generated-or-edited-images.html"
 ---
 ## Why stock libraries need checking now
 
@@ -60,7 +149,7 @@ Source from libraries that ban AI uploads, then confirm each image with metadata
 1. **Pick a library that bans AI uploads** (table below), or turn on the "exclude AI" filter where one exists.
 2. **Scan for visual tells:** hands, text, jewellery, reflections, implausible actions.
 3. **Read the metadata.** Look at the IPTC Digital Source Type and camera EXIF.
-4. **Check Content Credentials** at contentcredentials.org/verify.
+4. **Check Content Credentials** with the free [Verify tool](https://verify.contentauthenticity.org/).
 5. **Run a reverse image search** with Google Lens and TinEye to find the earliest copy.
 6. **Use a detection tool as one vote,** never the verdict.
 7. **Confirm the photographer:** a real portfolio, other frames from the same shoot, or the raw file.
@@ -88,7 +177,7 @@ Newer models make fewer of these mistakes, and real photos can have odd artefact
 
 ### Metadata: EXIF and IPTC
 
-Metadata is the fastest objective check. Open the file in Photoshop or Lightroom (File Info), in Windows file properties, in macOS Preview's inspector, or with the free command-line tool ExifTool.
+Metadata is the fastest objective check. Open the file in Photoshop or Lightroom (File Info), in Windows file properties, in macOS Preview's inspector, or with the free command-line tool [ExifTool](https://exiftool.org/).
 
 EXIF tells you about capture: camera make and model, lens, exposure settings, date taken. A full set of believable camera data is a good sign. IPTC carries descriptive and rights data, and it includes a field built for this question: **Digital Source Type**. Google announced in May 2023 that it would use this IPTC field to signal AI-generated images and make sure its own AI images carry it ([IPTC](https://iptc.org/news/google-announces-use-of-iptc-metadata-for-generative-ai-images/)).
 
@@ -96,19 +185,19 @@ The values worth knowing, from the [IPTC controlled vocabulary](https://cv.iptc.
 
 | IPTC value | Plain meaning | Verdict |
 | - | - | - |
-| digitalCapture | Captured from real life with a camera | Good sign |
-| algorithmicallyEnhanced | Sharpening, noise reduction, no new content | Fine |
+| `digitalCapture` | Captured from real life with a camera | Good sign |
+| `algorithmicallyEnhanced` | Sharpening, noise reduction, no new content | Fine |
 | compositeWithTrainedAlgorithmicMedia | Real photo edited with generative AI (inpainting, outpainting) | Partly AI |
-| compositeSynthetic | Composite with at least one AI-generated element | Partly AI |
-| trainedAlgorithmicMedia | Created with generative AI | AI image |
+| `compositeSynthetic` | Composite with at least one AI-generated element | Partly AI |
+| `trainedAlgorithmicMedia` | Created with generative AI | AI image |
 
-In ExifTool, the field shows up as `Digital Source Type`. Search the raw output for "trainedAlgorithmicMedia" and you'll catch both full and partial AI files in one go.
+In ExifTool, the field shows up as `Digital Source Type`. Search the raw output for `trainedAlgorithmicMedia` and you'll catch both full and partial AI files in one go.
 
 > **Common mistake:** Reading empty metadata as proof of AI. Social platforms and many website builders strip EXIF and IPTC on upload. An IPTC test found Facebook, Twitter and Flickr removing embedded rights data back in 2013 ([ProVideo Coalition](https://www.provideocoalition.com/iptc-study-shows-some-social-media-networks-remove-rights-information-from-photos/)). Blank fields just mean you move on to the next check.
 
 ### Content Credentials (C2PA)
 
-Content Credentials are a signed record of how a file was made and edited, built on the open C2PA standard. Upload a file or paste a public image URL into [contentcredentials.org/verify](https://contentcredentials.org/verify) and, according to the [tool's documentation](https://opensource.contentauthenticity.org/docs/verify), it shows the signer, the app used, any AI generation or editing actions, camera capture details if present, and any do-not-train notice the creator attached. If there's no manifest, you'll see "No Content Credential".
+Content Credentials are a signed record of how a file was made and edited, built on the open C2PA standard. Upload a file or paste a public image URL into [the Content Credentials Verify tool](https://verify.contentauthenticity.org/) and, according to the [tool's documentation](https://opensource.contentauthenticity.org/docs/verify), it shows the signer, the app used, any AI generation or editing actions, camera capture details if present, and any do-not-train notice the creator attached. If there's no manifest, you'll see "No Content Credential".
 
 Google said in September 2024 that its "About this image" panel in Google Images, Lens and Circle to Search would surface C2PA data showing whether AI tools created or edited an image ([Google](https://blog.google/technology/ai/google-gen-ai-content-transparency-c2pa/)). Regulation is pushing the same way. Since 2 August 2026, the EU AI Act's Article 50 requires providers of generative AI systems to mark synthetic output in a machine-readable way, with a grace period to 2 December 2026 for systems already on the market ([Baker Botts](https://www.bakerbotts.com/thought-leadership/publications/2026/september/eu-ai-act-article-50-transparency-obligations-go-live)).
 
@@ -127,7 +216,7 @@ What you're looking for:
 
 ### AI detection tools
 
-Detectors such as Hive, AI or Not, Sightengine and Illuminarty return a probability score. They're useful for triage, but a score alone won't hold up if a client questions an image.
+Detectors such as [Hive](https://hivemoderation.com/ai-generated-content-detection), AI or Not, [Sightengine](https://sightengine.com/detect-ai-generated-images) and [Illuminarty](https://illuminarty.ai/) return a probability score. They're useful for triage, but a score alone won't hold up if a client questions an image.
 
 The research is blunt about why. A 2025 benchmark, AIGIBench, tested well-known detectors under real-world conditions. The best averaged about 80% accuracy, and under JPEG compression and added noise, accuracy on fake images fell close to zero for all of them while real photos still passed ([Li et al., 2025](https://arxiv.org/html/2505.12335v1)). Bellingcat's earlier test of AI or Not found the same pattern on a smaller scale: it caught all 100 uncompressed Midjourney images, then missed 7 of 10 once they were compressed, and it flagged 6 of 20 real photo competition entries as AI ([Bellingcat, 2023](https://www.bellingcat.com/resources/2023/09/11/testing-ai-or-not-how-well-does-an-ai-image-detector-do-its-job)).
 
@@ -209,12 +298,12 @@ For guaranteed human photography at no cost, go to institutional archives. Their
 
 | Archive | What you get | Watch out for |
 | - | - | - |
-| Library of Congress | Free to Use and Reuse sets, historic photos | Rights vary by collection; read each record |
+| [Library of Congress](https://www.loc.gov/free-to-use/) | Free to Use and Reuse sets, historic photos | Rights vary by collection; read each record |
 | Smithsonian Open Access | CC0 images, 2.8 million at launch in 2020 | Only items marked CC0 are unrestricted |
 | NASA | Space, science, aviation imagery | No endorsement implied; logos protected |
 | Wellcome Collection | Medical and social history | Licences vary: CC BY, CC BY-NC or public domain |
 | State Library Victoria | Australian historic photos | Credit the collection; Indigenous content needs permission |
-| Trove (National Library of Australia) | Aggregated Australian collections | Rights set by each contributing institution |
+| [Trove](https://trove.nla.gov.au/) (National Library of Australia) | Aggregated Australian collections | Rights set by each contributing institution |
 | Wikimedia Commons | Huge mixed collection | Hosts some AI images; check each file |
 
 Notes on the trickier ones:
@@ -260,7 +349,7 @@ Whichever route you take, keep the raw files in a dated folder. They are your pr
 If your site or brand folder has years of stock in it, some of it may be generated, especially anything bought after 2023 from libraries that accept AI. An audit doesn't need special software.
 
 1. **Export a list** of every image on the site and in the shared brand folder, with filenames and source if known.
-2. **Batch-check metadata** with ExifTool and flag any file containing trainedAlgorithmicMedia, compositeWithTrainedAlgorithmicMedia or compositeSynthetic.
+2. **Batch-check metadata** with [ExifTool](https://exiftool.org/) and flag any file containing `trainedAlgorithmicMedia`, `compositeWithTrainedAlgorithmicMedia` or `compositeSynthetic`.
 3. **Check sources.** Anything from Pixabay, Adobe Stock or an unknown origin goes into a closer-look pile.
 4. **Prioritise by risk.** Testimonials, team pages, case studies and anything presented as real customers, staff or events come first. A generated image on a "meet the team" page is a trust problem even if it's legal.
 5. **Replace or disclose.** Swap in original photography where authenticity matters. Where an AI image is fine but undisclosed, add a caption or alt text note.

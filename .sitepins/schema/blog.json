@@ -103,6 +103,32 @@
           "defaultValue": ""
         }
       ]
+    },
+    {
+      "name": "sources",
+      "label": "Sources",
+      "type": "Array",
+      "value": [],
+      "isIgnored": false,
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "url",
+          "label": "URL",
+          "type": "string",
+          "value": "",
+          "isIgnored": false,
+          "defaultValue": ""
+        }
+      ]
     }
   ]
 }

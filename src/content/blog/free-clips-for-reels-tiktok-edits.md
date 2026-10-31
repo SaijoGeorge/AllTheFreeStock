@@ -34,6 +34,45 @@ faqs:
     a: "You can make them, but you can't rely on them being free or staying up. Film and TV footage is copyrighted, and studios and distributors use matching systems like Content ID and Meta's Rights Manager to find it. Some uses may qualify as fair use in the US or fair dealing in Australia, such as criticism, review or parody, but those are legal defences decided case by case, not permissions. Expect claims, muting or removal, and never use fan edits for a brand or client."
   - q: "Are CapCut templates and effects free for commercial use?"
     a: "Only the ones labelled for it. CapCut's legal page says you can use templates and materials expressly labelled \"Commercial Use\" for things like social content and brand promotion, and that only labelled templates can be used for commercial purposes. Unlabelled templates, and the music bundled with many trending ones, are not covered. For client work, filter for the commercial label inside the app and swap any template audio for a track from a cleared library."
+sources:
+  - title: "TorrentFreak (2026): YouTube processed 2.5 billion Content ID claims in 2025"
+    url: "https://torrentfreak.com/youtube-processed-2-5-billion-content-id-copyright-claims-in-2025/"
+  - title: "Pexels: Licence"
+    url: "https://www.pexels.com/license/"
+  - title: "Pixabay: Content licence summary"
+    url: "https://pixabay.com/service/license-summary/"
+  - title: "Mixkit: Licence"
+    url: "https://mixkit.co/license/"
+  - title: "Videvo Help: Licence types and usage"
+    url: "https://help.videvo.net/article/27-license-types-and-usage"
+  - title: "Coverr: Licence"
+    url: "https://coverr.co/license"
+  - title: "NASA: Images and media usage guidelines"
+    url: "https://nasa.gov/nasa-brand-center/images-and-media"
+  - title: "Internet Archive"
+    url: "https://archive.org/"
+  - title: "Internet Archive: Prelinger Archives"
+    url: "https://archive.org/details/prelinger"
+  - title: "CapCut: Legal and commercial use"
+    url: "https://www.capcut.com/trust/legal"
+  - title: "TikTok for Business: Commercial Music Library"
+    url: "https://ads.tiktok.com/business/en-US/blog/audio-library-royalty-free-music"
+  - title: "Google Transparency Report: YouTube copyright"
+    url: "https://transparencyreport.google.com/youtube-copyright/intro"
+  - title: "YouTube Help: Copyright claims on Shorts up to three minutes"
+    url: "https://support.google.com/youtube/answer/15424877?hl=en"
+  - title: "Meta (2020): Helping creators and publishers manage their intellectual property (Rights Manager)"
+    url: "https://about.fb.com/news/2020/09/helping-creators-and-publishers-manage-their-intellectual-property"
+  - title: "TikTok: Copyright policy"
+    url: "https://www.tiktok.com/legal/page/global/copyright-policy/en"
+  - title: "Instagram for Creators (2026): Rewarding original creators on Instagram"
+    url: "https://creators.instagram.com/blog/rewarding-original-creators-on-instagram"
+  - title: "Facebook for Creators (2025): Combating unoriginal content"
+    url: "https://creators.facebook.com/blog/combating-unoriginal-content"
+  - title: "Hackread (2026): Fake TikTok downloader extensions on Chrome and Edge spy on users"
+    url: "https://hackread.com/fake-tiktok-downloaders-chrome-edge-spy-users/"
+  - title: "Help Net Security (2026): Vidar infostealer spread via TikTok and Instagram Reels"
+    url: "https://www.helpnetsecurity.com/2026/06/11/vidar-infostealer-tiktok-instagram-reels-malware-campaigns/"
 ---
 ## Why most "free clips" aren't free
 
@@ -80,13 +119,13 @@ This is where most genuinely free clips live, and it's what our [free stock dire
 - **Pixabay:** the [Pixabay content licence summary](https://pixabay.com/service/license-summary/) allows free use and modification without attribution. You can't sell or distribute content on a standalone basis, and content showing recognisable trademarks or brands can't be used commercially in relation to goods and services.
 - **Mixkit:** Mixkit runs [several licences](https://mixkit.co/license/), one per item type. Its free licence allows commercial use, including social media marketing and ads, with no attribution, while its restricted licence is personal and non-commercial only. Check which one is attached to the clip you're downloading.
 - **Videvo:** Videvo mixes licence types on the same site. According to its [licence guide](https://help.videvo.net/article/27-license-types-and-usage), royalty-free clips need no credit, Videvo Attribution and CC BY clips need a credit to the author, and anything labelled "Editorial Use Only" can't be used commercially at all.
-- **Coverr:** worth a look for lifestyle and tech B-roll. Read its licence page before using clips for clients.
+- **Coverr:** worth a look for lifestyle and tech B-roll. Its [licence](https://coverr.co/license) allows free commercial use without credit, but bans reselling clips, building a competing service or using them to train AI, and doesn't clear brands or people shown.
 
 ### Public domain archives
 
 US federal agencies are a strong source of space and science footage. NASA's [media usage guidelines](https://nasa.gov/nasa-brand-center/images-and-media) say its images, audio and video "generally are not subject to copyright in the United States". The catches: commercial use must not imply NASA endorses you, the NASA insignia and logotype are protected, current astronauts and employees can't appear in ads, and some NASA-hosted material is third-party content marked with its owner's name.
 
-The Internet Archive also holds a lot of public domain film, including educational and industrial films. It isn't all public domain, though, so check each item's rights statement before you use it.
+The [Internet Archive](https://archive.org/) also holds a lot of public domain film, including educational and industrial films in the [Prelinger Archives](https://archive.org/details/prelinger). It isn't all public domain, though, so check each item's rights statement before you use it.
 
 ### Memes and reaction clips
 
