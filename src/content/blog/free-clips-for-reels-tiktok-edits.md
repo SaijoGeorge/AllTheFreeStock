@@ -7,6 +7,7 @@ pubDate: 2026-10-31T09:00:00.000Z
 updatedDate: 2026-10-31T09:00:00.000Z
 readingTime: "16 min read"
 coverImage: "/images/free-clips-for-reels-tiktok-edits.png"
+coverImageAlt: "Cover for Free Clips for Reels and TikTok, Used Safely: a vertical 9:16 coastal video clip marked Free to use, with a licence checklist and video tiles"
 draft: false
 tldr:
   - "Fan edits, movie scenes and meme clips shared as \"free\" almost never come with a licence. Free stock video libraries (Pexels, Pixabay, Mixkit, Videvo's free tier) and public domain archives like NASA are where genuinely free clips live."

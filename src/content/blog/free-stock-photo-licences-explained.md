@@ -7,6 +7,7 @@ pubDate: 2026-09-20T13:00:00.000Z
 updatedDate: 2026-09-20T22:00:00.000Z
 readingTime: "12 min read"
 coverImage: "/images/image licence.png"
+coverImageAlt: "Cover for How to Pick Free Stock Photos Without Legal Risk: a Mediterranean coast photo card marked Free to use, beside a licence details checklist"
 tldr:
   - '"Free stock" spans several licence types - public domain, site licences,
     attribution-required and editorial-only - and only the first two are

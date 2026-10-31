@@ -7,6 +7,7 @@ pubDate: 2026-10-31T09:00:00.000Z
 updatedDate: 2026-10-31T09:00:00.000Z
 readingTime: "14 min read"
 coverImage: "/images/free-ai-upscalers-background-removers.png"
+coverImageAlt: "Cover for Free AI Upscalers and Background Removers: a coffee cup cut out on a transparent background marked 4MP ready, with a quality check list"
 draft: false
 tldr:
   - "Adobe Stock and Shutterstock both reject photos under 4 megapixels, so an upscaler is only useful if its free output clears that bar. LetsEnhance's free tier caps output at 8MP and adds a watermark."

@@ -17,8 +17,10 @@ const coverImages = new Map(
   readdirSync(BLOG_DIR)
     .filter((f) => /\.mdx?$/.test(f))
     .flatMap((f) => {
-      const match = readFileSync(`${BLOG_DIR}/${f}`, 'utf8').match(/^coverImage:\s*["']?(.+?)["']?\s*$/m);
-      return match ? [[f.replace(/\.mdx?$/, ''), new URL(match[1], SITE).href]] : [];
+      const fm = readFileSync(`${BLOG_DIR}/${f}`, 'utf8');
+      const match = fm.match(/^coverImage:\s*["']?(.+?)["']?\s*$/m);
+      const alt = fm.match(/^coverImageAlt:\s*["']?(.+?)["']?\s*$/m)?.[1];
+      return match ? [[f.replace(/\.mdx?$/, ''), { url: new URL(match[1], SITE).href, alt }]] : [];
     })
 );
 
@@ -54,7 +56,7 @@ export default defineConfig({
         return {
           ...item,
           ...(lastmod && { lastmod }),
-          ...(img && { img: [{ url: img }] }),
+          ...(img && { img: [{ url: img.url, ...(img.alt && { caption: img.alt }) }] }),
         };
       },
       // Split into sitemap-blog-0.xml (articles) and sitemap-pages-0.xml (everything else),

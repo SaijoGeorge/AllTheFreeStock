@@ -7,6 +7,7 @@ pubDate: 2026-11-02T22:00:00.000Z
 updatedDate: 2026-11-02T22:00:00.000Z
 readingTime: "16 min read"
 coverImage: "/images/are-ai-images-copyrighted.png"
+coverImageAlt: "Cover for Are AI Images Copyrighted?: an AI-assisted illustration of a coastal cafe terrace, with a Safe to use checklist and designer workflow tiles"
 draft: true
 tldr:
   - "In the US, an image generated from a prompt alone has no copyright. The Supreme Court declined to hear *Thaler v. Perlmutter* on 2 March 2026, leaving the human authorship rule in place."

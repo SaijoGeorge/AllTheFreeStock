@@ -7,6 +7,7 @@ pubDate: 2026-10-31T09:00:00.000Z
 updatedDate: 2026-10-31T09:00:00.000Z
 readingTime: "19 min read"
 coverImage: "/images/stock-photos-not-ai-generated.png"
+coverImageAlt: "Cover for How to Find Stock Photos That Aren't AI-Generated: a candid photo of a woman laughing in a cafe marked Human-made, with a provenance checklist"
 draft: false
 tldr:
   - "Start at libraries that ban AI uploads: Unsplash, Pexels, Shutterstock, Stocksy and Getty Images all refuse generated submissions at the time of writing (October 2026). Pixabay and Adobe Stock accept AI content but label it."

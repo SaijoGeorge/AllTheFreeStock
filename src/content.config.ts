@@ -13,6 +13,7 @@ const blog = defineCollection({
     author: z.string().default('Saijo George'),
     readingTime: z.string().optional(),
     coverImage: z.string().optional(),
+    coverImageAlt: z.string().optional(),
     draft: z.boolean().default(false),
     tldr: z.array(z.string()).default([]),
     faqs: z
@@ -31,6 +32,9 @@ const blog = defineCollection({
         })
       )
       .default([]),
+  }).refine((d) => !d.coverImage || (d.coverImageAlt ?? '').trim().length >= 10, {
+    message: 'coverImageAlt is required whenever coverImage is set (describe the image in a sentence).',
+    path: ['coverImageAlt'],
   }),
 });
 

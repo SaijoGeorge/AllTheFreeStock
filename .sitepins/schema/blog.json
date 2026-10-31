@@ -71,6 +71,14 @@
       "defaultValue": ""
     },
     {
+      "name": "coverImageAlt",
+      "label": "Cover image alt text",
+      "type": "string",
+      "value": "",
+      "isIgnored": false,
+      "defaultValue": ""
+    },
+    {
       "name": "tldr",
       "label": "Tldr",
       "type": "Array",
