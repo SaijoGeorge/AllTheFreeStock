@@ -1,7 +1,6 @@
 ---
 title: "Free AI B-Roll and Video Generators vs Free Stock Footage"
-excerpt: "We checked the free tiers of ten AI video generators against their own pricing and help pages, then compared them with free stock footage on cost, licence terms and the platform rules for labelling AI video. Here's which to use for each kind of shot."
-metaDescription: "Free AI b-roll generators vs free stock footage: we checked 10 tools' free tiers (Oct 2026) for clip length, watermarks and commercial use. See which wins."
+excerpt: "Free AI b-roll generators vs free stock footage: we checked 10 tools' free tiers (Oct 2026) for clip length, watermarks and commercial use. See which wins."
 topic: "Video"
 pubDate: 2026-11-04T22:00:00.000Z
 updatedDate: 2026-11-04T22:00:00.000Z

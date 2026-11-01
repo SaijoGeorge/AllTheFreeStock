@@ -1,7 +1,6 @@
 ---
 title: "AI Image Generators vs Free Stock Photos: When to Use Which"
-excerpt: "A decision framework for picking between free stock photos and AI image generators, covering ownership, cost, realism, audience trust, disclosure rules and SEO, with scenario tables and a hybrid workflow."
-metaDescription: "AI image generators vs stock photos: we compare free tiers (checked Oct 2026), copyright, trust data and disclosure rules, with a use-this-when table."
+excerpt: "AI image generators vs stock photos: we compare free tiers (checked Oct 2026), copyright, trust data and disclosure rules, with a use-this-when table."
 topic: "AI"
 pubDate: 2026-11-03T22:00:00.000Z
 updatedDate: 2026-11-03T22:00:00.000Z

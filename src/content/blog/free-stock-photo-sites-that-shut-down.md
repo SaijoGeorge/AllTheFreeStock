@@ -1,7 +1,6 @@
 ---
 title: "Free Stock Photo Sites That Shut Down and Where to Go Instead"
-excerpt: "We checked more than 30 once-popular free stock sites in October 2026. Here's which ones closed, went quiet, went paid or now redirect, what happened to their licences, and where to go instead."
-metaDescription: "Which free stock photo sites shut down? We checked 30+ in October 2026: what closed, what went paid, what redirects, and where to find photos instead."
+excerpt: "Which free stock photo sites shut down? We checked 30+ in October 2026: what closed, what went paid, what redirects, and where to find photos instead."
 topic: "Directories"
 pubDate: 2026-11-06T22:00:00.000Z
 updatedDate: 2026-11-06T22:00:00.000Z

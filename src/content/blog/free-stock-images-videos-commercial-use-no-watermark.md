@@ -1,7 +1,6 @@
 ---
 title: "Free Stock Images and Videos for Commercial Use With No Watermark"
-excerpt: "Which free stock sites hand over clean, full files you can use in ads and client work without credit, which ones attach a credit rule or a paywall, and what no licence will let you do."
-metaDescription: "We read 12 stock licences to find free images and videos for commercial use with no watermark or credit, plus the catch on Magnific and Vecteezy in 2026."
+excerpt: "We read 12 stock licences to find free images and videos for commercial use with no watermark or credit, plus the catch on Magnific and Vecteezy in 2026."
 topic: "Licensing"
 pubDate: 2026-11-01T22:00:00.000Z
 updatedDate: 2026-11-01T22:00:00.000Z

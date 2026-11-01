@@ -21,7 +21,7 @@ const updatedDateStr = post.data.updatedDate?.toLocaleDateString('en-GB', { day:
 const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
 ---
 
-<Layout title={`${post.data.title} - AllTheFreeStock`} description={post.data.metaDescription ?? post.data.excerpt}>
+<Layout title={`${post.data.title} - AllTheFreeStock`} description={post.data.excerpt}>
   <main>
     <div class="max-w-[1180px] mx-auto px-5 pt-16 pb-2.5">
       <div class="flex flex-col lg:flex-row lg:items-start gap-8">

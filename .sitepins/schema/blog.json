@@ -21,14 +21,6 @@
       "defaultValue": ""
     },
     {
-      "name": "metaDescription",
-      "label": "Meta description",
-      "type": "string",
-      "value": "",
-      "isIgnored": false,
-      "defaultValue": ""
-    },
-    {
       "name": "topic",
       "label": "Topic",
       "type": "string",

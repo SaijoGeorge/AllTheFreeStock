@@ -1,7 +1,6 @@
 ---
 title: "Are AI Images Copyrighted? Can You Use Them Commercially?"
-excerpt: "Purely AI-generated images get no copyright in the US, and probably none in Australia or the EU. You can still use them commercially in most cases. Here's the status in five jurisdictions, what each generator's terms allow, and where the real risks are."
-metaDescription: "Are AI images copyrighted? We checked US, UK, EU, China and Australian law plus 7 generators' terms (Oct 2026) to see who owns output and who pays."
+excerpt: "Are AI images copyrighted? We checked US, UK, EU, China and Australian law plus 7 generators' terms (Oct 2026) to see who owns output and who pays."
 topic: "Licensing"
 pubDate: 2026-11-02T22:00:00.000Z
 updatedDate: 2026-11-02T22:00:00.000Z

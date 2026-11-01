@@ -1,7 +1,6 @@
 ---
 title: "The Best TheStocks.im Alternatives (And What Happened to It)"
-excerpt: "TheStocks.im still loads, but it stopped being a free stock photo aggregator years ago. We traced its history through the Wayback Machine, checked all 14 of its original sources, and verified which alternatives still work."
-metaDescription: "TheStocks.im is now a design tools list, not a photo aggregator. We checked its 14 original photo sources and the alternatives that still work in 2026."
+excerpt: "TheStocks.im is now a design tools list, not a photo aggregator. We checked its 14 original photo sources and the alternatives that still work in 2026."
 topic: "Directories"
 pubDate: 2026-11-05T22:00:00.000Z
 updatedDate: 2026-11-05T22:00:00.000Z

@@ -1,7 +1,6 @@
 ---
 title: "The Best Free Stock Footage Sites in 2026"
-excerpt: "We checked every popular free stock video site in October 2026: which are still live, what each licence really allows, where to get 4K and vertical clips, and which old favourites now redirect somewhere else."
-metaDescription: "We checked 17 free stock footage sites in October 2026. Compare licences, 4K, vertical 9:16 clips and attribution, and see which old favourites closed."
+excerpt: "We checked 17 free stock footage sites in October 2026. Compare licences, 4K, vertical 9:16 clips and attribution, and see which old favourites closed."
 topic: "Video"
 pubDate: 2026-10-31T22:00:00.000Z
 updatedDate: 2026-10-31T22:00:00.000Z

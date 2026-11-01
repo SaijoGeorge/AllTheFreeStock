@@ -36,6 +36,7 @@ faqs:
     a: Safer on releases, riskier on ownership. Copyright in generated output is
       unsettled in several jurisdictions, and the tool's own terms govern what
       you may do with it commercially.
+sources: []
 ---
 ## Why "free" isn't one thing
 

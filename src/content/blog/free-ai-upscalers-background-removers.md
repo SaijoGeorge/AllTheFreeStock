@@ -1,7 +1,6 @@
 ---
 title: "Best Free AI Upscalers and Background Removers for Stock Photos"
-excerpt: "What the free tiers of LetsEnhance, Claid, remove.bg, Photoroom, Canva, Clipdrop and the open-source options actually give you, and which ones are fit for stock submissions."
-metaDescription: "We compared the free tiers of 11 AI upscalers and background removers: real limits, watermarks, and which clear the 4MP stock minimum. Updated Oct 2026."
+excerpt: "We compared the free tiers of 11 AI upscalers and background removers: real limits, watermarks, and which clear the 4MP stock minimum. Updated Oct 2026."
 topic: "Tools"
 pubDate: 2026-10-31T09:00:00.000Z
 updatedDate: 2026-10-31T09:00:00.000Z
