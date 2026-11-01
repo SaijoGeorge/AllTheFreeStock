@@ -7,6 +7,7 @@ import { inlineMarkdown } from '../../lib/inline-markdown';
 import AuthorBio from '../../components/AuthorBio.astro';
 import { getCollection, render } from 'astro:content';
 import { isPublished } from '../../lib/posts';
+import { formatPostDate } from '../../lib/dates';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => isPublished(data));
@@ -16,8 +17,8 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content, headings } = await render(post);
 
-const pubDateStr = post.data.pubDate.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
-const updatedDateStr = post.data.updatedDate?.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+const pubDateStr = formatPostDate(post.data.pubDate);
+const updatedDateStr = post.data.updatedDate && formatPostDate(post.data.updatedDate);
 const canonicalUrl = new URL(`/blog/${post.id}/`, Astro.site).toString();
 ---
 

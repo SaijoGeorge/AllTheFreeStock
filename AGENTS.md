@@ -28,5 +28,4 @@ Consult these guides before working on related tasks:
 - `excerpt` is both the post-card summary and the page's meta description: 140 to 155 characters, written for click-through. There is no separate meta description field.
 - Every external link in the body or FAQs must also appear in `sources`.
 - Every post keeps the full set of fields used in `.sitepins/schema/blog.json` (use `sources: []` if a post has no external links), so Sitepins' schema matches.
-- Every post keeps the full set of fields used in `.sitepins/schema/blog.json` (use `sources: []` if a post has no external links), so Sitepins' schema matches.
 - Unpublished posts use `draft: true`. Set `draft: false` and update `pubDate` when publishing.
