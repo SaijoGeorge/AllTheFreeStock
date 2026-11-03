@@ -1,106 +1,194 @@
 ---
 title: "AI Image Generators vs Free Stock Photos: When to Use Which"
-excerpt: "AI image generators vs stock photos: we compare free tiers (checked Oct 2026), copyright, trust data and disclosure rules, with a use-this-when table."
+excerpt: "AI image generators vs stock photos: we compare free tiers (checked
+  Oct 2026), copyright, trust data and disclosure rules, with a use-this-when
+  table."
 topic: "AI"
-pubDate: 2026-11-03T22:00:00.000Z
-updatedDate: 2026-11-03T22:00:00.000Z
+pubDate: 2026-11-01T22:00:00.000Z
+updatedDate: 2026-11-01T22:00:00.000Z
 readingTime: "14 min read"
 coverImage: "/images/ai-image-generators-vs-free-stock-photos.png"
-coverImageAlt: "Cover for AI Images vs Free Stock Photos: a real photo of a woman working at a seaside cafe beside an AI gradient tile, with a Use stock when checklist"
-draft: true
+coverImageAlt: "Cover for AI Images vs Free Stock Photos: a real photo of a
+  woman working at a seaside cafe beside an AI gradient tile, with a Use stock
+  when checklist"
+draft: false
 tldr:
-  - "Use free stock when the image has to be real (people, places, products, events) or when you need a licence you can point to. Use an AI generator when you need something specific that doesn't exist yet, such as a concept, an abstract background or a stylised illustration."
-  - "Ownership is the biggest difference. Purely prompted AI images generally can't be copyrighted in the US, because the [US Copyright Office](https://www.copyright.gov/newsnet/2025/1060.html) says prompts alone aren't enough, so anyone can reuse them. A stock licence gives you defined rights from a named contributor."
-  - "Audiences are cooler on AI imagery than marketers think. In the [IAB's January 2026 study](https://www.iab.com/insights/the-ai-gap-widens/), 82% of ad executives believed young consumers felt positive about AI ads, but only 45% of those consumers did."
-  - "Disclosure is spreading: EU AI Act Article 50 obligations became enforceable on 2 August 2026, and Google Merchant Center requires the IPTC `TrainedAlgorithmicMedia` tag on AI product images."
-  - "Both are free to start. Canva Free allows up to 20 standard AI uses a month and Bing Image Creator gives 15 fast creations a day (October 2026), while free stock libraries have no generation cap at all."
-  - "The best results usually come from a hybrid: start with a real stock photo, extend or edit it with AI, keep the metadata, and label it."
+  - Use free stock when the image has to be real (people, places, products,
+    events) or when you need a licence you can point to. Use an AI generator
+    when you need something specific that doesn't exist yet, such as a concept,
+    an abstract background or a stylised illustration.
+  - Ownership is the biggest difference. Purely prompted AI images generally
+    can't be copyrighted in the US, because the [US Copyright
+    Office](https://www.copyright.gov/newsnet/2025/1060.html) says prompts alone
+    aren't enough, so anyone can reuse them. A stock licence gives you defined
+    rights from a named contributor.
+  - Audiences are cooler on AI imagery than marketers think. In the [IAB's
+    January 2026 study](https://www.iab.com/insights/the-ai-gap-widens/), 82% of
+    ad executives believed young consumers felt positive about AI ads, but only
+    45% of those consumers did.
+  - "Disclosure is spreading: EU AI Act Article 50 obligations became
+    enforceable on 2 August 2026, and Google Merchant Center requires the IPTC
+    `TrainedAlgorithmicMedia` tag on AI product images."
+  - Both are free to start. Canva Free allows up to 20 standard AI uses a month
+    and Bing Image Creator gives 15 fast creations a day (October 2026), while
+    free stock libraries have no generation cap at all.
+  - "The best results usually come from a hybrid: start with a real stock photo,
+    extend or edit it with AI, keep the metadata, and label it."
 faqs:
-  - q: "Are AI-generated images free to use commercially?"
-    a: "Usually yes, but it depends on the tool's terms. OpenAI's [Terms of Use](https://openai.com/policies/terms-of-use/) assign you its rights in outputs and allow commercial use, and Ideogram's [pricing FAQ](https://ideogram.ai/pricing) says you can use images for any purpose, including commercial use. Adobe says outputs from its own Firefly models can be used commercially, but leaves partner-model outputs to your judgement. Read the terms for the specific tool and plan before you put an image in an ad."
-  - q: "Can someone else use the AI image I generated?"
-    a: "In many cases, yes. If an image has no human authorship, the US Copyright Office says it can't be protected, so you may have nothing to enforce if a competitor copies it. OpenAI's terms also warn that output \"may not be unique across users\". If exclusivity matters, for a logo or a hero brand image, add substantial human creative work or commission it. Our guide on [whether AI images are copyrighted](https://allthefreestock.com/blog/are-ai-images-copyrighted/) covers this in detail."
-  - q: "Do I have to label AI images on my website in Australia?"
-    a: "Not by law for most marketing images at the time of writing (October 2026). The federal government's [Being clear about AI-generated content](https://www.industry.gov.au/publications/being-clear-about-ai-generated-content) guidance, published 28 November 2025, is voluntary and recommends labels, watermarks and metadata. Australian Consumer Law still applies, so an AI image that misrepresents a product, result or customer can be misleading regardless of how it was made."
-  - q: "Will AI images hurt my Google rankings?"
-    a: "Not because they are AI-generated. Google's [guidance on generative AI content](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) focuses on value to users and warns against mass-producing pages without it. The ranking risk is indirect: generic images add little, and Google's image guidelines advise against generic images as a page's preview image. For product listings, Merchant Center requires AI images to carry the IPTC `TrainedAlgorithmicMedia` tag."
-  - q: "Which free AI image generator is best for marketing images?"
-    a: "For brand-safe commercial work, Adobe Firefly is the cautious pick, because Adobe says its own models are trained on licensed content such as Adobe Stock and public domain material ([Adobe](https://www.adobe.com/ai/overview/firefly/gen-ai-approach.html)). For quick social graphics, Canva's built-in AI is convenient because the image lands straight in a design. For text inside images, such as posters, Ideogram is worth testing. Check free-tier limits first, because they change often."
-  - q: "Is it cheaper to generate images than to use free stock?"
-    a: "No. Free stock costs nothing per download and has no monthly cap on Unsplash or Pexels. Free generator tiers are rate-limited, for example 20 standard AI uses a month on Canva Free in October 2026, and getting a usable result often takes several attempts. Generation pays off when stock simply doesn't have the image you need, which is a time saving, not a price saving."
-  - q: "Can I use AI to put my product into a stock photo?"
-    a: "Yes, with two cautions. First, check the stock licence: the [Pexels licence](https://www.pexels.com/license/), for example, bans implying that people in the image endorse your product. Second, the result must show the product accurately, because a composite that makes it look bigger, newer or better than it is can mislead buyers. Label it as a composite and tag it `compositeWithTrainedAlgorithmicMedia` in the IPTC Digital Source Type field."
-  - q: "Should I use AI-generated people on my website?"
-    a: "Avoid them anywhere they imply real staff, customers or testimonials. Getty Images' [Building Trust in the Age of AI](https://reports.gettyimages.com/VisualGPS-Building-Trust-In-AI.pdf) research found sentiment skews more negative towards brands using AI to create people or products, and more positive for AI images of buildings and landscapes. Real photos of your team, or clearly illustrative stock, are the safer choice."
-  - q: "How do I tell if a stock photo is actually AI-generated?"
-    a: "Check the IPTC Digital Source Type metadata, run the file through the Content Credentials Verify tool, and reverse-search it to find the original upload. Libraries like Unsplash and Pexels ban AI uploads, while Adobe Stock and Pixabay accept them with labels. Our step-by-step guide to [finding stock photos that aren't AI-generated](https://allthefreestock.com/blog/stock-photos-not-ai-generated/) walks through all seven checks."
+  - q: Are AI-generated images free to use commercially?
+    a: Usually yes, but it depends on the tool's terms. OpenAI's [Terms of
+      Use](https://openai.com/policies/terms-of-use/) assign you its rights in
+      outputs and allow commercial use, and Ideogram's [pricing
+      FAQ](https://ideogram.ai/pricing) says you can use images for any purpose,
+      including commercial use. Adobe says outputs from its own Firefly models
+      can be used commercially, but leaves partner-model outputs to your
+      judgement. Read the terms for the specific tool and plan before you put an
+      image in an ad.
+  - q: Can someone else use the AI image I generated?
+    a: In many cases, yes. If an image has no human authorship, the US Copyright
+      Office says it can't be protected, so you may have nothing to enforce if a
+      competitor copies it. OpenAI's terms also warn that output "may not be
+      unique across users". If exclusivity matters, for a logo or a hero brand
+      image, add substantial human creative work or commission it. Our guide on
+      [whether AI images are
+      copyrighted](https://allthefreestock.com/blog/are-ai-images-copyrighted/)
+      covers this in detail.
+  - q: Do I have to label AI images on my website in Australia?
+    a: Not by law for most marketing images at the time of writing (October 2026).
+      The federal government's [Being clear about AI-generated
+      content](https://www.industry.gov.au/publications/being-clear-about-ai-generated-content)
+      guidance, published 28 November 2025, is voluntary and recommends labels,
+      watermarks and metadata. Australian Consumer Law still applies, so an AI
+      image that misrepresents a product, result or customer can be misleading
+      regardless of how it was made.
+  - q: Will AI images hurt my Google rankings?
+    a: "Not because they are AI-generated. Google's [guidance on generative AI
+      content](https://developers.google.com/search/docs/fundamentals/using-gen\
+      -ai-content) focuses on value to users and warns against mass-producing
+      pages without it. The ranking risk is indirect: generic images add little,
+      and Google's image guidelines advise against generic images as a page's
+      preview image. For product listings, Merchant Center requires AI images to
+      carry the IPTC `TrainedAlgorithmicMedia` tag."
+  - q: Which free AI image generator is best for marketing images?
+    a: For brand-safe commercial work, Adobe Firefly is the cautious pick, because
+      Adobe says its own models are trained on licensed content such as Adobe
+      Stock and public domain material
+      ([Adobe](https://www.adobe.com/ai/overview/firefly/gen-ai-approach.html)).
+      For quick social graphics, Canva's built-in AI is convenient because the
+      image lands straight in a design. For text inside images, such as posters,
+      Ideogram is worth testing. Check free-tier limits first, because they
+      change often.
+  - q: Is it cheaper to generate images than to use free stock?
+    a: No. Free stock costs nothing per download and has no monthly cap on Unsplash
+      or Pexels. Free generator tiers are rate-limited, for example 20 standard
+      AI uses a month on Canva Free in October 2026, and getting a usable result
+      often takes several attempts. Generation pays off when stock simply
+      doesn't have the image you need, which is a time saving, not a price
+      saving.
+  - q: Can I use AI to put my product into a stock photo?
+    a: "Yes, with two cautions. First, check the stock licence: the [Pexels
+      licence](https://www.pexels.com/license/), for example, bans implying that
+      people in the image endorse your product. Second, the result must show the
+      product accurately, because a composite that makes it look bigger, newer
+      or better than it is can mislead buyers. Label it as a composite and tag
+      it `compositeWithTrainedAlgorithmicMedia` in the IPTC Digital Source Type
+      field."
+  - q: Should I use AI-generated people on my website?
+    a: Avoid them anywhere they imply real staff, customers or testimonials. Getty
+      Images' [Building Trust in the Age of
+      AI](https://reports.gettyimages.com/VisualGPS-Building-Trust-In-AI.pdf)
+      research found sentiment skews more negative towards brands using AI to
+      create people or products, and more positive for AI images of buildings
+      and landscapes. Real photos of your team, or clearly illustrative stock,
+      are the safer choice.
+  - q: How do I tell if a stock photo is actually AI-generated?
+    a: Check the IPTC Digital Source Type metadata, run the file through the Content
+      Credentials Verify tool, and reverse-search it to find the original
+      upload. Libraries like Unsplash and Pexels ban AI uploads, while Adobe
+      Stock and Pixabay accept them with labels. Our step-by-step guide to
+      [finding stock photos that aren't
+      AI-generated](https://allthefreestock.com/blog/stock-photos-not-ai-generated/)
+      walks through all seven checks.
 sources:
-  - title: "US Copyright Office (2025): Copyright Office releases Part 2 of AI report on copyrightability"
-    url: "https://www.copyright.gov/newsnet/2025/1060.html"
+  - title: "US Copyright Office (2025): Copyright Office releases Part 2 of AI
+      report on copyrightability"
+    url: https://www.copyright.gov/newsnet/2025/1060.html
   - title: "IAB with Sonata Insights (2026): The AI Ad Gap Widens"
-    url: "https://www.iab.com/insights/the-ai-gap-widens/"
-  - title: "Holland & Knight (2026): Supreme Court refuses to hear case on AI authorship"
-    url: "https://www.hklaw.com/en/insights/publications/2026/03/the-final-word-supreme-court-refuses-to-hear-case-on-ai-authorship"
+    url: https://www.iab.com/insights/the-ai-gap-widens/
+  - title: "Holland & Knight (2026): Supreme Court refuses to hear case on AI
+      authorship"
+    url: https://www.hklaw.com/en/insights/publications/2026/03/the-final-word-supreme-court-refuses-to-hear-case-on-ai-authorship
   - title: "OpenAI: Terms of Use"
-    url: "https://openai.com/policies/terms-of-use/"
-  - title: "Simpsons Solicitors (2025): Australian Government rules out text and data mining exception for AI training"
-    url: "https://www.simpsons.com.au/news/update-australian-government-rules-out-text-and-data-mining-exception-for-ai-training"
-  - title: "Cleary Gottlieb (2025): UK High Court ruling in Getty Images v Stability AI"
-    url: "https://www.clearygottlieb.com/news-and-insights/publication-listing/uk-high-court-issues-landmark-ruling-in-getty-images-v-stability-ai"
+    url: https://openai.com/policies/terms-of-use/
+  - title: "Simpsons Solicitors (2025): Australian Government rules out text and
+      data mining exception for AI training"
+    url: https://www.simpsons.com.au/news/update-australian-government-rules-out-text-and-data-mining-exception-for-ai-training
+  - title: "Cleary Gottlieb (2025): UK High Court ruling in Getty Images v Stability
+      AI"
+    url: https://www.clearygottlieb.com/news-and-insights/publication-listing/uk-high-court-issues-landmark-ruling-in-getty-images-v-stability-ai
   - title: "Adobe: Firefly approach to generative AI and training data"
-    url: "https://www.adobe.com/ai/overview/firefly/gen-ai-approach.html"
+    url: https://www.adobe.com/ai/overview/firefly/gen-ai-approach.html
   - title: "Pexels: Licence"
-    url: "https://www.pexels.com/license/"
+    url: https://www.pexels.com/license/
   - title: "Unsplash: Licence"
-    url: "https://unsplash.com/license"
+    url: https://unsplash.com/license
   - title: "Adobe: Firefly plans and pricing"
-    url: "https://www.adobe.com/products/firefly/plans.html"
+    url: https://www.adobe.com/products/firefly/plans.html
   - title: "Canva Help: AI access and usage on Canva plans"
-    url: "https://canva.com/help/ai-access"
+    url: https://canva.com/help/ai-access
   - title: "Microsoft: Bing Image Creator help"
-    url: "https://www.bing.com/images/create/help"
+    url: https://www.bing.com/images/create/help
   - title: "Google: Gemini Apps usage limits"
-    url: "https://support.google.com/gemini/answer/16275805?hl=en"
+    url: https://support.google.com/gemini/answer/16275805?hl=en
   - title: "OpenAI Help: ChatGPT Free tier FAQ"
-    url: "https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq"
+    url: https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq
   - title: "Ideogram: Pricing"
-    url: "https://ideogram.ai/pricing"
-  - title: "PCWorld (2026): Google now lets you turn off visible Gemini image watermarks"
-    url: "https://pcworld.com/article/3213409/google-now-lets-you-nix-visible-gemini-image-watermarks.html"
-  - title: "Getty Images (2024): Nearly 90% of consumers want transparency on AI images"
-    url: "https://newsroom.gettyimages.com/en/getty-images/nearly-90-of-consumers-want-transparency-on-ai-images-finds-getty-images-report"
+    url: https://ideogram.ai/pricing
+  - title: "PCWorld (2026): Google now lets you turn off visible Gemini image
+      watermarks"
+    url: https://pcworld.com/article/3213409/google-now-lets-you-nix-visible-gemini-image-watermarks.html
+  - title: "Getty Images (2024): Nearly 90% of consumers want transparency on AI
+      images"
+    url: https://newsroom.gettyimages.com/en/getty-images/nearly-90-of-consumers-want-transparency-on-ai-images-finds-getty-images-report
   - title: "Getty Images VisualGPS (2024): Building Trust in the Age of AI report"
-    url: "https://reports.gettyimages.com/VisualGPS-Building-Trust-In-AI.pdf"
-  - title: "NielsenIQ (2024): NIQ research uncovers hidden consumer attitudes toward AI-generated ads"
-    url: "https://nielseniq.com/global/en/news-center/2024/niq-research-uncovers-hidden-consumer-attitudes-toward-ai-generated-ads/"
-  - title: "Washington State University (2024): Using the term artificial intelligence in product descriptions reduces purchase intentions"
-    url: "https://news.wsu.edu/press-release/2024/07/30/using-the-term-artificial-intelligence-in-product-descriptions-reduces-purchase-intentions/"
-  - title: "Digital Camera World (2026): Storyblocks surveys of image buyers on human-made vs AI content"
-    url: "https://www.digitalcameraworld.com/tech/artificial-intelligence/two-thirds-of-image-buyers-believe-human-made-is-better-than-ai-generated-but-87-percent-surveyed-still-admit-to-using-ai"
-  - title: "University of Melbourne and KPMG (2025): Trust in AI, the Australian story"
-    url: "https://mbs.edu/faculty-and-research/trust-and-ai/australian-story"
+    url: https://reports.gettyimages.com/VisualGPS-Building-Trust-In-AI.pdf
+  - title: "NielsenIQ (2024): NIQ research uncovers hidden consumer attitudes toward
+      AI-generated ads"
+    url: https://nielseniq.com/global/en/news-center/2024/niq-research-uncovers-hidden-consumer-attitudes-toward-ai-generated-ads/
+  - title: "Washington State University (2024): Using the term artificial
+      intelligence in product descriptions reduces purchase intentions"
+    url: https://news.wsu.edu/press-release/2024/07/30/using-the-term-artificial-intelligence-in-product-descriptions-reduces-purchase-intentions/
+  - title: "Digital Camera World (2026): Storyblocks surveys of image buyers on
+      human-made vs AI content"
+    url: https://www.digitalcameraworld.com/tech/artificial-intelligence/two-thirds-of-image-buyers-believe-human-made-is-better-than-ai-generated-but-87-percent-surveyed-still-admit-to-using-ai
+  - title: "University of Melbourne and KPMG (2025): Trust in AI, the Australian
+      story"
+    url: https://mbs.edu/faculty-and-research/trust-and-ai/australian-story
   - title: "Baker Botts (2026): EU AI Act Article 50 transparency obligations go live"
-    url: "https://www.bakerbotts.com/thought-leadership/publications/2026/september/eu-ai-act-article-50-transparency-obligations-go-live"
+    url: https://www.bakerbotts.com/thought-leadership/publications/2026/september/eu-ai-act-article-50-transparency-obligations-go-live
   - title: "Google Merchant Center Help: AI-generated content"
-    url: "https://support.google.com/merchants/answer/14743464?hl=en-GB"
-  - title: "Meta (2024): Labelling AI-generated images on Facebook, Instagram and Threads"
-    url: "https://about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/"
-  - title: "Department of Industry, Science and Resources (2025): Being clear about AI-generated content"
-    url: "https://www.industry.gov.au/publications/being-clear-about-ai-generated-content"
+    url: https://support.google.com/merchants/answer/14743464?hl=en-GB
+  - title: "Meta (2024): Labelling AI-generated images on Facebook, Instagram and
+      Threads"
+    url: https://about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/
+  - title: "Department of Industry, Science and Resources (2025): Being clear about
+      AI-generated content"
+    url: https://www.industry.gov.au/publications/being-clear-about-ai-generated-content
   - title: "ACCC: False or misleading claims"
-    url: "https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims"
+    url: https://www.accc.gov.au/consumers/advertising-and-promotions/false-or-misleading-claims
   - title: "Lewis Silkin (2026): ASA warns on AI-generated content and deepfakes"
-    url: "https://www.lewissilkin.com/insights/2026/06/18/asa-warns-on-ai-generated-content-and-deepfakes-102n4o1"
-  - title: "Google Search Central: Guidance on using generative AI content on your website"
-    url: "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content"
+    url: https://www.lewissilkin.com/insights/2026/06/18/asa-warns-on-ai-generated-content-and-deepfakes-102n4o1
+  - title: "Google Search Central: Guidance on using generative AI content on your
+      website"
+    url: https://developers.google.com/search/docs/fundamentals/using-gen-ai-content
   - title: "Google Search Central: Image metadata in Google Images"
-    url: "https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata"
+    url: https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata
   - title: "Google (2024): Content transparency and C2PA in Google products"
-    url: "https://blog.google/technology/ai/google-gen-ai-content-transparency-c2pa/"
+    url: https://blog.google/technology/ai/google-gen-ai-content-transparency-c2pa/
   - title: "Google Search Central: Google Images SEO best practices"
-    url: "https://developers.google.com/search/docs/appearance/google-images"
+    url: https://developers.google.com/search/docs/appearance/google-images
   - title: "Nielsen Norman Group: Photos as web content"
-    url: "https://www.nngroup.com/articles/photos-as-web-content/"
+    url: https://www.nngroup.com/articles/photos-as-web-content/
 ---
 ## The short answer
 
@@ -128,6 +216,7 @@ Stock wins on ownership clarity, realism and trust. AI wins on specificity and s
 | Audience trust | Higher, real imagery expected | Lower, many people want labels |
 | Disclosure | None needed | Increasingly expected or required |
 | SEO and AI search | No penalty, originality still helps | No penalty, must keep AI metadata on product images |
+
 ## Who owns the image?
 
 With stock, you get a licence from someone who owns the copyright. With a purely prompted AI image, there may be no copyright for anyone to own, which means you can use it but often can't stop others copying it.
@@ -280,7 +369,7 @@ Start with a real photo, use AI only to adapt it, then keep and declare what you
 3. **Make targeted AI edits.** Extend the canvas to fit a banner, remove a distracting object, swap a background colour or match a brand palette. Avoid altering faces or adding people.
 4. **Keep human design on top.** Add your own typography, layout and graphics. That improves the result and strengthens any copyright claim in the final design.
 5. **Tag the file.** Set the IPTC Digital Source Type to `compositeWithTrainedAlgorithmicMedia` and keep any Content Credentials your editing tool adds.
-6. **Label where it matters.** A short caption or alt text note such as "Photo by [photographer], extended with AI" covers both credit and disclosure.
+6. **Label where it matters.** A short caption or alt text note such as "Photo by \[photographer], extended with AI" covers both credit and disclosure.
 7. **Record the trail.** Save the source URL, licence, tool used and date in your asset notes.
 
 > **Rule of thumb:** Let AI change the frame around a real moment, never the moment itself. Extending a sky is fine. Adding a crowd to an empty shop isn't.
