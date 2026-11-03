@@ -1,148 +1,231 @@
 ---
 title: "Free Stock Photo Sites That Shut Down and Where to Go Instead"
-excerpt: "Which free stock photo sites shut down? We checked 30+ in October 2026: what closed, what went paid, what redirects, and where to find photos instead."
+excerpt: "Which free stock photo sites shut down? We checked 30+ in October
+  2026: what closed, what went paid, what redirects, and where to find photos
+  instead."
 topic: "Directories"
-pubDate: 2026-11-06T22:00:00.000Z
-updatedDate: 2026-11-06T22:00:00.000Z
+pubDate: 2026-11-02T22:00:00.000Z
+updatedDate: 2026-11-02T22:00:00.000Z
 readingTime: "15 min read"
 coverImage: "/images/free-stock-photo-sites-that-shut-down.png"
-coverImageAlt: "Cover for Free Stock Sites That Shut Down: a faded coastal photo marked Still licensed, with Closed, Dormant, Redirects and Went paid labels"
-draft: true
+coverImageAlt: "Cover for Free Stock Sites That Shut Down: a faded coastal photo
+  marked Still licensed, with Closed, Dormant, Redirects and Went paid labels"
+draft: false
 tldr:
-  - "Free stock sites rarely announce their closure. Most go quiet, get bought or start redirecting. When we checked in October 2026, [FreeImages](https://en.wikipedia.org/wiki/FreeImages) (the old stock.xchng, which once held 400,000+ photos) redirected straight to iStock."
-  - "Outright closures in 2025 and 2026 include EyeEm (January 2026) and Nappy, which said in October 2026 it would go offline within months because demand for authentic images \"fell off a cliff\" ([Nappy](https://nappy.co/future))."
-  - "Several survivors changed their terms: Unsplash left CC0 in 2017, Pixabay left CC0 on 9 January 2019, and Death to the Stock Photo now sells memberships instead of sending free monthly packs."
-  - "Photos you downloaded under CC0 or a CC licence stay usable after a site closes. Creative Commons says its licences [are not revocable](https://creativecommons.org/faq/). Keep a dated copy of the licence page with your files."
-  - "Bandwidth is one reason free sites struggle. Wikimedia reported multimedia download bandwidth up 50% since January 2024, driven largely by bots ([Wikimedia Foundation, 2025](https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/))."
-  - "For sources that last, favour big libraries with a written licence (Unsplash, Pexels, Pixabay) and institutional archives such as Smithsonian Open Access."
+  - Free stock sites rarely announce their closure. Most go quiet, get bought or
+    start redirecting. When we checked in October 2026,
+    [FreeImages](https://en.wikipedia.org/wiki/FreeImages) (the old stock.xchng,
+    which once held 400,000+ photos) redirected straight to iStock.
+  - Outright closures in 2025 and 2026 include EyeEm (January 2026) and Nappy,
+    which said in October 2026 it would go offline within months because demand
+    for authentic images "fell off a cliff" ([Nappy](https://nappy.co/future)).
+  - "Several survivors changed their terms: Unsplash left CC0 in 2017, Pixabay
+    left CC0 on 9 January 2019, and Death to the Stock Photo now sells
+    memberships instead of sending free monthly packs."
+  - Photos you downloaded under CC0 or a CC licence stay usable after a site
+    closes. Creative Commons says its licences [are not
+    revocable](https://creativecommons.org/faq/). Keep a dated copy of the
+    licence page with your files.
+  - Bandwidth is one reason free sites struggle. Wikimedia reported multimedia
+    download bandwidth up 50% since January 2024, driven largely by bots
+    ([Wikimedia Foundation,
+    2025](https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/)).
+  - For sources that last, favour big libraries with a written licence
+    (Unsplash, Pexels, Pixabay) and institutional archives such as Smithsonian
+    Open Access.
 faqs:
-  - q: "How can I tell if a free stock photo site is still maintained?"
-    a: "Look at the newest uploads, not the copyright year in the footer. Many sites update the footer automatically while nothing new gets added. Open the latest photo and check its upload date, or look at image file paths: on the site's homepage when we checked, [Public Domain Archive](https://www.publicdomainarchive.com/) still claimed new photos weekly, but its newest image folders dated from 2017. A blog or social account that went silent years ago, a broken licence page, or a homepage taken over by affiliate offers are other signs."
-  - q: "How do I find the licence of a stock site that has gone offline?"
-    a: "Search for the site on the Wayback Machine at the [Internet Archive](https://archive.org/) and open a snapshot of its licence or terms page from around the date you downloaded. Save that snapshot's URL in your asset records. If the site was CC0, the image file page may also appear in Openverse or Wikimedia Commons with the licence attached. When no snapshot exists, treat the image as unverified and replace it in anything commercial."
-  - q: "Do I need to update photo credits that link to a dead stock site?"
-    a: "It's good practice. A credit linking to a parked or redirected domain can send readers somewhere unrelated, and broken outbound links make a page look neglected. For CC BY images, attribution is a licence condition, so keep the photographer's name and the licence link even if the site is gone. Point the link to the photographer's own portfolio or an archived copy of the original page instead."
-  - q: "What happened to Videvo and Mazwai free videos?"
-    a: "Both now redirect to Magnific's video section. Freepik bought Videvo in June 2022, when Videvo had more than 500,000 freemium videos, audio clips and motion graphics ([BusinessCloud](https://businesscloud.co.uk/news/freepik-snaps-up-oxford-tech-firm-videvo)), and Freepik [rebranded as Magnific](https://tech.eu/2026/04/28/freepik-rebrands-as-magnific-unifying-its-ai-creative-stack-as-enterprise-and-no-collar-growth-accelerates/) in April 2026. At the time of writing, [Magnific's video library](https://www.magnific.com/videos) still has free clips, but free use requires crediting the creator. Our [free stock footage guide](https://allthefreestock.com/blog/best-free-stock-footage-sites/) covers other options."
-  - q: "Is Unsplash going to stop being free?"
-    a: "There's no sign of it. When Unsplash launched its paid Unsplash+ tier in October 2022, it said its \"open library isn't going anywhere\" ([PetaPixel](https://petapixel.com/2022/10/10/unsplash-adds-a-paid-tier-one-year-after-getty-takeover/)). The free library had grown to 5 million images by April 2023 ([Unsplash](https://unsplash.com/history)). Paid images are mixed into search results, though, so check for the Unsplash+ badge before you download."
-  - q: "Are Pexels and Pixabay safe bets now that Canva owns them?"
-    a: "They are among the safest free libraries available. Canva bought both in May 2019 and said the photos would stay free for everyone ([TechCrunch](https://techcrunch.com/2019/05/17/australias-design-unicorn-canva-picks-up-two-free-image-sharing-services-and-launches-new-photo-product)). Both have had a licence change since then: Pixabay swapped CC0 for its own Content License. Canva's ownership gives them a funded business reason to exist, which the small hobby sites in this post lacked."
-  - q: "What happened to Creative Commons Search?"
-    a: "It became Openverse. On 13 December 2021, search.creativecommons.org started redirecting to Openverse, run by the WordPress project, and gained extra image sources at the same time ([WordPress Openverse team](https://make.wordpress.org/openverse/2021/12/13/cc-search-now-redirects-to-openverse/)). If you have old bookmarks or tutorials pointing to CC Search, update them. Openverse searches openly licensed images and audio across many collections, and shows the licence for each result."
-  - q: "What happens to my uploads if a stock site I contribute to closes?"
-    a: "It depends on the site's terms, so read the closure notice closely. When EyeEm closed in January 2026, photographers could opt in to move their work to Freepik. Anyone who didn't had their images removed from EyeEm and its partner agencies. Licences already sold stayed valid ([PetaPixel](https://petapixel.com/2025/12/11/eyeem-is-shutting-down/)). Keep your own originals and a list of where each photo is published."
-  - q: "Can someone rescue a closed free stock site's photos?"
-    a: "If the photos were released under CC0, yes. Anyone can re-host them, because CC0 waives copyright permanently. Nappy has asked anyone interested in taking over its site and photos to get in touch. Photos under a custom licence like Unsplash's are different: those licences usually ban compiling the images into a competing service, so a mirror needs the owner's permission."
+  - q: How can I tell if a free stock photo site is still maintained?
+    a: "Look at the newest uploads, not the copyright year in the footer. Many sites
+      update the footer automatically while nothing new gets added. Open the
+      latest photo and check its upload date, or look at image file paths: on
+      the site's homepage when we checked, [Public Domain
+      Archive](https://www.publicdomainarchive.com/) still claimed new photos
+      weekly, but its newest image folders dated from 2017. A blog or social
+      account that went silent years ago, a broken licence page, or a homepage
+      taken over by affiliate offers are other signs."
+  - q: How do I find the licence of a stock site that has gone offline?
+    a: Search for the site on the Wayback Machine at the [Internet
+      Archive](https://archive.org/) and open a snapshot of its licence or terms
+      page from around the date you downloaded. Save that snapshot's URL in your
+      asset records. If the site was CC0, the image file page may also appear in
+      Openverse or Wikimedia Commons with the licence attached. When no snapshot
+      exists, treat the image as unverified and replace it in anything
+      commercial.
+  - q: Do I need to update photo credits that link to a dead stock site?
+    a: It's good practice. A credit linking to a parked or redirected domain can
+      send readers somewhere unrelated, and broken outbound links make a page
+      look neglected. For CC BY images, attribution is a licence condition, so
+      keep the photographer's name and the licence link even if the site is
+      gone. Point the link to the photographer's own portfolio or an archived
+      copy of the original page instead.
+  - q: What happened to Videvo and Mazwai free videos?
+    a: Both now redirect to Magnific's video section. Freepik bought Videvo in June
+      2022, when Videvo had more than 500,000 freemium videos, audio clips and
+      motion graphics
+      ([BusinessCloud](https://businesscloud.co.uk/news/freepik-snaps-up-oxford-tech-firm-videvo)),
+      and Freepik [rebranded as
+      Magnific](https://tech.eu/2026/04/28/freepik-rebrands-as-magnific-unifying-its-ai-creative-stack-as-enterprise-and-no-collar-growth-accelerates/)
+      in April 2026. At the time of writing, [Magnific's video
+      library](https://www.magnific.com/videos) still has free clips, but free
+      use requires crediting the creator. Our [free stock footage
+      guide](https://allthefreestock.com/blog/best-free-stock-footage-sites/)
+      covers other options.
+  - q: Is Unsplash going to stop being free?
+    a: There's no sign of it. When Unsplash launched its paid Unsplash+ tier in
+      October 2022, it said its "open library isn't going anywhere"
+      ([PetaPixel](https://petapixel.com/2022/10/10/unsplash-adds-a-paid-tier-one-year-after-getty-takeover/)).
+      The free library had grown to 5 million images by April 2023
+      ([Unsplash](https://unsplash.com/history)). Paid images are mixed into
+      search results, though, so check for the Unsplash+ badge before you
+      download.
+  - q: Are Pexels and Pixabay safe bets now that Canva owns them?
+    a: "They are among the safest free libraries available. Canva bought both in May
+      2019 and said the photos would stay free for everyone
+      ([TechCrunch](https://techcrunch.com/2019/05/17/australias-design-unicorn\
+      -canva-picks-up-two-free-image-sharing-services-and-launches-new-photo-pr\
+      oduct)). Both have had a licence change since then: Pixabay swapped CC0
+      for its own Content License. Canva's ownership gives them a funded
+      business reason to exist, which the small hobby sites in this post
+      lacked."
+  - q: What happened to Creative Commons Search?
+    a: It became Openverse. On 13 December 2021, search.creativecommons.org started
+      redirecting to Openverse, run by the WordPress project, and gained extra
+      image sources at the same time ([WordPress Openverse
+      team](https://make.wordpress.org/openverse/2021/12/13/cc-search-now-redirects-to-openverse/)).
+      If you have old bookmarks or tutorials pointing to CC Search, update them.
+      Openverse searches openly licensed images and audio across many
+      collections, and shows the licence for each result.
+  - q: What happens to my uploads if a stock site I contribute to closes?
+    a: It depends on the site's terms, so read the closure notice closely. When
+      EyeEm closed in January 2026, photographers could opt in to move their
+      work to Freepik. Anyone who didn't had their images removed from EyeEm and
+      its partner agencies. Licences already sold stayed valid
+      ([PetaPixel](https://petapixel.com/2025/12/11/eyeem-is-shutting-down/)).
+      Keep your own originals and a list of where each photo is published.
+  - q: Can someone rescue a closed free stock site's photos?
+    a: "If the photos were released under CC0, yes. Anyone can re-host them, because
+      CC0 waives copyright permanently. Nappy has asked anyone interested in
+      taking over its site and photos to get in touch. Photos under a custom
+      licence like Unsplash's are different: those licences usually ban
+      compiling the images into a competing service, so a mirror needs the
+      owner's permission."
 sources:
   - title: "Wikipedia: FreeImages (formerly stock.xchng)"
-    url: "https://en.wikipedia.org/wiki/FreeImages"
+    url: https://en.wikipedia.org/wiki/FreeImages
   - title: "Nappy (2026): An update on the future of Nappy"
-    url: "https://nappy.co/future"
+    url: https://nappy.co/future
   - title: "Creative Commons: Frequently asked questions"
-    url: "https://creativecommons.org/faq/"
-  - title: "Wikimedia Foundation (2025): How crawlers impact the operations of the Wikimedia projects"
-    url: "https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/"
-  - title: "Public Domain Archive"
-    url: "https://www.publicdomainarchive.com/"
-  - title: "Internet Archive"
-    url: "https://archive.org/"
+    url: https://creativecommons.org/faq/
+  - title: "Wikimedia Foundation (2025): How crawlers impact the operations of the
+      Wikimedia projects"
+    url: https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/
+  - title: Public Domain Archive
+    url: https://www.publicdomainarchive.com/
+  - title: Internet Archive
+    url: https://archive.org/
   - title: "BusinessCloud (2022): Freepik snaps up Oxford tech firm Videvo"
-    url: "https://businesscloud.co.uk/news/freepik-snaps-up-oxford-tech-firm-videvo"
+    url: https://businesscloud.co.uk/news/freepik-snaps-up-oxford-tech-firm-videvo
   - title: "Tech.eu (2026): Freepik rebrands as Magnific"
-    url: "https://tech.eu/2026/04/28/freepik-rebrands-as-magnific-unifying-its-ai-creative-stack-as-enterprise-and-no-collar-growth-accelerates/"
+    url: https://tech.eu/2026/04/28/freepik-rebrands-as-magnific-unifying-its-ai-creative-stack-as-enterprise-and-no-collar-growth-accelerates/
   - title: "Magnific: Stock videos"
-    url: "https://www.magnific.com/videos"
-  - title: "PetaPixel (2022): Unsplash adds a paid tier, one year after Getty takeover"
-    url: "https://petapixel.com/2022/10/10/unsplash-adds-a-paid-tier-one-year-after-getty-takeover/"
+    url: https://www.magnific.com/videos
+  - title: "PetaPixel (2022): Unsplash adds a paid tier, one year after Getty
+      takeover"
+    url: https://petapixel.com/2022/10/10/unsplash-adds-a-paid-tier-one-year-after-getty-takeover/
   - title: "Unsplash: Our story so far (company history)"
-    url: "https://unsplash.com/history"
+    url: https://unsplash.com/history
   - title: "TechCrunch (2019): Canva picks up Pexels and Pixabay"
-    url: "https://techcrunch.com/2019/05/17/australias-design-unicorn-canva-picks-up-two-free-image-sharing-services-and-launches-new-photo-product"
+    url: https://techcrunch.com/2019/05/17/australias-design-unicorn-canva-picks-up-two-free-image-sharing-services-and-launches-new-photo-product
   - title: "WordPress Openverse team (2021): CC Search now redirects to Openverse"
-    url: "https://make.wordpress.org/openverse/2021/12/13/cc-search-now-redirects-to-openverse/"
+    url: https://make.wordpress.org/openverse/2021/12/13/cc-search-now-redirects-to-openverse/
   - title: "PetaPixel (2025): EyeEm is shutting down"
-    url: "https://petapixel.com/2025/12/11/eyeem-is-shutting-down/"
-  - title: "Magdeleine"
-    url: "https://magdeleine.co/"
+    url: https://petapixel.com/2025/12/11/eyeem-is-shutting-down/
+  - title: Magdeleine
+    url: https://magdeleine.co/
   - title: "Plagiarism Today (2009): Getty Images buys stock.xchng"
-    url: "https://www.plagiarismtoday.com/?p=4186"
-  - title: "Selling Stock (2009): iStock welcomes stock.xchng to the Getty Images family"
-    url: "https://www.selling-stock.com/Article/istock-welcomes-stockxchng-to-getty-images-fa"
+    url: https://www.plagiarismtoday.com/?p=4186
+  - title: "Selling Stock (2009): iStock welcomes stock.xchng to the Getty Images
+      family"
+    url: https://www.selling-stock.com/Article/istock-welcomes-stockxchng-to-getty-images-fa
   - title: "PetaPixel (2013): stock.xchng down for days, users left in the dark"
-    url: "https://petapixel.com/2013/08/06/stock-photo-service-stock-xchng-down-for-days-users-left-in-the-dark"
-  - title: "iStock by Getty Images"
-    url: "https://www.istockphoto.com/"
-  - title: "The Next Web (2018): 500px kills its stock marketplace and Creative Commons licensing"
-    url: "https://thenextweb.com/news/500px-has-killed-off-its-stock-photo-marketplace-and-creative-commons-licensing-options"
+    url: https://petapixel.com/2013/08/06/stock-photo-service-stock-xchng-down-for-days-users-left-in-the-dark
+  - title: iStock by Getty Images
+    url: https://www.istockphoto.com/
+  - title: "The Next Web (2018): 500px kills its stock marketplace and Creative
+      Commons licensing"
+    url: https://thenextweb.com/news/500px-has-killed-off-its-stock-photo-marketplace-and-creative-commons-licensing-options
   - title: "kottke.org (2026): Nappy is shutting down"
-    url: "https://kottke.org/26/10/0049739-nappy"
+    url: https://kottke.org/26/10/0049739-nappy
   - title: "Unsplash: Jay Mantri's profile"
-    url: "https://unsplash.com/@jaymantri"
-  - title: "Little Visuals"
-    url: "https://littlevisuals.co/"
-  - title: "New Old Stock by Cole Townsend"
-    url: "https://nos.twnsnd.co/"
-  - title: "Travel Coffee Book"
-    url: "https://travelcoffeebook.com/"
-  - title: "Startup Stock Photos"
-    url: "https://startupstockphotos.com/"
-  - title: "morgueFile"
-    url: "https://www.morguefile.com/"
-  - title: "Fstoppers (2014): Death to the Stock Photo gives subscribers images for free"
-    url: "https://fstoppers.com/originals/fstoppers-exclusive-interview-death-stock-photo-gives-subscribers-images-free-9498"
-  - title: "Cult of Mac (2015): Death to Stock aims to be a stock photo agency like no other"
-    url: "https://www.cultofmac.com/news/death-stock-aims-stock-photo-agency-like-no"
+    url: https://unsplash.com/@jaymantri
+  - title: Little Visuals
+    url: https://littlevisuals.co/
+  - title: New Old Stock by Cole Townsend
+    url: https://nos.twnsnd.co/
+  - title: Travel Coffee Book
+    url: https://travelcoffeebook.com/
+  - title: Startup Stock Photos
+    url: https://startupstockphotos.com/
+  - title: morgueFile
+    url: https://www.morguefile.com/
+  - title: "Fstoppers (2014): Death to the Stock Photo gives subscribers images for
+      free"
+    url: https://fstoppers.com/originals/fstoppers-exclusive-interview-death-stock-photo-gives-subscribers-images-free-9498
+  - title: "Cult of Mac (2015): Death to Stock aims to be a stock photo agency like
+      no other"
+    url: https://www.cultofmac.com/news/death-stock-aims-stock-photo-agency-like-no
   - title: "Death to Stock: Membership"
-    url: "https://deathtothestockphoto.com/"
-  - title: "Picjumbo"
-    url: "https://picjumbo.com/"
-  - title: "Gratisography"
-    url: "https://gratisography.com/"
-  - title: "SplitShire"
-    url: "https://www.splitshire.com/"
+    url: https://deathtothestockphoto.com/
+  - title: Picjumbo
+    url: https://picjumbo.com/
+  - title: Gratisography
+    url: https://gratisography.com/
+  - title: SplitShire
+    url: https://www.splitshire.com/
   - title: "Shopify: Burst free stock photos"
-    url: "https://www.shopify.com/stock-photos"
+    url: https://www.shopify.com/stock-photos
   - title: "Shopify: Burst terms of service"
-    url: "https://www.shopify.com/stock-photos/legal/terms"
+    url: https://www.shopify.com/stock-photos/legal/terms
   - title: "Foodiesfeed (2026): Foodiesfeed is for sale"
-    url: "https://www.foodiesfeed.com/for-sale"
+    url: https://www.foodiesfeed.com/for-sale
   - title: "Creative Commons (2017): Unsplash moves away from CC0"
-    url: "https://creativecommons.org/2017/06/22/unsplash/"
+    url: https://creativecommons.org/2017/06/22/unsplash/
   - title: "Unsplash: Licence"
-    url: "https://unsplash.com/license"
+    url: https://unsplash.com/license
   - title: "Getty Images Newsroom (2022): Unsplash launches Unsplash+"
-    url: "https://newsroom.gettyimages.com/en/unsplash/unsplash-launches-unsplash-a-new-unlimited-subscription-offering-exclusive-content"
+    url: https://newsroom.gettyimages.com/en/unsplash/unsplash-launches-unsplash-a-new-unlimited-subscription-offering-exclusive-content
   - title: "Wikipedia: Pixabay"
-    url: "https://en.wikipedia.org/wiki/Pixabay"
+    url: https://en.wikipedia.org/wiki/Pixabay
   - title: "Pixabay: Content License summary"
-    url: "https://pixabay.com/service/license-summary/"
-  - title: "PetaPixel (2018): Fotolia shutting down after getting folded into Adobe Stock"
-    url: "https://petapixel.com/2018/11/06/fotolia-shutting-down-after-getting-sucked-into-adobe-stock/"
+    url: https://pixabay.com/service/license-summary/
+  - title: "PetaPixel (2018): Fotolia shutting down after getting folded into Adobe
+      Stock"
+    url: https://petapixel.com/2018/11/06/fotolia-shutting-down-after-getting-sucked-into-adobe-stock/
   - title: "Pickr (2022): Envato ends its Twenty20 unlimited photo service"
-    url: "https://pickr.com.au/news/2022/envato-ends-its-twenty20-unlimited-photo-service"
+    url: https://pickr.com.au/news/2022/envato-ends-its-twenty20-unlimited-photo-service
   - title: "Wikipedia: Can Stock Photo"
-    url: "https://en.wikipedia.org/wiki/Can_Stock_Photo"
-  - title: "Getty Images Holdings (2026): Form 10-Q for the quarter ended 30 June 2026 (SEC)"
-    url: "https://www.sec.gov/Archives/edgar/data/0001898496/000162828026055246/gety-20260630.htm"
+    url: https://en.wikipedia.org/wiki/Can_Stock_Photo
+  - title: "Getty Images Holdings (2026): Form 10-Q for the quarter ended 30 June
+      2026 (SEC)"
+    url: https://www.sec.gov/Archives/edgar/data/0001898496/000162828026055246/gety-20260630.htm
   - title: "Pexels: Licence"
-    url: "https://www.pexels.com/license/"
-  - title: "Smithsonian Open Access"
-    url: "https://www.si.edu/openaccess"
+    url: https://www.pexels.com/license/
+  - title: Smithsonian Open Access
+    url: https://www.si.edu/openaccess
   - title: "Library of Congress: Free to Use and Reuse sets"
-    url: "https://www.loc.gov/free-to-use/"
-  - title: "Negative Space"
-    url: "https://negativespace.co/"
-  - title: "ISO Republic"
-    url: "https://isorepublic.com/"
-  - title: "Picography"
-    url: "https://picography.co/"
-  - title: "Skitterphoto"
-    url: "https://skitterphoto.com/"
+    url: https://www.loc.gov/free-to-use/
+  - title: Negative Space
+    url: https://negativespace.co/
+  - title: ISO Republic
+    url: https://isorepublic.com/
+  - title: Picography
+    url: https://picography.co/
+  - title: Skitterphoto
+    url: https://skitterphoto.com/
   - title: "Creative Commons: CC0 1.0 Universal legal code"
-    url: "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en"
+    url: https://creativecommons.org/publicdomain/zero/1.0/legalcode.en
   - title: "Plagiarism Today (2014): Can you revoke a Creative Commons licence?"
-    url: "https://www.plagiarismtoday.com/2014/12/09/revoking-creative-commons-licenses/"
+    url: https://www.plagiarismtoday.com/2014/12/09/revoking-creative-commons-licenses/
 ---
 ## Which free stock photo sites have shut down?
 
@@ -201,12 +284,12 @@ Two of those sources no longer offer free photos. `jaymantri.com` now shows one 
 
 A dormant site still loads but hasn't added anything in years. Its downloads usually still work. The risk is that a dormant site can vanish without notice, and its licence page can go with it.
 
-- **[Little Visuals](https://littlevisuals.co/)** offered free high-resolution photo packs. Founder Nic Jackson died in November 2013, and his family has kept the site online, with its photos marked CC0.
-- **[New Old Stock](https://nos.twnsnd.co/)**, Cole Townsend's collection of vintage photos from public archives, still loads on Tumblr. The newest post we found was dated 14 October 2022.
-- **[Travel Coffee Book](https://travelcoffeebook.com/)** still shows travel photos with download links, but the newest posts are from September 2019. One download link pointed to an unrelated German shop domain, a common sign of an unmaintained site.
-- **[Public Domain Archive](https://www.publicdomainarchive.com/)** says new photos are added weekly. Its newest image folders date from September 2017.
-- **[Startup Stock Photos](https://startupstockphotos.com/)** is online. The newest upload paths we found were from October 2023.
-- **[morgueFile](https://www.morguefile.com/)** still calls itself a free photo archive, but in October 2026 its homepage mostly promoted iStock subscriptions and we couldn't load its photo search.
+- [**Little Visuals**](https://littlevisuals.co/) offered free high-resolution photo packs. Founder Nic Jackson died in November 2013, and his family has kept the site online, with its photos marked CC0.
+- [**New Old Stock**](https://nos.twnsnd.co/), Cole Townsend's collection of vintage photos from public archives, still loads on Tumblr. The newest post we found was dated 14 October 2022.
+- [**Travel Coffee Book**](https://travelcoffeebook.com/) still shows travel photos with download links, but the newest posts are from September 2019. One download link pointed to an unrelated German shop domain, a common sign of an unmaintained site.
+- [**Public Domain Archive**](https://www.publicdomainarchive.com/) says new photos are added weekly. Its newest image folders date from September 2017.
+- [**Startup Stock Photos**](https://startupstockphotos.com/) is online. The newest upload paths we found were from October 2023.
+- [**morgueFile**](https://www.morguefile.com/) still calls itself a free photo archive, but in October 2026 its homepage mostly promoted iStock subscriptions and we couldn't load its photo search.
 
 > **Common mistake:** Bookmarking a dormant site's licence page and assuming it will always be there. Save a PDF or screenshot of the licence on the day you download, and note the date in your file name or asset sheet.
 
@@ -222,9 +305,9 @@ Death to the Stock Photo started in 2013 by emailing subscribers a free themed p
 
 These three are still free and still updated, with extra features:
 
-- **[Picjumbo](https://picjumbo.com/)** offers free photos plus a PREMIUM membership for its 200+ themed collections.
-- **[Gratisography](https://gratisography.com/)** still offers free photos without attribution and now has an "AI Generated" collection. If you need real photography, check each image's category.
-- **[SplitShire](https://www.splitshire.com/)** calls itself a free stock photo and video platform, and now sells subscription plans for AI image, video and sound generation.
+- [**Picjumbo**](https://picjumbo.com/) offers free photos plus a PREMIUM membership for its 200+ themed collections.
+- [**Gratisography**](https://gratisography.com/) still offers free photos without attribution and now has an "AI Generated" collection. If you need real photography, check each image's category.
+- [**SplitShire**](https://www.splitshire.com/) calls itself a free stock photo and video platform, and now sells subscription plans for AI image, video and sound generation.
 
 ### Burst moved house
 
