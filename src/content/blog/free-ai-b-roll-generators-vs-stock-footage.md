@@ -1,118 +1,194 @@
 ---
 title: "Free AI B-Roll and Video Generators vs Free Stock Footage"
-excerpt: "Free AI b-roll generators vs free stock footage: we checked 10 tools' free tiers (Oct 2026) for clip length, watermarks and commercial use. See which wins."
+excerpt: "Free AI b-roll generators vs free stock footage: we checked 10 tools'
+  free tiers (Oct 2026) for clip length, watermarks and commercial use. See
+  which wins."
 topic: "Video"
 pubDate: 2026-11-04T22:00:00.000Z
 updatedDate: 2026-11-04T22:00:00.000Z
 readingTime: "17 min read"
 coverImage: "/images/free-ai-b-roll-generators-vs-stock-footage.png"
-coverImageAlt: "Cover for AI B-Roll vs Stock Footage: a 4K stock clip of a wave breaking on rocks, with a Before you publish checklist and video tiles"
-draft: true
+coverImageAlt: "Cover for AI B-Roll vs Stock Footage: a 4K stock clip of a wave
+  breaking on rocks, with a Before you publish checklist and video tiles"
+draft: false
 tldr:
-  - "Free AI video tiers are small. Google Flow gives non-subscribers 50 credits a day, enough for five 8-second Veo 3.1 Lite clips, and Runway's free plan is a one-time 125 credits, which works out to five 5-second clips in total."
-  - "Most free AI output is watermarked or barred from commercial use. Runway, Kling and Google's Veo add a visible watermark, and Pika's free plan has no watermark but excludes a commercial licence."
-  - "Free stock footage from sites like Pexels and Pixabay is unwatermarked, often 4K, and licensed for commercial use, though it carries no releases for brands or logos in shot."
-  - "AI b-roll still struggles with physics. The Physics-IQ benchmark (2025) found video models' physical understanding \"severely limited, and unrelated to visual realism\"."
-  - "Realistic AI footage of real places or events needs a disclosure label on YouTube, and Meta requires one for photorealistic AI video. TikTok auto-labels uploads that carry C2PA Content Credentials."
-  - "Use stock for real places, people and news; use AI for abstract, stylised or impossible shots; and keep a record of which clip came from where."
+  - Free AI video tiers are small. Google Flow gives non-subscribers 50 credits
+    a day, enough for five 8-second Veo 3.1 Lite clips, and Runway's free plan
+    is a one-time 125 credits, which works out to five 5-second clips in total.
+  - Most free AI output is watermarked or barred from commercial use. Runway,
+    Kling and Google's Veo add a visible watermark, and Pika's free plan has no
+    watermark but excludes a commercial licence.
+  - Free stock footage from sites like Pexels and Pixabay is unwatermarked,
+    often 4K, and licensed for commercial use, though it carries no releases for
+    brands or logos in shot.
+  - AI b-roll still struggles with physics. The Physics-IQ benchmark (2025)
+    found video models' physical understanding "severely limited, and unrelated
+    to visual realism".
+  - Realistic AI footage of real places or events needs a disclosure label on
+    YouTube, and Meta requires one for photorealistic AI video. TikTok
+    auto-labels uploads that carry C2PA Content Credentials.
+  - Use stock for real places, people and news; use AI for abstract, stylised or
+    impossible shots; and keep a record of which clip came from where.
 faqs:
-  - q: "Is there a completely free AI b-roll generator with no watermark?"
-    a: "Not one that also allows commercial use, among the major tools we checked. Pika's free plan has no watermark, but its [pricing page](https://pika.art/pricing) lists the commercial licence as not included, and the plan comes with no monthly credits. Runway, Kling and Google's Veo all watermark free output. For clean, commercial-safe clips at no cost, free stock footage is still the reliable option."
-  - q: "Can I use free AI-generated video in client work?"
-    a: "Only if the tool's terms allow it on the plan you used. Luma's [licensing page](https://lumalabs.ai/learning-hub/licensing) says Free and Lite output is for personal use only and the watermark stays even if you upgrade later. Adobe says output from its own Firefly Video Model is designed to be commercially safe, while partner models inside Firefly can have different terms. Save a screenshot of the terms with the delivered files."
-  - q: "Is Sora still free to use?"
-    a: "No. OpenAI closed the Sora web and app experience on 26 April 2026 and shut down the Sora 2 Videos API on 24 September 2026, according to its [API deprecations page](https://developers.openai.com/api/docs/deprecations) and [The Decoder's report](https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/). Before that, free users had been cut to 6 generations a day in November 2025. Any site still offering \"free Sora\" is a third-party wrapper, so check its terms carefully."
-  - q: "Who owns the copyright in an AI-generated video clip?"
-    a: "Possibly nobody. The US Copyright Office's [January 2025 report](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf) concluded that prompts alone don't give enough human control to make the output copyrightable, though your edit, arrangement and added material can be. In practice, a competitor may be able to reuse your raw AI clip. Our guide on [whether AI images are copyrighted](https://allthefreestock.com/blog/are-ai-images-copyrighted/) covers this in more depth."
-  - q: "Do I need to label a single AI b-roll shot in an otherwise real video?"
-    a: "On YouTube, yes, if the shot is realistic and shows a real place or a scene that didn't happen. YouTube's [disclosure rules](https://support.google.com/youtube/answer/14328491) give the example of adding generated footage of a surfer in Maui to a real travel promo. Unrealistic or animated content, colour grading, upscaling and background blur don't need disclosure. If the shot is abstract, such as flowing particles behind a title, no label is required."
-  - q: "Does Canva's free plan include AI video generation?"
-    a: "Canva's [help page](https://www.canva.com/help/video-clip/) for Create a Video Clip says it makes 8-second clips with audio or 6-second clips without, and that it counts toward your AI usage allowance. It does not publish how many clips a free account gets. Open the tool in your own account to see your remaining allowance before you plan a project around it."
-  - q: "Is AI b-roll cheaper than stock footage?"
-    a: "Against free stock, no. Free stock costs nothing per clip and has no generation limit, while free AI tiers cap you at a handful of short clips. Against paid stock, AI can be cheaper per clip once you pay for a subscription, but you also pay for rejected generations. Google's Flow help page prices one 8-second Veo 3.1 Quality clip at 100 credits, double the free daily grant."
-  - q: "Can I train my own AI model on free stock footage?"
-    a: "Usually not without checking. Coverr's [licence](https://coverr.co/license) says its videos must not be used to train AI algorithms or as part of a dataset. Pexels' licence page doesn't mention AI training at all, so read the full terms before scraping any library. Using stock clips as a reference image for an AI image-to-video tool is a grey area too, because you are feeding the clip into a third-party service."
-  - q: "How can I tell if a free stock clip was actually made with AI?"
-    a: "Check the library's policy first, then the file. Some libraries accept AI uploads with a label, so filter or read the clip page. Then look for C2PA Content Credentials with the [Verify tool](https://verify.contentauthenticity.org/) and watch the clip frame by frame for warping hands, melting text and objects passing through each other. Contributor portfolios with many unrelated, glossy clips and no repeat shoots are another warning sign."
+  - q: Is there a completely free AI b-roll generator with no watermark?
+    a: Not one that also allows commercial use, among the major tools we checked.
+      Pika's free plan has no watermark, but its [pricing
+      page](https://pika.art/pricing) lists the commercial licence as not
+      included, and the plan comes with no monthly credits. Runway, Kling and
+      Google's Veo all watermark free output. For clean, commercial-safe clips
+      at no cost, free stock footage is still the reliable option.
+  - q: Can I use free AI-generated video in client work?
+    a: Only if the tool's terms allow it on the plan you used. Luma's [licensing
+      page](https://lumalabs.ai/learning-hub/licensing) says Free and Lite
+      output is for personal use only and the watermark stays even if you
+      upgrade later. Adobe says output from its own Firefly Video Model is
+      designed to be commercially safe, while partner models inside Firefly can
+      have different terms. Save a screenshot of the terms with the delivered
+      files.
+  - q: Is Sora still free to use?
+    a: No. OpenAI closed the Sora web and app experience on 26 April 2026 and shut
+      down the Sora 2 Videos API on 24 September 2026, according to its [API
+      deprecations page](https://developers.openai.com/api/docs/deprecations)
+      and [The Decoder's
+      report](https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/).
+      Before that, free users had been cut to 6 generations a day in November
+      2025. Any site still offering "free Sora" is a third-party wrapper, so
+      check its terms carefully.
+  - q: Who owns the copyright in an AI-generated video clip?
+    a: Possibly nobody. The US Copyright Office's [January 2025
+      report](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf)
+      concluded that prompts alone don't give enough human control to make the
+      output copyrightable, though your edit, arrangement and added material can
+      be. In practice, a competitor may be able to reuse your raw AI clip. Our
+      guide on [whether AI images are
+      copyrighted](https://allthefreestock.com/blog/are-ai-images-copyrighted/)
+      covers this in more depth.
+  - q: Do I need to label a single AI b-roll shot in an otherwise real video?
+    a: On YouTube, yes, if the shot is realistic and shows a real place or a scene
+      that didn't happen. YouTube's [disclosure
+      rules](https://support.google.com/youtube/answer/14328491) give the
+      example of adding generated footage of a surfer in Maui to a real travel
+      promo. Unrealistic or animated content, colour grading, upscaling and
+      background blur don't need disclosure. If the shot is abstract, such as
+      flowing particles behind a title, no label is required.
+  - q: Does Canva's free plan include AI video generation?
+    a: Canva's [help page](https://www.canva.com/help/video-clip/) for Create a
+      Video Clip says it makes 8-second clips with audio or 6-second clips
+      without, and that it counts toward your AI usage allowance. It does not
+      publish how many clips a free account gets. Open the tool in your own
+      account to see your remaining allowance before you plan a project around
+      it.
+  - q: Is AI b-roll cheaper than stock footage?
+    a: Against free stock, no. Free stock costs nothing per clip and has no
+      generation limit, while free AI tiers cap you at a handful of short clips.
+      Against paid stock, AI can be cheaper per clip once you pay for a
+      subscription, but you also pay for rejected generations. Google's Flow
+      help page prices one 8-second Veo 3.1 Quality clip at 100 credits, double
+      the free daily grant.
+  - q: Can I train my own AI model on free stock footage?
+    a: Usually not without checking. Coverr's [licence](https://coverr.co/license)
+      says its videos must not be used to train AI algorithms or as part of a
+      dataset. Pexels' licence page doesn't mention AI training at all, so read
+      the full terms before scraping any library. Using stock clips as a
+      reference image for an AI image-to-video tool is a grey area too, because
+      you are feeding the clip into a third-party service.
+  - q: How can I tell if a free stock clip was actually made with AI?
+    a: Check the library's policy first, then the file. Some libraries accept AI
+      uploads with a label, so filter or read the clip page. Then look for C2PA
+      Content Credentials with the [Verify
+      tool](https://verify.contentauthenticity.org/) and watch the clip frame by
+      frame for warping hands, melting text and objects passing through each
+      other. Contributor portfolios with many unrelated, glossy clips and no
+      repeat shoots are another warning sign.
 sources:
   - title: "Google Flow Help: Manage your Google Flow credits"
-    url: "https://support.google.com/flow/answer/16526234?hl=en"
+    url: https://support.google.com/flow/answer/16526234?hl=en
   - title: "Runway Help: Free plan details"
-    url: "https://help.runwayml.com/hc/en-us/articles/50404627334547-Free-plan-details"
+    url: https://help.runwayml.com/hc/en-us/articles/50404627334547-Free-plan-details
   - title: "Runway Help: Creating with Gen-4 (credit costs)"
-    url: "https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4"
+    url: https://help.runwayml.com/hc/en-us/articles/37327109429011-Creating-with-Gen-4
   - title: "Google (2025): Veo 3 expansion and visible watermark on Veo videos"
-    url: "https://blog.google/products/gemini/veo-3-expansion-mobile/"
+    url: https://blog.google/products/gemini/veo-3-expansion-mobile/
   - title: "Pika: Pricing"
-    url: "https://pika.art/pricing"
+    url: https://pika.art/pricing
   - title: "Kling AI: Free subscription overview"
-    url: "https://kling.ai/explore/kling_ai_free_subscription"
+    url: https://kling.ai/explore/kling_ai_free_subscription
   - title: "Pexels: Licence"
-    url: "https://www.pexels.com/license/"
+    url: https://www.pexels.com/license/
   - title: "Pixabay: Free stock video clips"
-    url: "https://pixabay.com/videos/"
+    url: https://pixabay.com/videos/
   - title: "Mixkit: Free stock video"
-    url: "https://mixkit.co/free-stock-video/"
-  - title: "Motamed et al. (2025): Do generative video models understand physical principles? (arXiv)"
-    url: "https://arxiv.org/abs/2501.09038"
+    url: https://mixkit.co/free-stock-video/
+  - title: "Motamed et al. (2025): Do generative video models understand physical
+      principles? (arXiv)"
+    url: https://arxiv.org/abs/2501.09038
   - title: "YouTube Help: Disclosing altered or synthetic content"
-    url: "https://support.google.com/youtube/answer/14328491"
-  - title: "Meta (2024): Labeling AI-generated images on Facebook, Instagram and Threads"
-    url: "https://about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/"
-  - title: "TikTok Newsroom (2024): Partnering with our industry to advance AI transparency and literacy"
-    url: "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en"
+    url: https://support.google.com/youtube/answer/14328491
+  - title: "Meta (2024): Labeling AI-generated images on Facebook, Instagram and
+      Threads"
+    url: https://about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/
+  - title: "TikTok Newsroom (2024): Partnering with our industry to advance AI
+      transparency and literacy"
+    url: https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en
   - title: "Google Labs: Flow"
-    url: "https://labs.google/flow"
+    url: https://labs.google/flow
   - title: "Google: Gemini subscriptions and Google AI plans"
-    url: "https://gemini.google/subscriptions/"
-  - title: "Android Authority (2026): Google extends free Gemini Omni video generation offer"
-    url: "https://www.androidauthority.com/free-gemini-omni-videos-3695658/"
-  - title: "TechRadar (2025): YouTube Shorts lets you turn text into 8-second Veo 3 videos"
-    url: "https://www.techradar.com/ai-platforms-assistants/youtube-shorts-now-lets-you-turn-text-into-8-second-videos-using-veo-3s-ai-magic"
-  - title: "Runway Help: Can I use the content I made in Runway for commercial purposes?"
-    url: "https://help.runwayml.com/hc/en-us/articles/21668707517587-Can-I-use-the-content-I-made-in-Runway-for-commercial-purposes"
-  - title: "Hailuo AI (MiniMax)"
-    url: "https://hailuoai.video/"
+    url: https://gemini.google/subscriptions/
+  - title: "Android Authority (2026): Google extends free Gemini Omni video
+      generation offer"
+    url: https://www.androidauthority.com/free-gemini-omni-videos-3695658/
+  - title: "TechRadar (2025): YouTube Shorts lets you turn text into 8-second Veo 3
+      videos"
+    url: https://www.techradar.com/ai-platforms-assistants/youtube-shorts-now-lets-you-turn-text-into-8-second-videos-using-veo-3s-ai-magic
+  - title: "Runway Help: Can I use the content I made in Runway for commercial
+      purposes?"
+    url: https://help.runwayml.com/hc/en-us/articles/21668707517587-Can-I-use-the-content-I-made-in-Runway-for-commercial-purposes
+  - title: Hailuo AI (MiniMax)
+    url: https://hailuoai.video/
   - title: "AI Video Sensei (2026): Hailuo AI (MiniMax) free credits guide"
-    url: "https://aivideosensei.com/guides/hailuo-minimax-guide"
+    url: https://aivideosensei.com/guides/hailuo-minimax-guide
   - title: "Luma AI: Pricing"
-    url: "https://lumalabs.ai/pricing"
+    url: https://lumalabs.ai/pricing
   - title: "Luma AI Learning Hub: Licensing"
-    url: "https://lumalabs.ai/learning-hub/licensing"
+    url: https://lumalabs.ai/learning-hub/licensing
   - title: "Adobe: Firefly AI video generator"
-    url: "https://www.adobe.com/products/firefly/features/ai-video-generator.html"
+    url: https://www.adobe.com/products/firefly/features/ai-video-generator.html
   - title: "Adobe: Firefly plans and FAQ"
-    url: "https://www.adobe.com/products/firefly/plans.html"
+    url: https://www.adobe.com/products/firefly/plans.html
   - title: "Canva Help: Create a video clip in Canva AI"
-    url: "https://www.canva.com/help/video-clip/"
+    url: https://www.canva.com/help/video-clip/
   - title: "CapCut (2026): AI video generator free tier explained"
-    url: "https://www.capcut.com/resource/ai-video-generator-free"
+    url: https://www.capcut.com/resource/ai-video-generator-free
   - title: "The Decoder (2026): OpenAI sets two-stage Sora shutdown"
-    url: "https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/"
+    url: https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/
   - title: "OpenAI API: Deprecations (Sora 2 and Videos API)"
-    url: "https://developers.openai.com/api/docs/deprecations"
+    url: https://developers.openai.com/api/docs/deprecations
   - title: "TechRadar (2025): OpenAI limits free Sora use to 6 generations a day"
-    url: "https://www.techradar.com/ai-platforms-assistants/gemini/openai-and-google-quietly-limit-free-sora-nano-banana-pro-and-gemini-3-pro-use-heres-what-it-means-for-you"
+    url: https://www.techradar.com/ai-platforms-assistants/gemini/openai-and-google-quietly-limit-free-sora-nano-banana-pro-and-gemini-3-pro-use-heres-what-it-means-for-you
   - title: "INSAIT (2025): Physics-IQ benchmark challenges AI video models"
-    url: "https://insait.ai/new-benchmark-physics-iq-challenges-ai-video-models-understanding-of-the-physical-world/"
+    url: https://insait.ai/new-benchmark-physics-iq-challenges-ai-video-models-understanding-of-the-physical-world/
   - title: "Coverr: Licence"
-    url: "https://coverr.co/license"
-  - title: "US Copyright Office (2025): Copyright and Artificial Intelligence, Part 2: Copyrightability"
-    url: "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf"
+    url: https://coverr.co/license
+  - title: "US Copyright Office (2025): Copyright and Artificial Intelligence, Part
+      2: Copyrightability"
+    url: https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf
   - title: "C2PA: Coalition for Content Provenance and Authenticity"
-    url: "https://c2pa.org/"
+    url: https://c2pa.org/
   - title: "Baker Botts (2026): EU AI Act Article 50 transparency obligations go live"
-    url: "https://www.bakerbotts.com/thought-leadership/publications/2026/september/eu-ai-act-article-50-transparency-obligations-go-live"
+    url: https://www.bakerbotts.com/thought-leadership/publications/2026/september/eu-ai-act-article-50-transparency-obligations-go-live
   - title: "National AI Centre (2025): Being clear about AI-generated content"
-    url: "https://www.industry.gov.au/publications/being-clear-about-ai-generated-content"
-  - title: "NielsenIQ (2024): NIQ research uncovers hidden consumer attitudes toward AI-generated ads"
-    url: "https://nielseniq.com/global/en/news-center/2024/niq-research-uncovers-hidden-consumer-attitudes-toward-ai-generated-ads/"
-  - title: "Animoto via Business Wire (2026): 83% of consumers can spot AI videos, 36% say it lowers brand trust"
-    url: "https://www.businesswire.com/news/home/20260121875037/en"
-  - title: "Getty Images (2024): Nearly 90% of consumers want transparency on AI images"
-    url: "https://investors.gettyimages.com/news-releases/news-release-details/nearly-90-consumers-want-transparency-ai-images-finds-getty"
+    url: https://www.industry.gov.au/publications/being-clear-about-ai-generated-content
+  - title: "NielsenIQ (2024): NIQ research uncovers hidden consumer attitudes toward
+      AI-generated ads"
+    url: https://nielseniq.com/global/en/news-center/2024/niq-research-uncovers-hidden-consumer-attitudes-toward-ai-generated-ads/
+  - title: "Animoto via Business Wire (2026): 83% of consumers can spot AI videos,
+      36% say it lowers brand trust"
+    url: https://www.businesswire.com/news/home/20260121875037/en
+  - title: "Getty Images (2024): Nearly 90% of consumers want transparency on AI
+      images"
+    url: https://investors.gettyimages.com/news-releases/news-release-details/nearly-90-consumers-want-transparency-ai-images-finds-getty
   - title: "Content Authenticity Initiative: Verify tool"
-    url: "https://verify.contentauthenticity.org/"
+    url: https://verify.contentauthenticity.org/
 ---
 ## The short answer
 
@@ -152,7 +228,7 @@ In the Gemini app itself, Google's [plans page](https://gemini.google/subscripti
 
 **Runway's** free plan is "a one-time deposit of 125 credits" that never refreshes, and the only video model on it is Gen-4 Turbo image-to-video. At 5 credits per second, that's five 5-second clips, or two 10-second clips, for the life of the account. Every free video carries a Runway watermark. Runway's [commercial use answer](https://help.runwayml.com/hc/en-us/articles/21668707517587-Can-I-use-the-content-I-made-in-Runway-for-commercial-purposes) says your content is "yours to use without any non-commercial restrictions", but it doesn't separate free from paid plans.
 
-**Pika** is the odd one out: no watermark on free output, but "0 credits / month · packs only" and the commercial licence listed under "Not included". **Kling** advertises daily free credits without stating the amount on its own pages, and says the free tier includes a watermark. **[Hailuo](https://hailuoai.video/)** blocks automated access to its pricing page; a July 2026 guide reports a one-off welcome grant, 720p output, a watermark and no commercial rights on free ([AI Video Sensei](https://aivideosensei.com/guides/hailuo-minimax-guide)), which we couldn't confirm first-hand.
+**Pika** is the odd one out: no watermark on free output, but "0 credits / month · packs only" and the commercial licence listed under "Not included". **Kling** advertises daily free credits without stating the amount on its own pages, and says the free tier includes a watermark. [**Hailuo**](https://hailuoai.video/) blocks automated access to its pricing page; a July 2026 guide reports a one-off welcome grant, 720p output, a watermark and no commercial rights on free ([AI Video Sensei](https://aivideosensei.com/guides/hailuo-minimax-guide)), which we couldn't confirm first-hand.
 
 **Luma's** [pricing page](https://lumalabs.ai/pricing) lists no free plan at all now, starting at Plus. Its [licensing page](https://lumalabs.ai/learning-hub/licensing) says Free and Lite output is "for personal use only" with a watermark "that cannot be removed, even if you later upgrade".
 
