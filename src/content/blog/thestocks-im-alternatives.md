@@ -1,111 +1,177 @@
 ---
 title: "The Best TheStocks.im Alternatives (And What Happened to It)"
-excerpt: "TheStocks.im is now a design tools list, not a photo aggregator. We checked its 14 original photo sources and the alternatives that still work in 2026."
+excerpt: "TheStocks.im is now a design tools list, not a photo aggregator. We
+  checked its 14 original photo sources and the alternatives that still work in
+  2026."
 topic: "Directories"
 pubDate: 2026-11-05T22:00:00.000Z
 updatedDate: 2026-11-05T22:00:00.000Z
 readingTime: "14 min read"
 coverImage: "/images/thestocks-im-alternatives.png"
-coverImageAlt: "Cover for Where did TheStocks go?: a coastal village photo marked Still online, with a Vet a directory checklist and photo tiles"
-draft: true
+coverImageAlt: "Cover for Where did TheStocks go?: a coastal village photo
+  marked Still online, with a Vet a directory checklist and photo tiles"
+draft: false
 tldr:
-  - "TheStocks.im hasn't shut down. At the time of writing (October 2026) the domain loads \"The Stocks 3\", a Panda Network directory of 2,100+ design tools, and no longer works as a one-stop free stock photo browser."
-  - "It launched on [Product Hunt](https://www.producthunt.com/products/the-stocks/launches) on 21 August 2014 as \"the best royalty free stock photos in one place\", relaunched as v2 in December 2016 and became a general design-tools directory with v3 in August 2022."
-  - "Of the 14 photo sites TheStocks listed in January 2015, we found 6 still running as libraries, 3 online but frozen, 4 gone or repurposed, and 1 we couldn't confirm."
-  - "For cross-site photo search today, use [Openverse](https://openverse.org/) (800 million+ openly licensed works) or [Everypixel's free search](https://www.everypixel.com/free) (22 sources). For a browsable, licence-tagged list, use a curated directory such as AllTheFreeStock."
-  - "An aggregator never grants you a licence. The source site's terms decide what you can do, so always click through and read them before you download."
+  - TheStocks.im hasn't shut down. At the time of writing (October 2026) the
+    domain loads "The Stocks 3", a Panda Network directory of 2,100+ design
+    tools, and no longer works as a one-stop free stock photo browser.
+  - It launched on [Product
+    Hunt](https://www.producthunt.com/products/the-stocks/launches) on 21 August
+    2014 as "the best royalty free stock photos in one place", relaunched as v2
+    in December 2016 and became a general design-tools directory with v3 in
+    August 2022.
+  - Of the 14 photo sites TheStocks listed in January 2015, we found 6 still
+    running as libraries, 3 online but frozen, 4 gone or repurposed, and 1 we
+    couldn't confirm.
+  - For cross-site photo search today, use [Openverse](https://openverse.org/)
+    (800 million+ openly licensed works) or [Everypixel's free
+    search](https://www.everypixel.com/free) (22 sources). For a browsable,
+    licence-tagged list, use a curated directory such as AllTheFreeStock.
+  - An aggregator never grants you a licence. The source site's terms decide
+    what you can do, so always click through and read them before you download.
 faqs:
-  - q: "Is TheStocks.im down?"
-    a: "No. When we loaded it on 31 October 2026 it returned a working page titled \"The Stocks 3\". It now lists design tools in 35 categories, from icon sets to job boards, instead of the photo-site browser people remember. The Internet Archive also captured the homepage as recently as 22 September 2026. If it looks broken for you, try another browser, because the page leans heavily on JavaScript."
-  - q: "Who made TheStocks?"
-    a: "Product Hunt credits Ahmet Sülek, founder of the Panda news reader, as maker, alongside a team of developers and designers ([Product Hunt makers page](https://www.producthunt.com/products/the-stocks/makers)). The 2015 version of the site carried a Panda logo in its footer, and the 2026 version still says \"Made by Panda Network\" and routes feedback to a Panda email address. We found no public statement from the team about retiring the photo browser."
-  - q: "Can I still find the old TheStocks photo list?"
-    a: "Only through the Internet Archive. The [Wayback Machine](https://web.archive.org/web/20150103202349/http://thestocks.im/) keeps more than 1,350 captures of the homepage going back to August 2014, and the early ones show the full source list. Treat it as history. Several of those sources are offline now, and at least one domain points somewhere else entirely, so check every link before you use it."
-  - q: "Is Openverse the same as CC Search?"
-    a: "Yes, it's the successor. Creative Commons [announced in May 2021](https://creativecommons.org/2021/05/03/cc-search-to-join-wordpress/) that CC Search would move to WordPress, and on 13 December 2021 CC Search began redirecting users to Openverse ([Creative Commons](https://creativecommons.org/2021/12/13/dear-users-of-cc-search-welcome-to-openverse/)). Openverse now indexes more than 800 million openly licensed images and audio tracks and keeps one-click attribution text for each result."
-  - q: "Are photos found through an aggregator safe for commercial use?"
-    a: "Only if the original site's licence allows it. The aggregator is a search layer. Unsplash, Pexels and Pixabay each use their own licence, and all three bar some uses, such as selling unaltered copies. Creative Commons results may need credit or forbid commercial use. Our guide to [free stock images for commercial use with no watermark](https://allthefreestock.com/blog/free-stock-images-videos-commercial-use-no-watermark/) covers which sources are safest."
-  - q: "Why do so many free stock photo sites disappear?"
-    a: "Most were side projects run by one photographer or a small studio, often on Tumblr or cheap shared hosting. When the owner moves on, the domain lapses or turns into a portfolio. Of TheStocks' 14 original sources, Breaking Pic's domain no longer resolves, Crow the Stone shows a default hosting page, and Super Famous now redirects to its creator's design portfolio. Large libraries backed by companies have proved far more durable."
-  - q: "Does Google Images have a free stock photo filter?"
-    a: "Sort of. Google Images has a Usage rights filter with two options, Creative Commons licences and Commercial or other licences ([Google Search Help](https://support.google.com/websearch/answer/29508)). Google relies on licence data from the hosting site and tells you to confirm it yourself. Treat it as a way to discover images, then read the licence on the page the image came from."
-  - q: "What happened to Stock Up?"
-    a: "It's still online at [Stock Up](https://stockup.sitebuilderreport.com/), run by Site Builder Report, and still claims to search 25,000+ photos from about 25 sites that gave permission. Its \"latest\" page showed 0 photos added that week when we checked, and the newest images on its front page carry 2021 and 2022 upload timestamps. It works for a quick CC0 search, but don't expect fresh content."
-  - q: "How do I report a dead link on a free stock directory?"
-    a: "Use the site's contact or submission form, and include the dead URL plus what it now shows: an error, a parked page, or a different business. That last detail matters, because a hijacked domain is a safety risk and should be removed. On AllTheFreeStock, the submit page goes to a person who checks it by hand. Keeping the link in your report saves the curator time."
+  - q: Is TheStocks.im down?
+    a: No. When we loaded it on 31 October 2026 it returned a working page titled
+      "The Stocks 3". It now lists design tools in 35 categories, from icon sets
+      to job boards, instead of the photo-site browser people remember. The
+      Internet Archive also captured the homepage as recently as 22 September
+      2026. If it looks broken for you, try another browser, because the page
+      leans heavily on JavaScript.
+  - q: Who made TheStocks?
+    a: Product Hunt credits Ahmet Sülek, founder of the Panda news reader, as maker,
+      alongside a team of developers and designers ([Product Hunt makers
+      page](https://www.producthunt.com/products/the-stocks/makers)). The 2015
+      version of the site carried a Panda logo in its footer, and the 2026
+      version still says "Made by Panda Network" and routes feedback to a Panda
+      email address. We found no public statement from the team about retiring
+      the photo browser.
+  - q: Can I still find the old TheStocks photo list?
+    a: Only through the Internet Archive. The [Wayback
+      Machine](https://web.archive.org/web/20150103202349/http://thestocks.im/)
+      keeps more than 1,350 captures of the homepage going back to August 2014,
+      and the early ones show the full source list. Treat it as history. Several
+      of those sources are offline now, and at least one domain points somewhere
+      else entirely, so check every link before you use it.
+  - q: Is Openverse the same as CC Search?
+    a: Yes, it's the successor. Creative Commons [announced in May
+      2021](https://creativecommons.org/2021/05/03/cc-search-to-join-wordpress/)
+      that CC Search would move to WordPress, and on 13 December 2021 CC Search
+      began redirecting users to Openverse ([Creative
+      Commons](https://creativecommons.org/2021/12/13/dear-users-of-cc-search-welcome-to-openverse/)).
+      Openverse now indexes more than 800 million openly licensed images and
+      audio tracks and keeps one-click attribution text for each result.
+  - q: Are photos found through an aggregator safe for commercial use?
+    a: Only if the original site's licence allows it. The aggregator is a search
+      layer. Unsplash, Pexels and Pixabay each use their own licence, and all
+      three bar some uses, such as selling unaltered copies. Creative Commons
+      results may need credit or forbid commercial use. Our guide to [free stock
+      images for commercial use with no
+      watermark](https://allthefreestock.com/blog/free-stock-images-videos-commercial-use-no-watermark/)
+      covers which sources are safest.
+  - q: Why do so many free stock photo sites disappear?
+    a: Most were side projects run by one photographer or a small studio, often on
+      Tumblr or cheap shared hosting. When the owner moves on, the domain lapses
+      or turns into a portfolio. Of TheStocks' 14 original sources, Breaking
+      Pic's domain no longer resolves, Crow the Stone shows a default hosting
+      page, and Super Famous now redirects to its creator's design portfolio.
+      Large libraries backed by companies have proved far more durable.
+  - q: Does Google Images have a free stock photo filter?
+    a: Sort of. Google Images has a Usage rights filter with two options, Creative
+      Commons licences and Commercial or other licences ([Google Search
+      Help](https://support.google.com/websearch/answer/29508)). Google relies
+      on licence data from the hosting site and tells you to confirm it
+      yourself. Treat it as a way to discover images, then read the licence on
+      the page the image came from.
+  - q: What happened to Stock Up?
+    a: It's still online at [Stock Up](https://stockup.sitebuilderreport.com/), run
+      by Site Builder Report, and still claims to search 25,000+ photos from
+      about 25 sites that gave permission. Its "latest" page showed 0 photos
+      added that week when we checked, and the newest images on its front page
+      carry 2021 and 2022 upload timestamps. It works for a quick CC0 search,
+      but don't expect fresh content.
+  - q: How do I report a dead link on a free stock directory?
+    a: "Use the site's contact or submission form, and include the dead URL plus
+      what it now shows: an error, a parked page, or a different business. That
+      last detail matters, because a hijacked domain is a safety risk and should
+      be removed. On AllTheFreeStock, the submit page goes to a person who
+      checks it by hand. Keeping the link in your report saves the curator
+      time."
 sources:
   - title: "Product Hunt: The Stocks launches (2014, 2016, 2022)"
-    url: "https://www.producthunt.com/products/the-stocks/launches"
+    url: https://www.producthunt.com/products/the-stocks/launches
   - title: "Openverse: Search openly licensed images and audio"
-    url: "https://openverse.org/"
+    url: https://openverse.org/
   - title: "Everypixel: Free image search across 22 sources"
-    url: "https://www.everypixel.com/free"
+    url: https://www.everypixel.com/free
   - title: "Product Hunt: The makers behind The Stocks"
-    url: "https://www.producthunt.com/products/the-stocks/makers"
-  - title: "Internet Archive Wayback Machine (2015): TheStocks.im homepage capture, 3 January 2015"
-    url: "https://web.archive.org/web/20150103202349/http://thestocks.im/"
+    url: https://www.producthunt.com/products/the-stocks/makers
+  - title: "Internet Archive Wayback Machine (2015): TheStocks.im homepage capture,
+      3 January 2015"
+    url: https://web.archive.org/web/20150103202349/http://thestocks.im/
   - title: "Creative Commons (2021): CC Search to join WordPress"
-    url: "https://creativecommons.org/2021/05/03/cc-search-to-join-wordpress/"
+    url: https://creativecommons.org/2021/05/03/cc-search-to-join-wordpress/
   - title: "Creative Commons (2021): Dear users of CC Search, welcome to Openverse"
-    url: "https://creativecommons.org/2021/12/13/dear-users-of-cc-search-welcome-to-openverse/"
+    url: https://creativecommons.org/2021/12/13/dear-users-of-cc-search-welcome-to-openverse/
   - title: "Google Search Help: Find images you can use and share"
-    url: "https://support.google.com/websearch/answer/29508"
+    url: https://support.google.com/websearch/answer/29508
   - title: "Stock Up by Site Builder Report: Free stock photo search"
-    url: "https://stockup.sitebuilderreport.com/"
+    url: https://stockup.sitebuilderreport.com/
   - title: "TheStocks.im: The Stocks 3"
-    url: "https://thestocks.im/"
-  - title: "Panda Network"
-    url: "https://panda.network/"
+    url: https://thestocks.im/
+  - title: Panda Network
+    url: https://panda.network/
   - title: "Panda: The homepage for your favourite websites"
-    url: "https://usepanda.com/"
+    url: https://usepanda.com/
   - title: "Product Hunt (2022): TheStocks v3 launch discussion"
-    url: "https://www.producthunt.com/p/the-stocks/thestocks-v3"
+    url: https://www.producthunt.com/p/the-stocks/thestocks-v3
   - title: "Product Hunt (2014): The Stocks launch discussion"
-    url: "https://www.producthunt.com/p/the-stocks/the-stocks"
+    url: https://www.producthunt.com/p/the-stocks/the-stocks
   - title: "Hunted.space (2016): The Stocks v2 launch stats"
-    url: "https://webmail.hunted.space/product/the-stocks/launches/the-stocks-v2"
-  - title: "Internet Archive Wayback Machine (2018): TheStocks.im homepage capture, The Stocks 2"
-    url: "https://web.archive.org/web/20180104165826/http://thestocks.im/"
+    url: https://webmail.hunted.space/product/the-stocks/launches/the-stocks-v2
+  - title: "Internet Archive Wayback Machine (2018): TheStocks.im homepage capture,
+      The Stocks 2"
+    url: https://web.archive.org/web/20180104165826/http://thestocks.im/
   - title: "Semrush (2026): thestocks.im traffic overview"
-    url: "https://www.semrush.com/website/thestocks.im/overview/"
-  - title: "Unsplash"
-    url: "https://unsplash.com/"
-  - title: "Little Visuals"
-    url: "https://littlevisuals.co/"
-  - title: "New Old Stock"
-    url: "https://nos.twnsnd.co/"
-  - title: "Startup Stock Photos"
-    url: "https://startupstockphotos.com/"
-  - title: "Gratisography"
-    url: "https://gratisography.com/"
-  - title: "Pexels"
-    url: "https://www.pexels.com/"
-  - title: "Magdeleine"
-    url: "https://magdeleine.co/"
-  - title: "Moveast"
-    url: "https://moveast.me/"
+    url: https://www.semrush.com/website/thestocks.im/overview/
+  - title: Unsplash
+    url: https://unsplash.com/
+  - title: Little Visuals
+    url: https://littlevisuals.co/
+  - title: New Old Stock
+    url: https://nos.twnsnd.co/
+  - title: Startup Stock Photos
+    url: https://startupstockphotos.com/
+  - title: Gratisography
+    url: https://gratisography.com/
+  - title: Pexels
+    url: https://www.pexels.com/
+  - title: Magdeleine
+    url: https://magdeleine.co/
+  - title: Moveast
+    url: https://moveast.me/
   - title: "Openverse: About"
-    url: "https://openverse.org/about"
-  - title: "Wikimedia Commons"
-    url: "https://commons.wikimedia.org/wiki/Main_Page"
+    url: https://openverse.org/about
+  - title: Wikimedia Commons
+    url: https://commons.wikimedia.org/wiki/Main_Page
   - title: "Flickr: The Commons"
-    url: "https://www.flickr.com/commons"
+    url: https://www.flickr.com/commons
   - title: "Flickr: The Commons usage, no known copyright restrictions"
-    url: "https://www.flickr.com/commons/usage/"
-  - title: "Pixabay"
-    url: "https://pixabay.com/"
+    url: https://www.flickr.com/commons/usage/
+  - title: Pixabay
+    url: https://pixabay.com/
   - title: "Unsplash: Licence"
-    url: "https://unsplash.com/license"
+    url: https://unsplash.com/license
   - title: "Pexels: Licence"
-    url: "https://www.pexels.com/license/"
+    url: https://www.pexels.com/license/
   - title: "Pixabay: Content Licence summary"
-    url: "https://pixabay.com/service/license-summary/"
-  - title: "LibreStock"
-    url: "https://librestock.com/"
-  - title: "Internet Archive Wayback Machine (2016): LibreStock as a 40+ site search engine"
-    url: "https://web.archive.org/web/20161226214115/http://librestock.com/"
-  - title: "VisualHunt"
-    url: "https://visualhunt.com/"
+    url: https://pixabay.com/service/license-summary/
+  - title: LibreStock
+    url: https://librestock.com/
+  - title: "Internet Archive Wayback Machine (2016): LibreStock as a 40+ site search
+      engine"
+    url: https://web.archive.org/web/20161226214115/http://librestock.com/
+  - title: VisualHunt
+    url: https://visualhunt.com/
 ---
 ## What happened to TheStocks.im?
 
