@@ -1,99 +1,171 @@
 ---
 title: "Free Stock Images and Videos for Commercial Use With No Watermark"
-excerpt: "We read 12 stock licences to find free images and videos for commercial use with no watermark or credit, plus the catch on Magnific and Vecteezy in 2026."
+excerpt: "We read 12 stock licences to find free images and videos for
+  commercial use with no watermark or credit, plus the catch on Magnific and
+  Vecteezy in 2026."
 topic: "Licensing"
 pubDate: 2026-11-01T22:00:00.000Z
 updatedDate: 2026-11-01T22:00:00.000Z
 readingTime: "14 min read"
 coverImage: "/images/free-stock-images-videos-commercial-use-no-watermark.png"
-coverImageAlt: "Cover for Free, Clean and Commercial: a seaside cafe photo marked Commercial OK, with a checklist for no watermark, no credit needed and licence saved"
-draft: true
+coverImageAlt: "Cover for Free, Clean and Commercial: a seaside cafe photo
+  marked Commercial OK, with a checklist for no watermark, no credit needed and
+  licence saved"
+draft: false
 tldr:
-  - "For clean files with no watermark and no credit line, use Pexels, Unsplash, Pixabay, StockSnap and Burst for photos, and Pexels, Pixabay, Coverr and Mixkit's Free licence for video. We checked each licence page in October 2026."
-  - "Freemium sites put the catch in the licence. Free downloads on Magnific (formerly Freepik) and Vecteezy require a credit, and Vecteezy's Free licence caps print runs at 50 copies and video budgets at US$1,000."
-  - "Watermarked previews from Adobe Stock, iStock and Shutterstock are for mock-ups only. iStock's licence says watermarked files can't go in any final or public materials and expire for comp use after 30 days."
-  - "Commercial use covers ads, websites, social posts and client work. Selling unaltered copies, using logos or trademarks, and implying a recognisable person endorses you stay off-limits on almost every free licence."
-  - "Never remove a watermark. In the US, removing copyright management information carries statutory damages of US$2,500 to US$25,000 per violation, and in Australia the criminal offence carries up to 550 penalty units and five years' jail."
+  - For clean files with no watermark and no credit line, use Pexels, Unsplash,
+    Pixabay, StockSnap and Burst for photos, and Pexels, Pixabay, Coverr and
+    Mixkit's Free licence for video. We checked each licence page in October
+    2026.
+  - Freemium sites put the catch in the licence. Free downloads on Magnific
+    (formerly Freepik) and Vecteezy require a credit, and Vecteezy's Free
+    licence caps print runs at 50 copies and video budgets at US$1,000.
+  - Watermarked previews from Adobe Stock, iStock and Shutterstock are for
+    mock-ups only. iStock's licence says watermarked files can't go in any final
+    or public materials and expire for comp use after 30 days.
+  - Commercial use covers ads, websites, social posts and client work. Selling
+    unaltered copies, using logos or trademarks, and implying a recognisable
+    person endorses you stay off-limits on almost every free licence.
+  - Never remove a watermark. In the US, removing copyright management
+    information carries statutory damages of US$2,500 to US$25,000 per
+    violation, and in Australia the criminal offence carries up to 550 penalty
+    units and five years' jail.
 faqs:
-  - q: "Are Pexels and Unsplash photos CC0?"
-    a: "No. Both used CC0 years ago and now use their own licences. The [Pexels Licence](https://www.pexels.com/license/) and [Unsplash Licence](https://unsplash.com/license) are just as free for commercial use with no credit, but they add rules CC0 doesn't have, such as no selling unaltered copies on Pexels and no building a competing image service on Unsplash. StockSnap is one of the few big free libraries still using CC0 for everything ([StockSnap licence](https://stocksnap.io/license))."
-  - q: "Can I use free stock photos on t-shirts or mugs I sell?"
-    a: "Only on some sites, and only if you add real creative work. Unsplash says plainly that it doesn't offer a licence for selling prints or products with images printed on them ([Unsplash Help](https://help.unsplash.com/en/articles/2612317-can-i-use-unsplash-images-as-part-of-a-product-to-sell)). Pexels and Pixabay allow it once you've altered the image or combined it into a new design, but ban selling it as-is. Burst bans selling its photos in any form."
-  - q: "Do I have to credit the photographer on Pexels or Unsplash?"
-    a: "No. Both licences say attribution isn't required, though both say it's appreciated. A credit such as \"Photo by Jane Doe on Unsplash\" costs nothing on a blog post and sends traffic to the photographer. On ads and packaging most people leave it off, which the licences allow. Keep a record of the source page either way, because the credit isn't your proof of licence."
-  - q: "Is the Adobe Stock free collection really free for commercial use?"
-    a: "Yes. Adobe's [Stock FAQ](https://helpx.adobe.com/stock/faq.html) says downloading a free asset gives you a royalty-free commercial-use licence: Standard for photos, vectors and illustrations, Enhanced for videos and templates. There's a cap on how many free assets you can take in a given period. Make sure you click the free licence button, because the watermarked preview of a paid asset is a different file with no rights to publish."
-  - q: "Can I use free stock footage in monetised YouTube videos?"
-    a: "Yes, on sites whose licence allows commercial use. Pexels, Pixabay, Coverr and Mixkit's Free licence all cover monetised video. Watch for clips on Mixkit under its Restricted licence, which is personal and non-commercial only, and Magnific's free videos, which need a credit. A Content ID claim on a stock clip usually means someone else registered it, so keep your download page to dispute it. Our guide to [free clips for Reels and TikTok](https://allthefreestock.com/blog/free-clips-for-reels-tiktok-edits/) covers disputes in more detail."
-  - q: "What happens if I accidentally publish a watermarked comp image?"
-    a: "Take it down and license it, quickly. The agency can claim infringement for the unlicensed use, and the watermark makes it easy for its image-matching tools to find. Buying the licence after the fact doesn't erase the earlier use, so keep a record of when it went live and when you fixed it. iStock's licence says watermarked files are for layout tests only and must not appear in public materials ([iStock licence](https://www.istockphoto.com/legal/license-agreement))."
-  - q: "Can I use free stock images for client work and hand them over?"
-    a: "Yes. The Pexels, Unsplash and Pixabay licences let you use images in work you make for a client. What you can't do is pass the raw files on as a stock pack or put them in a template that you sell. Give the client the source URL and licence date for each image, so they can show where it came from if anyone asks."
-  - q: "Do free stock photos come with model releases?"
-    a: "Usually not, at least not passed on to you. Coverr says it obtains model releases but doesn't provide them to users ([Coverr licence](https://coverr.co/license)), and most free sites say nothing at all. Paid tiers are different: Unsplash said at launch that all Unsplash+ images are model and property released ([Unsplash, 2022](https://unsplash.com/blog/introducing-unsplash)). For ads featuring a recognisable face, a paid, released image is the lower-risk option."
-  - q: "Is it illegal to blur or crop out a watermark for personal use?"
-    a: "It's still a problem. Copying the image is infringement whether or not money changes hands, and removing the watermark is a separate act in many countries. The UK's [section 296ZG](https://www.legislation.gov.uk/ukpga/1988/48/section/296ZG) gives rightsholders the same remedies as for infringement when someone knowingly removes rights information to help or hide infringement. If the image is for a private mood board, use it from the agency's own page or license it."
+  - q: Are Pexels and Unsplash photos CC0?
+    a: No. Both used CC0 years ago and now use their own licences. The [Pexels
+      Licence](https://www.pexels.com/license/) and [Unsplash
+      Licence](https://unsplash.com/license) are just as free for commercial use
+      with no credit, but they add rules CC0 doesn't have, such as no selling
+      unaltered copies on Pexels and no building a competing image service on
+      Unsplash. StockSnap is one of the few big free libraries still using CC0
+      for everything ([StockSnap licence](https://stocksnap.io/license)).
+  - q: Can I use free stock photos on t-shirts or mugs I sell?
+    a: Only on some sites, and only if you add real creative work. Unsplash says
+      plainly that it doesn't offer a licence for selling prints or products
+      with images printed on them ([Unsplash
+      Help](https://help.unsplash.com/en/articles/2612317-can-i-use-unsplash-images-as-part-of-a-product-to-sell)).
+      Pexels and Pixabay allow it once you've altered the image or combined it
+      into a new design, but ban selling it as-is. Burst bans selling its photos
+      in any form.
+  - q: Do I have to credit the photographer on Pexels or Unsplash?
+    a: No. Both licences say attribution isn't required, though both say it's
+      appreciated. A credit such as "Photo by Jane Doe on Unsplash" costs
+      nothing on a blog post and sends traffic to the photographer. On ads and
+      packaging most people leave it off, which the licences allow. Keep a
+      record of the source page either way, because the credit isn't your proof
+      of licence.
+  - q: Is the Adobe Stock free collection really free for commercial use?
+    a: "Yes. Adobe's [Stock FAQ](https://helpx.adobe.com/stock/faq.html) says
+      downloading a free asset gives you a royalty-free commercial-use licence:
+      Standard for photos, vectors and illustrations, Enhanced for videos and
+      templates. There's a cap on how many free assets you can take in a given
+      period. Make sure you click the free licence button, because the
+      watermarked preview of a paid asset is a different file with no rights to
+      publish."
+  - q: Can I use free stock footage in monetised YouTube videos?
+    a: Yes, on sites whose licence allows commercial use. Pexels, Pixabay, Coverr
+      and Mixkit's Free licence all cover monetised video. Watch for clips on
+      Mixkit under its Restricted licence, which is personal and non-commercial
+      only, and Magnific's free videos, which need a credit. A Content ID claim
+      on a stock clip usually means someone else registered it, so keep your
+      download page to dispute it. Our guide to [free clips for Reels and
+      TikTok](https://allthefreestock.com/blog/free-clips-for-reels-tiktok-edits/)
+      covers disputes in more detail.
+  - q: What happens if I accidentally publish a watermarked comp image?
+    a: Take it down and license it, quickly. The agency can claim infringement for
+      the unlicensed use, and the watermark makes it easy for its image-matching
+      tools to find. Buying the licence after the fact doesn't erase the earlier
+      use, so keep a record of when it went live and when you fixed it. iStock's
+      licence says watermarked files are for layout tests only and must not
+      appear in public materials ([iStock
+      licence](https://www.istockphoto.com/legal/license-agreement)).
+  - q: Can I use free stock images for client work and hand them over?
+    a: Yes. The Pexels, Unsplash and Pixabay licences let you use images in work you
+      make for a client. What you can't do is pass the raw files on as a stock
+      pack or put them in a template that you sell. Give the client the source
+      URL and licence date for each image, so they can show where it came from
+      if anyone asks.
+  - q: Do free stock photos come with model releases?
+    a: "Usually not, at least not passed on to you. Coverr says it obtains model
+      releases but doesn't provide them to users ([Coverr
+      licence](https://coverr.co/license)), and most free sites say nothing at
+      all. Paid tiers are different: Unsplash said at launch that all Unsplash+
+      images are model and property released ([Unsplash,
+      2022](https://unsplash.com/blog/introducing-unsplash)). For ads featuring
+      a recognisable face, a paid, released image is the lower-risk option."
+  - q: Is it illegal to blur or crop out a watermark for personal use?
+    a: It's still a problem. Copying the image is infringement whether or not money
+      changes hands, and removing the watermark is a separate act in many
+      countries. The UK's [section
+      296ZG](https://www.legislation.gov.uk/ukpga/1988/48/section/296ZG) gives
+      rightsholders the same remedies as for infringement when someone knowingly
+      removes rights information to help or hide infringement. If the image is
+      for a private mood board, use it from the agency's own page or license it.
 sources:
   - title: "Pexels: Licence"
-    url: "https://www.pexels.com/license/"
+    url: https://www.pexels.com/license/
   - title: "Unsplash: Licence"
-    url: "https://unsplash.com/license"
+    url: https://unsplash.com/license
   - title: "Pixabay: Content Licence summary"
-    url: "https://pixabay.com/service/license-summary/"
+    url: https://pixabay.com/service/license-summary/
   - title: "StockSnap: Licence"
-    url: "https://stocksnap.io/license"
+    url: https://stocksnap.io/license
   - title: "Burst by Shopify: Photo licence"
-    url: "https://www.shopify.com/stock-photos/licenses/shopify-some-rights-reserved"
+    url: https://www.shopify.com/stock-photos/licenses/shopify-some-rights-reserved
   - title: "Coverr: Licence"
-    url: "https://coverr.co/license"
+    url: https://coverr.co/license
   - title: "Mixkit: Licences"
-    url: "https://mixkit.co/license/"
+    url: https://mixkit.co/license/
   - title: "Tech.eu (2026): Freepik rebrands as Magnific"
-    url: "https://tech.eu/2026/04/28/freepik-rebrands-as-magnific-unifying-its-ai-creative-stack-as-enterprise-and-no-collar-growth-accelerates/"
+    url: https://tech.eu/2026/04/28/freepik-rebrands-as-magnific-unifying-its-ai-creative-stack-as-enterprise-and-no-collar-growth-accelerates/
   - title: "Magnific: Licences and attribution"
-    url: "https://www.magnific.com/ai/docs/licenses-attribution"
+    url: https://www.magnific.com/ai/docs/licenses-attribution
   - title: "Magnific: Terms of use"
-    url: "https://www.magnific.com/legal/terms-of-use"
+    url: https://www.magnific.com/legal/terms-of-use
   - title: "Vecteezy: Licensing agreement"
-    url: "https://www.vecteezy.com/licensing-agreement"
+    url: https://www.vecteezy.com/licensing-agreement
   - title: "Adobe Stock Help: FAQ"
-    url: "https://helpx.adobe.com/stock/faq.html"
+    url: https://helpx.adobe.com/stock/faq.html
   - title: "Adobe Stock: Free collection"
-    url: "https://stock.adobe.com/free"
+    url: https://stock.adobe.com/free
   - title: "iStock: Content licence agreement"
-    url: "https://www.istockphoto.com/legal/license-agreement"
+    url: https://www.istockphoto.com/legal/license-agreement
   - title: "Shutterstock: Licence agreement"
-    url: "https://www.shutterstock.com/license"
+    url: https://www.shutterstock.com/license
   - title: "Photutorial (2026): Shutterstock ends its free trial"
-    url: "https://photutorial.com/shutterstock-ends-free-trial"
+    url: https://photutorial.com/shutterstock-ends-free-trial
   - title: "Unsplash (2022): Introducing Unsplash+"
-    url: "https://unsplash.com/blog/introducing-unsplash"
+    url: https://unsplash.com/blog/introducing-unsplash
   - title: "Unsplash Help: Can I use Unsplash images as part of a product to sell?"
-    url: "https://help.unsplash.com/en/articles/2612317-can-i-use-unsplash-images-as-part-of-a-product-to-sell"
+    url: https://help.unsplash.com/en/articles/2612317-can-i-use-unsplash-images-as-part-of-a-product-to-sell
   - title: "Pixabay: Content licence terms"
-    url: "https://pixabay.com/service/terms/"
+    url: https://pixabay.com/service/terms/
   - title: "Pexels Help: Can I use the photos and videos for a commercial project?"
-    url: "https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project"
-  - title: "Cornell LII: 17 U.S. Code § 1202, Integrity of copyright management information"
-    url: "https://www.law.cornell.edu/uscode/text/17/1202"
+    url: https://help.pexels.com/hc/en-us/articles/360042295214-Can-I-use-the-photos-and-videos-for-a-commercial-project
+  - title: "Cornell LII: 17 U.S. Code § 1202, Integrity of copyright management
+      information"
+    url: https://www.law.cornell.edu/uscode/text/17/1202
   - title: "Cornell LII: 17 U.S. Code § 1203, Civil remedies"
-    url: "https://www.law.cornell.edu/uscode/text/17/1203"
+    url: https://www.law.cornell.edu/uscode/text/17/1203
   - title: "Copyright Alliance: Murphy v. Millennium Radio Group (3d Cir. 2011)"
-    url: "https://copyrightalliance.org/copyright-cases/murphy-v-millennium-radio"
-  - title: "AustLII: Copyright Act 1968 (Cth) s 132AQ, Removing or altering electronic rights management information"
-    url: "https://20.austlii.edu.au/au/legis/cth/consol_act/ca1968133/s132aq.html"
+    url: https://copyrightalliance.org/copyright-cases/murphy-v-millennium-radio
+  - title: "AustLII: Copyright Act 1968 (Cth) s 132AQ, Removing or altering
+      electronic rights management information"
+    url: https://20.austlii.edu.au/au/legis/cth/consol_act/ca1968133/s132aq.html
   - title: "Australian Financial Security Authority: Commonwealth penalty units"
-    url: "https://www.afsa.gov.au/professionals/resource-hub/penalty-units"
+    url: https://www.afsa.gov.au/professionals/resource-hub/penalty-units
   - title: "Federal Register of Legislation: Copyright Act 1968"
-    url: "https://www.legislation.gov.au/C1968A00063/latest/text"
-  - title: "Copyright Agency: Technological protection measures and electronic rights management information"
-    url: "https://www.copyright.com.au/?p=27317"
+    url: https://www.legislation.gov.au/C1968A00063/latest/text
+  - title: "Copyright Agency: Technological protection measures and electronic
+      rights management information"
+    url: https://www.copyright.com.au/?p=27317
   - title: "legislation.gov.uk: Copyright, Designs and Patents Act 1988, s 296ZG"
-    url: "https://www.legislation.gov.uk/ukpga/1988/48/section/296ZG"
-  - title: "Bird & Bird (2025): Stability AI defeats Getty Images copyright claims in the High Court"
-    url: "https://cm.twobirds.com/en/insights/2025/uk/stability-ai-defeats-getty-images-copyright-claims-in-first-of-its-kind-dispute-before-the-high-cour"
+    url: https://www.legislation.gov.uk/ukpga/1988/48/section/296ZG
+  - title: "Bird & Bird (2025): Stability AI defeats Getty Images copyright claims
+      in the High Court"
+    url: https://cm.twobirds.com/en/insights/2025/uk/stability-ai-defeats-getty-images-copyright-claims-in-first-of-its-kind-dispute-before-the-high-cour
   - title: "US Copyright Claims Board (2026): CCB statistics and FAQs, April 2026"
-    url: "https://www.ccb.gov/CCB-Statistics-and-FAQs-April-2026.pdf"
+    url: https://www.ccb.gov/CCB-Statistics-and-FAQs-April-2026.pdf
 ---
 ## The short answer
 
